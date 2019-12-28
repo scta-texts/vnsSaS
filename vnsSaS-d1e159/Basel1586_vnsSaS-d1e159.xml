@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 5 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 5 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="712"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e159">
+        <!-- m5 -->
+        <div>
+          <p>
+            <lb ed="#B1" n="31"/>Arrat Romulus in Annalibus ludaeorum: quod in india fuerunt leges. 
+            <lb ed="#B1" n="32"/>Prima fuit, quod Rex semel in anno deberet cum magna nobilitate po 
+            <lb ed="#B1" n="33"/>pulo suo se ostendere: Et haec erat ratio legis: vt populus eum cognosceret.  
+            <lb ed="#B1" n="34"/>ac propter nobilitatem eius semper timeret. Secunda fuit: quod Rex o 
+            <lb ed="#B1" n="35"/>regnum deberet per quinque cosiliarios regi: &amp; hec erat causa legis datae, vt in suo re 
+            <lb ed="#B1" n="36"/>gno esset sapientia: Tertia erat, quod proditores deberent exulari: &amp; ratio talis legis 
+            <lb ed="#B1" n="37"/>erat: vt Rex sine timore inimicorum esset: &amp; regnum in pace quiesceret, &amp; posside 
+            <lb ed="#B1" n="38"/>ret. Super haec omnia, accidit, quod quidam magnus Dominus, Regi valde x specia. 
+            <lb ed="#B1" n="39"/>lis, proditionem fecit: qui deprehensus vt proditor regni, secundum legem in exi 
+            <lb ed="#B1" n="40"/>lium missus est. Qui tempore exilij sui literas quinque regis consiliarijs misit depreca 
+            <lb ed="#B1" n="41"/>torias, vt ad patriam possit remeare, dicens: Peto, vt a vinculo improperij mei absol  
+            <lb ed="#B1" n="42"/>uatis me. Sed primus consiliarius literas scripsit, haec continentes: Iudicium tuu iu 
+            <lb ed="#B1" n="43"/>stum est super te, &amp; hoc est * dolendum per viam iusticiae, adiutorium non est impen 
+            <lb ed="#B1" n="44"/>dendum. Secundus consiliarius tales scripsit: Legem sciuisti, secundum eam non vi  
+            <lb ed="#B1" n="45"/>xisti: nobilis patrie &amp; bonus incola iuxta rectam legis cognitae rationem operatur.  
+            <lb ed="#B1" n="46"/>Tertius consiliarius sic scripsit: In gratia mea non confidas, sicut operatus es sic re 
+            <lb ed="#B1" n="47"/>tribuetur tibi. Quartus ita rescripsit: Quare debet delictum tui tibi dimitti, cum 
+            <lb ed="#B1" n="48"/>libere contra legem deliquisti. Quintus consiliarius sic scripsit: Ego offero me in pre 
+            <lb ed="#B1" n="49"/>cium redemptionis tuae
+          </p>
+        </div>
+        <div>
+          <p>
+            <!--sap_Page_747.xml-->
+            <pb ed="#B1" n="713"/>
+            <lb ed="#B1" n="1"/>AD propositum. Per istum regem intelligo DEVM Patrem, qui est Rex 
+            <lb ed="#B1" n="2"/>Regum &amp; Dominus dominantium: Per quinque Regis consiliarios in 
+            <lb ed="#B1" n="3"/>telligo quinque Virtutes, nimirum, Veritatem, Sapientiam, Aequitatem, 
+            <lb ed="#B1" n="4"/>Potentiam, Misericordiam. Per proditorem qui fuit magnus coram Rege, si 
+            <lb ed="#B1" n="5"/>gnifico Adamum, qui fuit contra regem coeli, &amp; contra quinque consiliarios e 
+            <lb ed="#B1" n="6"/>ius: Et quantum in eo fuit perdidit patriam, quando consensit dicenti sibi: E 
+            <lb ed="#B1" n="7"/>ritis sicut dij. Et ideo fuit exulatus de paradiso uoluptatis, usque in uallem la 
+            <lb ed="#B1" n="8"/>chrymarum &amp; miseriae. Et iste Adamus scripsit literas consiliarijs quinque re 
+            <lb ed="#B1" n="9"/>gis, &amp; nullus eorum potuit, nec uoluit iuuare eum. Quoniam ipsa Veritas di 
+            <lb ed="#B1" n="10"/>xit: Quod quibene egerit, secundum legem bene habebit: qui uero male, gra 
+            <lb ed="#B1" n="11"/>uiter punietur, &amp;c. Et sic de alijs: applica sicut uis, &amp; probato per Sacram scri 
+            <lb ed="#B1" n="12"/>pturam. Sed quintus consiliarius scil. CHRISTVS IESVS, angelus magni i 
+            <lb ed="#B1" n="13"/>consilij, propter nimiam misericordiam scripsit sic: Euagato &amp; exulato Adamo, 
+            <lb ed="#B1" n="14"/>&amp; toti generi humano. Istam legem non possum pati quod damneris, &amp; ideo 
+            <lb ed="#B1" n="15"/>offero me in precium tuae redemptionis. Et hoc fecit, quando in Parasceue se 
+            <lb ed="#B1" n="16"/>DEOPATRI obtulit, &amp; se sponte sua pro nobis in ara crucis permisit cruci 
+            <lb ed="#B1" n="17"/>figi. Vadamus igitur omnes ad istum consiliarium, rogando ipsum, ut no: 
+            <lb ed="#B1" n="18"/>propter peccatum in ualle miseriae exulatos, ad statum gratiae dignetur reuo 
+            <lb ed="#B1" n="19"/>care. Quia misericordia eius supra omnia opera eius.
+          </p>
+          <p>
+            <lb ed="#B1" n="20"/>Vnde notandum, quod CHRISTVS effudit sanguinem suum in septem 
+            <lb ed="#B1" n="21"/>partibus corporis sui, contra septem uitia mortalia, scilicet in capite, ex latere,  
+            <lb ed="#B1" n="22"/>ex duabus manibus &amp; pedibus, &amp; ex residuo corporis. Primo effudit sangui  
+            <lb ed="#B1" n="23"/>nem suum preciosum ex magna humilitate contra superbiam: secundo ex ma 
+            <lb ed="#B1" n="24"/>gna charitate contra auaritiam: tertio ex magna pietate contra iram: quarto 
+            <lb ed="#B1" n="25"/>ex larga copia contra odium: quinto ex magna sobrietate contra peccatum gu 
+            <lb ed="#B1" n="26"/>lae: sexto ex magna probitate contra peccatum acidiae: septimo ex magna a 
+            <lb ed="#B1" n="27"/>speritate contra peccatum luxuriae, propter quod efficitur homo sicuti animal 
+            <lb ed="#B1" n="28"/>brutum. Vt inquit Psalmista: Homo cum in honore esset non intellexit, com 
+            <lb ed="#B1" n="29"/>paratus est iumentis insipientibus, &amp; similis factus est illis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

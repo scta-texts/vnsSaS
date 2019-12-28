@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 4 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 4 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="711"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e136">
+        <div>
+          <p>
+            <!--m4-->
+            <lb ed="#B1" n="33"/>LEgitur in Chronicis, quod Anno ab vrbe Roma condita RRIII. populus 
+            <lb ed="#B1" n="34"/>Romanus columnam in foro Romano statuit: &amp; ibi statuam quoqe lulii  
+            <lb ed="#B1" n="35"/>Cesaris statuerunt, &amp; super caput statuae nomen HVLII scripserunt, &amp; 
+            <lb ed="#B1" n="36"/>sub ipsa statua eum sepeliuerunt. Et iste lulius ante mortem suam tria 
+            <lb ed="#B1" n="37"/>signa accepit, quod sibi esset moriendum. Centesimo enim die ante mortem suam ful 
+            <lb ed="#B1" n="38"/>men cecidit ante statuam in foro, &amp; de nomine eius supra scripto literam primam de 
+            <lb ed="#B1" n="39"/>struxit: Nocte vero praecedente mortem suam, fenestrae camere eius tanto impetu 
+            <lb ed="#B1" n="40"/>&amp; strepitu aperte sunt, vt totam domum ruituram existimarent. Eodem vero die 
+            <lb ed="#B1" n="41"/>mortis suae, cum ad Capitolium iret, datae sunt ei literae, indicantes sibi horam obitus 
+            <lb ed="#B1" n="42"/>sui, quas si statim legisset: de necis suae periculo euasisset.
+          </p>
+        </div>
+        <div>
+          <p>
+            <lb ed="#B1" n="43"/>AD propositum:. Sic est de nobis &amp; de DEO considerandum, ut homo 
+            <lb ed="#B1" n="44"/>aeternam mortem euadat DEVS tria signa illi dat. Primum signum est 
+            <lb ed="#B1" n="45"/>destructio literae capitalis in nomine hominis: per istam literam in prin 
+            <lb ed="#B1" n="46"/>cipio nominis intelligimus abundantiam diuitiarum. Ista est quae facit homi 
+            <!--sap_Page_746.xml-->
+            <pb ed="#B1" n="712"/>
+            <lb ed="#B1" n="1"/>nes nomen habere in terra: nemo enim istis diebus nominatur, nisi qui habue 
+            <lb ed="#B1" n="2"/>rit diuitias. Hoc patet: nam si quaeratur quis sit melior inter mille, statim prae 
+            <lb ed="#B1" n="3"/>ponitur qui plures diuitias habet, quamuis sit pessimus. Ecce quomodo di 
+            <lb ed="#B1" n="4"/>uitiae dant homini nomen: quia si diues non esset, non esset nominatus. Et quia 
+            <lb ed="#B1" n="5"/>aliquando diuitiae sunt occasiones mortis aeternae: ideo DEVS dat primum 
+            <lb ed="#B1" n="6"/>signum, quod talem saluare uult, &amp; aufert primam literam sui nominis, scili 
+            <lb ed="#B1" n="7"/>cet diuitias ab eo, &amp; facit eum pauperem, ut sic qui per diuitias a DEO reces  
+            <lb ed="#B1" n="8"/>serat, per paupertatem ad eum accedat. Secundum signum, quod accepit lm 
+            <lb ed="#B1" n="9"/>perator, fuit, quod circa cameram fuit magnus strepitus. Ista camera est cor 
+            <lb ed="#B1" n="10"/>pus humanum, quod cum quis uiderit pulchrum esse &amp; forte, statim cadit in 
+            <lb ed="#B1" n="11"/>peccatum, per quod mors aeterna praeparatur. Et ideo uolens DEVS eum a 
+            <lb ed="#B1" n="12"/>morte illa aeterna reuocare, facit secundum signum, scilicet magnum strepi 
+            <lb ed="#B1" n="13"/>tum circa corpus suum per naturalem infirmitatem &amp; passionem in tantum, 
+            <lb ed="#B1" n="14"/>quod ad mortem creditur ab omnibus ruere. Et sic qui per fortitudinem &amp; 
+            <lb ed="#B1" n="15"/>pulchritudinem a DEO recesserat, per infirmitatem ad ipsum accedit &amp; poe 
+            <lb ed="#B1" n="16"/>nitet, ut ait Gregorius: Mala quae nos hic premunt, ad DEVM citius uenire 
+            <lb ed="#B1" n="17"/>compellunt: unde Psalmus: Multiplicatae sunt infirmitates eorum, postea ac 
+            <lb ed="#B1" n="18"/>celerauerunt. Exemplum sume de Nabuchodonosore rege. Daniel. 4: Ter 
+            <lb ed="#B1" n="19"/>tium signum, quod accepit lmperator, fuit, quod literae indices mortis immi 
+            <lb ed="#B1" n="20"/>nentis sibi traditae fuerunt, quas si legisset mortem euasisset. Hoc signum DEVS 
+            <lb ed="#B1" n="21"/>peccatoribus facit, tum dicitur tradere literam mortis nostrae cum nostras com  
+            <lb ed="#B1" n="22"/>scientias illustrat, ut legere possimus peccata nostra, quibus aeternam mortem 
+            <lb ed="#B1" n="23"/>meruimus. Et ideo dum gratiam &amp; Iucem habemus Spiritus sancti, literas i 
+            <lb ed="#B1" n="24"/>stas legamus: id est, peccata nostra referamus intus, primo in corde, &amp; postea 
+            <lb ed="#B1" n="25"/>sacerdoti: ut sic legendo mortem aeternam euadere ualeamus, ne literae nostrae 
+            <lb ed="#B1" n="26"/>clausae: id est, conscientiae non mundatae post mortem nostram aperiantur: iq  
+            <lb ed="#B1" n="27"/>est, manifestentur toti mundo in fine. Daniel. 7. Iudicium sedit &amp; libri aperti 
+            <lb ed="#B1" n="28"/>sunt. Apocal. 20. Et uidi mortuos magnos &amp; pusillos stantes in conspectu thro 
+            <lb ed="#B1" n="29"/>ni, &amp; libri aperti sunt: &amp; alius liber apertus est, qui est uitae: &amp; iudicati sunt mor 
+            <lb ed="#B1" n="30"/>tui ex his quae scripta erant in libris secundum opera ipsorum,
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

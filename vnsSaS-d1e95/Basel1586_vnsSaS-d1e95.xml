@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 2 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 2 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="710"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e95">
+        <head>Moralitates 2</head>
+        <div>
+          <p>
+            <!--sap_Page_744.xml-->
+            <pb ed="#B1" n="710"/>
+            <lb ed="#B1" n="1"/>LEgitur in historijs Romanorum, quod quidam magnus princeps habuit duos 
+            <lb ed="#B1" n="2"/>filios: senior morabatur cum patre in quodam palatio, &amp; tunior in castro 
+            <lb ed="#B1" n="3"/>periculoso. Qui scripsit tres epistolas per tres nuncios diuersos. sed quaertam 
+            <lb ed="#B1" n="4"/>per illum seniorem. Tenor primae litere a patre dictate per primum nun 
+            <lb ed="#B1" n="5"/>cium, talis erat: Feccatum &amp; immunditiam totaliter relinque. 7. Virtutibus &amp; ho 
+            <lb ed="#B1" n="6"/>nestati te coniunge. 7. Tenor secunde litere misse per secundum nuncium talis erat.  
+            <lb ed="#B1" n="7"/>Dilige Dominum corde &amp; voluntate: quoniam ad similitudinem suam creauit te 
+            <lb ed="#B1" n="8"/>Tenor tertie literae perlate per tertium nuncium talis erat. Sine amore non poteri 
+            <lb ed="#B1" n="9"/>saluari: propter carentiam enim eius homo perierat. Tenor quarte litere misse per 
+            <lb ed="#B1" n="10"/>seniorem filium talis erat: De omnibus tuis nihil peto, nisi vt me sicuti tuum ger 
+            <lb ed="#B1" n="11"/>manum diligas.
+          </p>
+        </div>
+        <div>
+          <p>
+            <lb ed="#B1" n="12"/>MORARIS ExpOSIT1O. 
+            <lb ed="#B1" n="13"/>Dpropositum. Ille princeps est DEVS, qui habuit duos filios: quorum 
+            <lb ed="#B1" n="14"/>senior est CHRISTVS IESVS, qui moratur cum suo Patre in coelo tan 
+            <lb ed="#B1" n="15"/>quam in palatio proprio. Filius minor, est natura humana, qui moratur in 
+            <lb ed="#B1" n="16"/>mundo tanquam in castro. DEVS autem annunciat humanae naturae istas qua 
+            <lb ed="#B1" n="17"/>tuor literas. Prima litera est: peccatum &amp; immunditiam relinque, &amp;c. Ista li  
+            <lb ed="#B1" n="18"/>tera in lege naturae fuit missa per primum patriarcham Abrahamum. Quia i 
+            <lb ed="#B1" n="19"/>pse ita munde uixit in * coniugali statu, ut Beatus Augustinus dicit in libro 
+            <lb ed="#B1" n="20"/>de bono coniugali, cap. 20. Quod castitas quam beatus lohannes Baptista 
+            <lb ed="#B1" n="21"/>habuit in sua virginitate, non sit praeferenda castitati Abrahae quam habuit in 
+            <lb ed="#B1" n="22"/>matrimonio, &amp; in meritum matrimonij casti. Dicit Apostolus: Viri diligite u 
+            <lb ed="#B1" n="23"/>xores uestras: &amp; CHRISTVS inquit: Quos DEVS coniunxit, homo non se 
+            <lb ed="#B1" n="24"/>paret. Secunda litera est: Dilige Dominum, &amp;c. Ista litera fuit missa in lege 
+            <lb ed="#B1" n="25"/>scripturae per Moysem. Quia ipse promulgauit legem dilectionis DEI, quam  
+            <lb ed="#B1" n="26"/>DEVS suo proprio scripsit digito: &amp; ipse primo promulgauit: Quoniam 
+            <lb ed="#B1" n="27"/>DEVS creauit hominem ad imaginem &amp; similitudinem suam. Tertia litera 
+            <lb ed="#B1" n="28"/>est: sine amore non poteris saluari. Ista litera est missa in lege prophetarum per 
+            <lb ed="#B1" n="29"/>leremiam prophetam: Quoniam ipse prae caeteris prophetis lamentabatur ge 
+            <lb ed="#B1" n="30"/>nus humanum perditum propter carentiam amoris diuini. Vnde ipse dicit:  
+            <lb ed="#B1" n="31"/>Defecit gaudium cordis nostri: uersus est in luctum chorus noster. Cecidit  
+            <lb ed="#B1" n="32"/>corona capitis nostri: uae nobis, quia peccauimus. Quarta litera est. De om 
+            <lb ed="#B1" n="33"/>nibus tuis nihil peto, &amp;c. Ista litera missa est in lege gratiae ad nos per filium 
+            <lb ed="#B1" n="34"/>suum seniorem IESVM CHRISTVM, per quem sunt condita secula, qui in 
+            <lb ed="#B1" n="35"/>trauit in uterum Virginis gloriosae, ex qua uerus homo natus est, &amp; noster fra 
+            <lb ed="#B1" n="36"/>ter &amp; Saluator factus, &amp;c 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 6 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 6 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="713"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e182">
+        <head>Moralitates 6</head>
+        <div>
+          <p>
+            <lb ed="#B1" n="30"/>ota, non est desperandum pro quocumque peccato vel vili vel enormi: quia 
+            <lb ed="#B1" n="31"/>vt dicit D. Hieronymus: DEUS paratus est saluare clementia, quos non 
+            <lb ed="#B1" n="32"/>potest saluare iustitia.
+          </p>
+          <p>
+            <lb ed="#B1" n="33"/>Vnde refert Romulus in Annalibus ludaori: Quod erat quidam ty 
+            <lb ed="#B1" n="34"/>rannus, qui captus &amp; infatuatus in amore cuiusdam dominae, regnum sui ad tem 
+            <lb ed="#B1" n="35"/>pus dimisit, &amp; profectus est, vt dominam istam visitaret. Cum autem venisset Ty 
+            <lb ed="#B1" n="36"/>Vannus ad dominam suam, ab ipsa, vt decebat, solenniter est receptus. Et ex nimio 
+            <lb ed="#B1" n="37"/>amore illius domina ita pius &amp; mansuetus reuersus est, quod omnibus de regno suo 
+            <lb ed="#B1" n="38"/>libertatem concesserit, &amp; nullus deinceps seruitute grauaretur. Cum autem redijs  
+            <lb ed="#B1" n="39"/>set Rex ad regnum suum, conuocato populo, dedit eis tria dona praecipua inter alid  
+            <lb ed="#B1" n="40"/>plur4. Primum donum libertatis fuit, quod primo fecit proclamare per totum popu 
+            <lb ed="#B1" n="41"/>lum, dicens: omnes venite &amp; misericordiam recipite: quia remitto omnium offen 
+            <lb ed="#B1" n="42"/>sas &amp; inturias. Secundum libertatis donum ex parte istius regis proclamatum fuit.  
+            <lb ed="#B1" n="43"/>Rex est pius &amp; benionus oggnibus, si aliquae hora peccator rerstionem petat, igno 
+            <lb ed="#B1" n="44"/>scet. Tertium libertatis bonum contentum ibidem populo ex parte regis pro 
+            <lb ed="#B1" n="45"/>mulgatum fuit sic. Ad accipiendam misericordiam nul  
+            <lb ed="#B1" n="46"/>lus diffidat, sed corde intimo sum 
+            <lb ed="#B1" n="47"/>me speret. 
+            <!--sap_Page_748.xml-->
+            <pb ed="#B1" n="714"/>
+            <lb ed="#B1" n="1"/>AD propositum. Ille tyrannus DEVS Pater fuit. qui ante ista tempora tan 
+            <lb ed="#B1" n="2"/>tae crudelitatis fuit: quod angelos deiecit de cquue propter cogitationem 
+            <lb ed="#B1" n="3"/>malam, &amp; facti sunt daemones in inferno. Et Euam eiecit de Paradiso 
+            <lb ed="#B1" n="4"/>propter esum unius pomi. Vnde illi qui fuerunt ciues Paradisi &amp; Domini to 
+            <lb ed="#B1" n="5"/>tius mundi, facti sunt cultores terrae miserae, quae eis germinauit spinas &amp; tri 
+            <lb ed="#B1" n="6"/>bulos. Adde quod DEUS tam crudelis &amp; uindicatiuus fuit, quod propter pec 
+            <lb ed="#B1" n="7"/>catum totum mundum aquis diluuij submersit, solum octo animabus exce 
+            <lb ed="#B1" n="8"/>ptis. Et postea: Quia unus uir pauperculus collegit in Sabbatho ligna, fecit 
+            <lb ed="#B1" n="9"/>&amp; iussit eum perire de populo suo. Sed iste dominus captus amore * huma 
+            <lb ed="#B1" n="10"/>nae naturae, cum peruenisset ad eam, crudelitas conuersa est in misericordiam  
+            <lb ed="#B1" n="11"/>&amp; mansuetudinem: in tantum, quod propter excessiuum amorem illius do 
+            <lb ed="#B1" n="12"/>minae, scil. naturae humanae permisit se ligari, nudari, flagellari, &amp; toto corde 
+            <lb ed="#B1" n="13"/>laniari, &amp; ultimo crucifigi: Et ne seruitute Diaboli, &amp; enormitate proprij no 
+            <lb ed="#B1" n="14"/>stri peccati incideremus in desperationem, concessit nobis in Sacro sancto E 
+            <lb ed="#B1" n="15"/>uangelio &amp; in tota Scriptura tres gratias seu libertates, quas fecit proclamari 
+            <lb ed="#B1" n="16"/>per quatuor praecones, scil. Euangelistas. Nam clamat ex parte DEI: Omnes 
+            <lb ed="#B1" n="17"/>uenite, &amp;c. Quia ut dicitur in Euangelio, quaedam mulier erat in adulterio de 
+            <lb ed="#B1" n="18"/>prehensa, &amp; ad IESVM adducta, ut secundum legem mortis poena afficiatur.  
+            <lb ed="#B1" n="19"/>Sed misericordia motus dixit: Vade &amp; amplius iam noli peccare. Ecce magna 
+            <lb ed="#B1" n="20"/>bonitas DEI, qui ex sua misericordia inuitat peccatores de statu culpae, ad sta 
+            <lb ed="#B1" n="21"/>tum ueniae, &amp; de statu damnationis ad statum salutis. Sic palam est de latro  
+            <lb ed="#B1" n="22"/>ne, qui cum CHRISTO pependit in cruce, cui dixit: Amen dico tibi, Hodie 
+            <lb ed="#B1" n="23"/>eris mecum in Paradiso. Vbi ex sua misericordia non solum remisit peccatum, 
+            <lb ed="#B1" n="24"/>sed concessit gaudium: ut merito isti praecones possint proclamare: Omnes 
+            <lb ed="#B1" n="25"/>uenite &amp; misericordiam recipite, &amp;c. Secundum quod Rex fecit proclama 
+            <lb ed="#B1" n="26"/>re, ut populus peccatum suum cognosceret, &amp; in signum subiectionis ueniam  
+            <lb ed="#B1" n="27"/>peteret. Sic Rex noster CHRISTVS fecit per suos praecones Euangelistas, A 
+            <lb ed="#B1" n="28"/>postolos, Prophetas, &amp;c. omni populo fecit proclamare, quod ita mansuetus 
+            <lb ed="#B1" n="29"/>&amp; pius nobis factus est: ita, quod nisi unum a nobis petit, ut peccata nostra co  
+            <lb ed="#B1" n="30"/>gnoscamus, &amp; ab eo ueniam postulemus. In signum huius legitur 3. Regum 
+            <lb ed="#B1" n="31"/>cap. 21 ubi dicitur: Quod cum Helias propheta dixisset Achabo regi, quod  
+            <lb ed="#B1" n="32"/>morte uilissima moriturus esset: &amp; canes ipsius sanguinem lambent, pro eo 
+            <lb ed="#B1" n="33"/>quod uxor eius lexabel fecit interfici Naboth iniuste. Sed Achab rex auditis  
+            <lb ed="#B1" n="34"/>sermonibus Prophetae, scidit uestem suam, &amp; operuit cilicio carnem suam, ie 
+            <lb ed="#B1" n="35"/>iunauit: quod &amp; &amp; ambulauit demisso capite &amp; doluit in secreto, propter hu 
+            <lb ed="#B1" n="36"/>militatem istam dimisit ei DEVS, ut ibidem patet, noxam. Et possunt praeco 
+            <lb ed="#B1" n="37"/>nes proclamare nomen DEI nostri, qui de seipso: Discite a me, qui mitis sum, 
+            <lb ed="#B1" n="38"/>&amp;c. Rex ergo pius &amp; misericors est. Tertium quod Rex ipse fecit proclamare 
+            <lb ed="#B1" n="39"/>fuit, quod nullus desperaret recipere ueniam pro peccatis, quia ipse dicit: Quod  
+            <lb ed="#B1" n="40"/>quocunque die auerterit se impius ab impietate sua, uita uiuet, &amp; non morietur.  
+            <lb ed="#B1" n="41"/>unde D. Bernhardus: Confitearis de peccato, non diffidens de indulgentia, &amp; 
+            <lb ed="#B1" n="42"/>misericordiam consequeris. Nullus igitur homo diffidat de DEI misericor 
+            <lb ed="#B1" n="43"/>dia: quia magnum peccatum est desperatio. Quia inuenio, quod Cain con 
+            <lb ed="#B1" n="44"/>fessus est peccatum suum, dicens: Maius est peccatum meum, quam ut ue 
+            <lb ed="#B1" n="45"/>niam merear: &amp; similiter ludas confessus est peccatum suum, dicens: Peccaui,  
+            <lb ed="#B1" n="46"/>tradens sanguinem iustum: sed quia uterque desperadit, neuter ad misericor 
+            <lb ed="#B1" n="47"/>diam receptus. Sed certe in fide &amp; charitate Maria Magdalena accessit ad Do 
+            <lb ed="#B1" n="48"/>minum, clamans, &amp; lachrymans, misericordiam consequuta est, dicente Do 
+            <lb ed="#B1" n="49"/>mino: Remittuntur tibi peccata tua. Et ideo potest dicere cuilibet  
+            <lb ed="#B1" n="50"/>peccatori: Non desperetis uos qui pec 
+            <lb ed="#B1" n="51"/>castis, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

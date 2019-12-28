@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 7 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 7 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="713"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e202">
+        <head>Moralitates 7</head>
+        <div>
+          <p>
+            <!--sap_Page_749.xml-->
+            <pb ed="#B1" n="715"/>
+            <lb ed="#B1" n="1"/>FErtur quendam fuisse lmperatorem, &amp; habuisse quandam filiam, delicate 
+            <lb ed="#B1" n="2"/>nutritam, quae voluntarie sequuta est raptorem. Veniens pugil fortissimius. 
+            <lb ed="#B1" n="3"/>in bello iusto contra eum, &amp; raptorem ipsum debellauit, &amp; lmperatoris fi 
+            <lb ed="#B1" n="4"/>liam reduxit, &amp; eam patri reconciliauit: Quam pater post reconciliatio  
+            <lb ed="#B1" n="5"/>nem viro nobili in vxorem copulauit, &amp; in illo coniugio filia recepit multa &amp; va 
+            <lb ed="#B1" n="6"/>tia dona a patre suo. A patre suo recepit tunicam polymitam, undique varse intex  
+            <lb ed="#B1" n="7"/>tam, in qua scriptum erat: Dimisi tibi, ne adijcias male agere. A rege recepit coro 
+            <lb ed="#B1" n="8"/>nam auream, habentem hanc inscriptionem. Ex me tua dignitas. A propugnatore 
+            <lb ed="#B1" n="9"/>recepit anulum, in quo hec scripta erant: Dilexi te, disce diligere me. A mediatore 
+            <lb ed="#B1" n="10"/>recepit alium anulum, habentem inscriptum hoc: Nobilis effecta es, nobilitatem  
+            <lb ed="#B1" n="11"/>tuam ne contemnes. A fratre proprio alium anulum recepit, in quo scriptum sic e 
+            <lb ed="#B1" n="12"/>rat: Accede ad me, ne timeas, frater enim tuus sum. A sponso accepit sigillum, in 
+            <lb ed="#B1" n="13"/>quo sic scriptum erat. Coniuncta es, noli errare. 7:
+          </p>
+        </div>
+        <div>
+          <p>
+            <lb ed="#B1" n="14"/>Dpropositum. Haec omnia possumus conspicere in CHRISTO, qui nos 
+            <lb ed="#B1" n="15"/>per passionem suam a dominio raptoris Diaboli plenarie liberauit. Im 
+            <lb ed="#B1" n="16"/>pefator enim est super terrenarum rerum machinam: Rex autem est: quia 
+            <lb ed="#B1" n="17"/>in femore suo habet scriptum: Rex regum &amp; Dominus dominantium. Pater 
+            <lb ed="#B1" n="18"/>etiam est, Deuteron. 32. Non ne ipse est pater tuus, qui possedit, fecit &amp; crea 
+            <lb ed="#B1" n="19"/>uit te: Cuius filia est anima rationalis: quae cum consentit peccato mortali, a 
+            <lb ed="#B1" n="20"/>Diabolo raptore uolens abducta est. Pugil qui raptorem deuicit est CHRI 
+            <lb ed="#B1" n="21"/>STVS: nam de eo canit Ecclesia: Non est alius qui pugnet pro nobis, nisi tu 
+            <lb ed="#B1" n="22"/>DEVS solus. Frater noster est, ad Hebraeos 2. Annunciabo nomen tuum fra 
+            <lb ed="#B1" n="23"/>tribus meis: loan. 20. Vade ad fratres meos, &amp;c. Sponsus animae est CHRI 
+            <lb ed="#B1" n="24"/>STVS, Oseae 2. Sponsabo te mihi in fide. Per istum enim reconciliati sumus 
+            <lb ed="#B1" n="25"/>Patri coelesti, &amp; ad pacem uocati: Ipse est pax nostra. qui fecit utraqe unum. Vn 
+            <lb ed="#B1" n="26"/>de per ipsum praedicta dona recipimus. Tunicam talarem dedit animae, scil 
+            <lb ed="#B1" n="27"/>carnem suam candidissimam dedit nobis pro nostra redemptione, quae fuit  
+            <lb ed="#B1" n="28"/>polymita uel puluerisata rosis rubeis. Quia in sua flagellatione suorum uul  
+            <lb ed="#B1" n="29"/>nerum sputo &amp; sanguine erat intincta: in cuius textura est uulnerum multi  
+            <lb ed="#B1" n="30"/>plicatio. Et in illa tunica congrue potuit scribi: Dimisi tibi, ne adijcias male a 
+            <lb ed="#B1" n="31"/>gere: dimisi inquam tibi, quia redemi te: &amp; ideo ne adijcias saepe male agere,  
+            <lb ed="#B1" n="32"/>sed uade, &amp; noli iam amplius peccare. Iste etiam Rex noster dedit nobis coro  
+            <lb ed="#B1" n="33"/>nam auream gloriosam, dum pro nobis uoluit coronari: Et uere in ea possu 
+            <lb ed="#B1" n="34"/>mus inuenire scriptum: Ex me tua dignitas: quia per hanc nobis meruit coro  
+            <lb ed="#B1" n="35"/>nari corona uitae, quae intexitur duodecim lapidibus quasi gemmis nobilissi  
+            <lb ed="#B1" n="36"/>mis: quae sunt: Vita sine morte, iuuentus sine senectute, pulchritudo sine de 
+            <lb ed="#B1" n="37"/>formitate, laetitia sine dolore, charitas sine fletu, poenitentia sine defectu, ami 
+            <lb ed="#B1" n="38"/>citia sine odio, pax sine murmure siue iniquitate, uelocitas sine ponderositate, 
+            <lb ed="#B1" n="39"/>scientia sine errore, memoria sine obliuione, sanitas sine infirmitate. Ex qui  
+            <lb ed="#B1" n="40"/>bus omnibus bene potest dici, quod ex illo est nostra dignitas: quia per eam  
+            <lb ed="#B1" n="41"/>de filijs irae nati sumus filij &amp; haeredes regni coelestis. CHRISTVS etiam pro 
+            <lb ed="#B1" n="42"/>pugnator noster dedit nobis anulum unum rotundum scilicet dextrae manus 
+            <lb ed="#B1" n="43"/>Vbi uere possumus inuenire scriptum: Dilexi te, Apocal. 1. Dilexit nos &amp; lauit  
+            <lb ed="#B1" n="44"/>nos a peccatis nostris: Et ideo discamus eum rediligere. Similiter CHRISTVS 
+            <lb ed="#B1" n="45"/>Mediator noster dedit nobis anulum unum, scil. manus sinistrae foramen: ubi  
+            <lb ed="#B1" n="46"/>uidere possumus scriptum: Quid feci tibi: quantum cognosce: Memetipsum 
+            <lb ed="#B1" n="47"/>exinaniui, formam serui accipiens: quia certe DEVM feci hominem, immor 
+            <lb ed="#B1" n="48"/>talem mortalem, diuitem pauperem. Quare: certe ut hominem perditum re 
+            <!--sap_Page_750.xml-->
+            <pb ed="#B1" n="716"/>
+            <lb ed="#B1" n="1"/>dimerem. CHRISTVS igitur est Filius regis aeterni, qui dedit nobis anulum 
+            <lb ed="#B1" n="2"/>tertium, scilicet foramen siue uulnus dextri pedis: in quo inuenire possumus 
+            <lb ed="#B1" n="3"/>scriptum. Nobilis effecta es nobilitatem tuam ne contemnas. Similiter CHRI 
+            <lb ed="#B1" n="4"/>STVS frater noster dedit nobis anulum quartum, scil. foramen siue uulnus si 
+            <lb ed="#B1" n="5"/>nistri pedis, &amp; ibi inueniemus scriptum: Accede ad me, ne timeas: frater enim 
+            <lb ed="#B1" n="6"/>tuus sum. Item CHRISTVS sponsus noster dedit nobis sigillum. Istud sigil 
+            <lb ed="#B1" n="7"/>lum est foramen siue uulnus lateris, in quo charta redemptionis nostrae erat  
+            <lb ed="#B1" n="8"/>signata: quia tunc nostra redemptio ex sanguine &amp; aqua defluente ex latere 
+            <lb ed="#B1" n="9"/>CHRISTI accepit principatum &amp; confirmationem. In isto sigillo scribitur in 
+            <lb ed="#B1" n="10"/>circuitu. Iam coniuncta es, iam noli amplius errare. Separata enim illa bene 
+            <lb ed="#B1" n="11"/>dicta anima a corpore CHRISTI &amp; effusa aqua &amp; sanguine effuso nostrae re 
+            <lb ed="#B1" n="12"/>demptionis ex eius latere, reformata est pax &amp; concordia inter DEVM Pa 
+            <lb ed="#B1" n="13"/>trem, &amp; humanam naturam, &amp; inter angelos &amp; homines, qua pace &amp; con 
+            <lb ed="#B1" n="14"/>cordia homo coniunctus est amori diuino.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

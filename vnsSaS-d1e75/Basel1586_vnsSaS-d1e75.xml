@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 1 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 1 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="709"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e75">
+        <head>Moralitates 1</head>
+        <div>
+          <p><!--sap_Page_743.xml-->
+            <pb ed="#B1" n="709"/>
+            <lb ed="#B1" n="1"/>DEO DOSTVS de Vita Alexandri: Rex Sicilie Alexandrum 
+            <lb ed="#B1" n="2"/>ad conuiuium inuitauit, &amp; quid sibi conferre potuit sollicitus 
+            <lb ed="#B1" n="3"/>cogit auit: eo quod non multum curaret de argento, quoniam po 
+            <lb ed="#B1" n="4"/>tentissimus fuit in hoc seculo. Dictum est Regi denique, quod nle 
+            <lb ed="#B1" n="5"/>xander multum gaudebat pulchras respicere mulieres. Cum au 
+            <lb ed="#B1" n="6"/>tem per uenisset Alex ander ad conuiuium, fecit eum Rex sedere 
+            <lb ed="#B1" n="7"/>inter quatuor ducissas, quae fuerunt pulcherrime mulierum. Pri 
+            <lb ed="#B1" n="8"/>ma fuit ducissa Siciliae: secunda ducissa Prouinciae: tertia ducissa nrabiae: quarta du 
+            <lb ed="#B1" n="9"/>cissa Aphrice. Et dum Alexander sedebat in conniuio, multum delectabatur in tam 
+            <lb ed="#B1" n="10"/>pulchro spectaculo. post prandium autem nlexander ductus est ad cameram: vbi  
+            <lb ed="#B1" n="11"/>mirabiliter paratus erat lectus pulcherrimus, &amp; in circuitu istius lecti erant qua 
+            <lb ed="#B1" n="12"/>tuor cortinae, in quibus depingebantur quatuor mulieres mirabili pulchritudine. 
+            <lb ed="#B1" n="13"/>In cortina ad caput illius lecti quaedam pulchra puella videbatur depicta, habens  
+            <lb ed="#B1" n="14"/>rotulum in manu sua, cuius scriptura talis erat: Mundior sum Arabia: Et super 
+            <lb ed="#B1" n="15"/>caput illius imaginis scribebatur: O PEDIENRIA. Ad pedes autem illius erat  
+            <lb ed="#B1" n="16"/>alia cortina, in quae depingebatur alia puella, habens aliud rotulum in manu sua, 
+            <lb ed="#B1" n="17"/>cuius scriptura erat talis: Clarior sum Aphrica: super caput illius imaginis scribeba 
+            <lb ed="#B1" n="18"/>tur: MVNDIIA. Ad dextram partem illius lecti depingebatur in cortina 
+            <lb ed="#B1" n="19"/>tertia puella, tenens aliud rotulum in manu sua, cuius scriptura erat talis: Pulchrior  
+            <lb ed="#B1" n="20"/>sum Sicilia. Et super caput illius scriptum erat: PRVDENTIA Ad sinistram 
+            <lb ed="#B1" n="21"/>partem illius lecti in ipsa cortina depicta erat alia puella, tenens aliud rotulum in 
+            <lb ed="#B1" n="22"/>manu sua, cuius scriptura talis erat: Regalior sum prouinciali: super caput illius ima 
+            <lb ed="#B1" n="23"/>ginis scribebatur: AMICIIA. Iste autem Alexander in ista pictura tantum 
+            <lb ed="#B1" n="24"/>fuit letificatus, quod totaliter aliarum mulierum extitit oblitus.
+          </p>
+        </div>
+        <div>
+          <p>
+            <lb ed="#B1" n="25"/>AD propositum. Iste Alexander fuit DEI Filius, qui ad conui  
+            <lb ed="#B1" n="26"/> uium fuit inuitatus, quando carnem nostram assumere uenit, per 
+            <lb ed="#B1" n="27"/>antiquos patres rogatus, ut genus humanum redimeret. Per istas 
+            <lb ed="#B1" n="28"/>quatuor mulieres ducissas cum Alexandro in tali conuiuio seden 
+            <lb ed="#B1" n="29"/>tes possunt intelligi quatuor mulieres, quae quondam specialiter cum DEO 
+            <lb ed="#B1" n="30"/>fuerunt, in ueteri lege. Sed potest dici, quod Alexander ingressus sit thala 
+            <lb ed="#B1" n="31"/>mum, quando CHRISTVS descendit in uterum Virginis Mariae: in quo tha 
+            <lb ed="#B1" n="32"/>lamo depingebantur istae quatuor puellae siue imagines quatuor uirtutum, 
+            <lb ed="#B1" n="33"/>Maria enim habuit imaginem munditiae, in Virginali puritate: habuit imagi 
+            <lb ed="#B1" n="34"/>nem amicitiae, in Spiritus sancti illustratione: habuit imaginem obedientiae,  
+            <lb ed="#B1" n="35"/>in Verbi DEI susceptione: habuit imaginem prudentiae, in operum DEI sa 
+            <lb ed="#B1" n="36"/>lutarium consideratione. Et ideo plus delectabatur CHRISTVS in istis qua 
+            <lb ed="#B1" n="37"/>tuor Virtutibus Mariae, quam prius unquam delectabatur in ali  
+            <lb ed="#B1" n="38"/>qua mulierum pulchritudine.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

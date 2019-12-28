@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 3 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 3 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="710"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e112">
+        <head>Moralitates 3</head>
+        <div>
+          <p>
+            <lb ed="#B1" n="37"/>inxerunt pagani tot esse deos, quot sunt Virtutes, quibus dijs Virtutes ap  
+            <lb ed="#B1" n="38"/>pellatae &amp; appropriate sunt. DEVS autem pietatis &amp; clementiae depinge 
+            <lb ed="#B1" n="39"/>batur ad limilitudinem hominis, qui tenebat in manu sua cor scissum in 
+            <lb ed="#B1" n="40"/>duas partes. Et in circuitu cordis scribebatur literis aureis sic: Pietas &amp; mi 
+            <lb ed="#B1" n="41"/>sericordia tota die expectant, quando peccator a suo peccato recedere curet. In vna 
+            <lb ed="#B1" n="42"/>parte cordis scriptum erat literis aureis sic: Nisi esset peccatum, non esset misericor 
+            <lb ed="#B1" n="43"/>dia. Si venia petatur, cito habetur. In altera parte cordis scribebatur: Ibi est miseri 
+            <lb ed="#B1" n="44"/>cordia, vbi est peccatum: ibi nulla est misericordia, vbi nullum est peccatum.
+          </p>
+        </div>
+        <div>
+          <p>
+            <lb ed="#B1" n="45"/>D propositum, Depingebatur DEVS pietatis &amp; clementiae, habens cor 
+            <lb ed="#B1" n="46"/>scissum in duas partes, ad notandum, quod DEVS semper est paratus 
+            <lb ed="#B1" n="47"/>&amp; apertus &amp; non clausus ad miserendum peccatoribus, &amp; petentibus 
+            <!--sap_Page_745.xml-->
+            <pb ed="#B1" n="711"/>
+            <lb ed="#B1" n="1"/>misericordiam exhibere. Vnde Bernhardus super Canti. Canticorum: Con 
+            <lb ed="#B1" n="2"/>fitearis in spe, non diffidens de indulgentia. Quia certe ludas proditor, &amp; Cain 
+            <lb ed="#B1" n="3"/>homicida confessi sunt: Alter inquit, Peccaui, tradens sanguinem iustum: Al  
+            <lb ed="#B1" n="4"/>ter: Maior est iniquitas mea, quam ut ueniam merear: Et quia in confessione  
+            <lb ed="#B1" n="5"/>diffidebant, ueniam non receperunt. Vnde ait Augustinus de uerbis Domi 
+            <lb ed="#B1" n="6"/>ni, super illud Matthaei 3. Poenitentiam agite, &amp;c. Ad hoc parcitur homini, ut 
+            <lb ed="#B1" n="7"/>conuertatur, &amp; non damnetur. Pro primo uersu dicit D. Hieronymus: Mira 
+            <lb ed="#B1" n="8"/>DEI pietas, mira clementia, quando committimus culpam, non statim infert 
+            <lb ed="#B1" n="9"/>poenam, sed efficit gratiae medelam: ut reuocet ad iusticiae integritatem &amp; per 
+            <lb ed="#B1" n="10"/>ducat ad gloriae iucunditatem. Ideo propter conspectum DEI ipsum formi 
+            <lb ed="#B1" n="11"/>demus. Quoniam, ut ait B. Gregorius: DEUS tanto formidandus est, quan  
+            <lb ed="#B1" n="12"/>to conspectabilis non est. Qui enim nos ita aspicit, ut a nobis aspici nequeat:  
+            <lb ed="#B1" n="13"/>eo magis timendus est, quo cuncta uidens, ipse a nemine uideatur. Cum enim 
+            <lb ed="#B1" n="14"/>contra nos latere quempiam in insidijs credimus, eo ipsi amplius metuimus 
+            <lb ed="#B1" n="15"/>quo minimen uidemus: &amp; quia eius insidias non deprehendimus, nenc eas in 
+            <lb ed="#B1" n="16"/>tuimur, ubi sunt. Nam creator qui totus est ubique, &amp; cernens singula, qui cum 
+            <lb ed="#B1" n="17"/>non cernatur, tanto magis metuendus est, quanto inuisibilis permanens de 
+            <lb ed="#B1" n="18"/>nostris actibus, quando &amp; quid destinat, ignoratur. Pro secundo uersu secun 
+            <lb ed="#B1" n="19"/>dum sanctos mira est medicina peccati: &amp; ubi non uidetur morbus, non est me 
+            <lb ed="#B1" n="20"/>dela. Quia sicuti proprium est hominis peccare: ita proprium DEI est mise 
+            <lb ed="#B1" n="21"/>reri &amp; parcere. Surgamus igitur per poenitentiam: quia secundum Beatum 
+            <lb ed="#B1" n="22"/>Gregorium super Cantica sermoneTI. Maior est DEI pietas, quam quaeuis  
+            <lb ed="#B1" n="23"/>iniquitas. Pro tertio uersu, DEVS Pater noster est: &amp; est de ipso sicut de bono 
+            <lb ed="#B1" n="24"/>patre sentiendum. Nam pater bonus prius dolet &amp; sollicitatur de filio malo 
+            <lb ed="#B1" n="25"/>quam debono. Sic DEVS, quanto peior est homo, tanto DEVS plus sollici 
+            <lb ed="#B1" n="26"/>tatur ad reducendum eum. Vnde maius est gaudium in coelo super uno pec 
+            <lb ed="#B1" n="27"/>catore poenitentiam agente, quam super nonaginta novem iustis, qui non in 
+            <lb ed="#B1" n="28"/>digent poenitentia. Et ideo ait Augustinus: Nemo de DEI misericordia dif 
+            <lb ed="#B1" n="29"/>fidat: Quia maior est DEI misericordia, quam nostra miseria. Et quisquis ex  
+            <lb ed="#B1" n="30"/>toto corde clamauerit, exaudiet illum, quoniam misericors est. Sicut terra de 
+            <lb ed="#B1" n="31"/>coelo expectat pluuiam &amp; lucem: sic homo ex DEO debet expectare miseri 
+            <lb ed="#B1" n="32"/>cordiam &amp; ueritatem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
