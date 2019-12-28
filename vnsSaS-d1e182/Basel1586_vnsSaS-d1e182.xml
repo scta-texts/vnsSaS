@@ -46,14 +46,14 @@
     </front>
     <body>
       <div xml:id="vnsSaS-d1e182">
-        <head>Moralitates 6</head>
-        <div>
-          <p>
+        <head xml:id="vnsSaS-d1e182-Hd1e95">Moralitates 6</head>
+        <div xml:id="vnsSaS-d1e182-Dd1e98">
+          <p xml:id="vnsSaS-d1e182-d1e100">
             <lb ed="#B1" n="30"/>ota, non est desperandum pro quocumque peccato vel vili vel enormi: quia 
             <lb ed="#B1" n="31"/>vt dicit D. Hieronymus: DEUS paratus est saluare clementia, quos non 
             <lb ed="#B1" n="32"/>potest saluare iustitia.
           </p>
-          <p>
+          <p xml:id="vnsSaS-d1e182-d1e109">
             <lb ed="#B1" n="33"/>Vnde refert Romulus in Annalibus ludaori: Quod erat quidam ty 
             <lb ed="#B1" n="34"/>rannus, qui captus &amp; infatuatus in amore cuiusdam dominae, regnum sui ad tem 
             <lb ed="#B1" n="35"/>pus dimisit, &amp; profectus est, vt dominam istam visitaret. Cum autem venisset Ty 

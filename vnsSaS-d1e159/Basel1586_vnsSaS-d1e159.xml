@@ -47,8 +47,8 @@
     <body>
       <div xml:id="vnsSaS-d1e159">
         <!-- m5 -->
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e159-Dd1e97">
+          <p xml:id="vnsSaS-d1e159-d1e99">
             <lb ed="#B1" n="31"/>Arrat Romulus in Annalibus ludaeorum: quod in india fuerunt leges. 
             <lb ed="#B1" n="32"/>Prima fuit, quod Rex semel in anno deberet cum magna nobilitate po 
             <lb ed="#B1" n="33"/>pulo suo se ostendere: Et haec erat ratio legis: vt populus eum cognosceret.  
@@ -70,8 +70,8 @@
             <lb ed="#B1" n="49"/>cium redemptionis tuae
           </p>
         </div>
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e159-Dd1e144">
+          <p xml:id="vnsSaS-d1e159-d1e146">
             <!--sap_Page_747.xml-->
             <pb ed="#B1" n="713"/>
             <lb ed="#B1" n="1"/>AD propositum. Per istum regem intelligo DEVM Patrem, qui est Rex 
@@ -94,7 +94,7 @@
             <lb ed="#B1" n="18"/>propter peccatum in ualle miseriae exulatos, ad statum gratiae dignetur reuo 
             <lb ed="#B1" n="19"/>care. Quia misericordia eius supra omnia opera eius.
           </p>
-          <p>
+          <p xml:id="vnsSaS-d1e159-d1e194">
             <lb ed="#B1" n="20"/>Vnde notandum, quod CHRISTVS effudit sanguinem suum in septem 
             <lb ed="#B1" n="21"/>partibus corporis sui, contra septem uitia mortalia, scilicet in capite, ex latere,  
             <lb ed="#B1" n="22"/>ex duabus manibus &amp; pedibus, &amp; ex residuo corporis. Primo effudit sangui  

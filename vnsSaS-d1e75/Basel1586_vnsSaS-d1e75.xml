@@ -46,9 +46,9 @@
     </front>
     <body>
       <div xml:id="vnsSaS-d1e75">
-        <head>Moralitates 1</head>
-        <div>
-          <p><!--sap_Page_743.xml-->
+        <head xml:id="vnsSaS-d1e75-Hd1e95">Moralitates 1</head>
+        <div xml:id="vnsSaS-d1e75-Dd1e98">
+          <p xml:id="vnsSaS-d1e75-d1e100"><!--sap_Page_743.xml-->
             <pb ed="#B1" n="709"/>
             <lb ed="#B1" n="1"/>DEO DOSTVS de Vita Alexandri: Rex Sicilie Alexandrum 
             <lb ed="#B1" n="2"/>ad conuiuium inuitauit, &amp; quid sibi conferre potuit sollicitus 
@@ -76,8 +76,8 @@
             <lb ed="#B1" n="24"/>fuit letificatus, quod totaliter aliarum mulierum extitit oblitus.
           </p>
         </div>
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e75-Dd1e159">
+          <p xml:id="vnsSaS-d1e75-d1e161">
             <lb ed="#B1" n="25"/>AD propositum. Iste Alexander fuit DEI Filius, qui ad conui  
             <lb ed="#B1" n="26"/> uium fuit inuitatus, quando carnem nostram assumere uenit, per 
             <lb ed="#B1" n="27"/>antiquos patres rogatus, ut genus humanum redimeret. Per istas 

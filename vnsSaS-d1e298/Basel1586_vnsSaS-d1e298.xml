@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 11 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 11 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="710"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e298">
+        <head xml:id="vnsSaS-d1e298-Hd1e95">Moralitates 11</head>
+        <div xml:id="vnsSaS-d1e298-Dd1e98">
+          <p xml:id="vnsSaS-d1e298-d1e100">
+            <lb ed="#B1" n="13"/>Arratur in gestis Romanorum quod cum Romulus cinxisset ciuitatem mu 
+            <lb ed="#B1" n="14"/>ro, voluit in ea regnare, &amp; habere de ea dominium ciuitatis: Sed fuit ibi  
+            <lb ed="#B1" n="15"/>unus qui maximam partem ciuitatis habuit pro se, qui sibi contradixit  
+            <lb ed="#B1" n="16"/>&amp; restitit. Quia non regnaret solus in ciuitate, nec ipsius haberet ex om 
+            <lb ed="#B1" n="17"/>ni parte dominium, Ita maxima discordia exorta est inter eos. Tandem 
+            <lb ed="#B1" n="18"/>ex consensu vtriusque, partis determinatum fuit per tres milites, quod intrarent ad pu 
+            <lb ed="#B1" n="19"/>gnandum, &amp; ex vtraqe parte tres, &amp; cuius milites haberent victoriam, ille regnares 
+            <lb ed="#B1" n="20"/>in ciuitate, &amp; haberet dominium totius vrbis. Quo facto, Romulus misit tres mili 
+            <lb ed="#B1" n="21"/>tes in campum. ille autem de altera parte misit &amp; suos tres milites. Et in primo con 
+            <lb ed="#B1" n="22"/>gressu istorum militum occisi fuerunt duo milites ex parte Romuli, &amp; tertius fugam  
+            <lb ed="#B1" n="23"/>petijt. Et dum sic fugeret post se respexit, &amp; vidit alios insequentes: statim conuersus 
+            <lb ed="#B1" n="24"/>redijt &amp; vnum eorum accidit, &amp; post alterum, vltimo tertium. Et sic dominium 
+            <lb ed="#B1" n="25"/>rest abat Romulo, &amp; postmodum ciuitatem in pace possedit:, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e298-Dd1e132">
+          <p xml:id="vnsSaS-d1e298-d1e134">
+            <lb ed="#B1" n="26"/>PEr istum Romulum, qui sic regnauit in urbe Roma, &amp; eam muro cinxe 
+            <lb ed="#B1" n="27"/>rat, intelligo DEVM, qui non solum in Roma regnat, sed in toto orbe 
+            <lb ed="#B1" n="28"/>Nam Domini est terra &amp; plenitudo eius. Per Romam, quae nobilis est ci 
+            <lb ed="#B1" n="29"/>uitas DEI, intelligo animam * homanam: Istam ciuitatem cinxit muro fortis  
+            <lb ed="#B1" n="30"/>simo: id est, corpore humano. Quoniam sicut ciuis, qui cingitur muro, inclu 
+            <lb ed="#B1" n="31"/>ditur intra muros: ita anima intra corpus. In ista ciuitate uult DEVS regnare,  
+            <lb ed="#B1" n="32"/>&amp; habere eius dominium. Sed Diabolus qui ante ista tempora maximam po 
+            <lb ed="#B1" n="33"/>testatem habuit in anima contradicit DEO, &amp; dicit, quod ad se pertinet possi 
+            <lb ed="#B1" n="34"/>dere eam &amp; regnare in ea. Ita quod magna discordia est inter DEVM &amp; Diabo  
+            <lb ed="#B1" n="35"/>lum, quis haberet dominium ipsius animae. Sed ad terminandam istam discordiam  
+            <lb ed="#B1" n="36"/>DEVS tres misit milites, &amp; Diabolus alios tres. Tres milites DEI, quos ipse  
+            <lb ed="#B1" n="37"/>misit, sunt tres leges, quas DEVS dedit ab initio mundi, secundum quas si ho 
+            <lb ed="#B1" n="38"/>mo uixisset, plenum dominium de anima DEUS habuisset. Et fuerunt tres mi 
+            <lb ed="#B1" n="39"/>lites DEI. LET naturae, lex Mosaica, &amp; lex Euangelica. Tres autem milites 
+            <lb ed="#B1" n="40"/>quos misit Diabolus, fuerunt, luxuria, superbia &amp; auaritia. Sed in primo con 
+            <lb ed="#B1" n="41"/>flictu duo milites DEI fuerunt grauiter occisi. Quia lex naturae fuit una de 
+            <lb ed="#B1" n="42"/>militibus CHRISTI, quae occisa fuit per luxuriam. Quia propter luxuriam 
+            <lb ed="#B1" n="43"/>DEVS destruxit totum genus humanum per diluuium, praeter octo animas 
+            <lb ed="#B1" n="44"/>quae saluae factae fuerunt per aquas. Lex Mosaica, quae fuit secundus miles  
+            <lb ed="#B1" n="45"/>DEI, fuit occisa per superbiam ludaeorum, &amp; destruxit DEVS illam legem. 
+            <lb ed="#B1" n="46"/>Sed tertius miles DEI lex Euangelica finxit se fugere, &amp; cum CHRISTO in 
+            <lb ed="#B1" n="47"/>morte quasi succumbere: sed postquam illa fuit nobis data, ipsa occidit omnes 
+            <!--sap_Page_755.xml-->
+            <pb ed="#B1" n="711"/>
+            <lb ed="#B1" n="1"/>milites Diaboli. Nam ipsa lex Euangelica docet occidere luxuriam per con 
+            <lb ed="#B1" n="2"/>tinentiam: superbiam per humilitatem: auaritiam per eleemosynam &amp; largi 
+            <lb ed="#B1" n="3"/>tatem. Et quicunque istos tres milites occiderit, CHRISTVS de sua anima ple  
+            <lb ed="#B1" n="4"/>num dominium habebit, sicut Romulus de ciuitate Roma
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

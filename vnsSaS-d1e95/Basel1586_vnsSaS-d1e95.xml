@@ -46,9 +46,9 @@
     </front>
     <body>
       <div xml:id="vnsSaS-d1e95">
-        <head>Moralitates 2</head>
-        <div>
-          <p>
+        <head xml:id="vnsSaS-d1e95-Hd1e95">Moralitates 2</head>
+        <div xml:id="vnsSaS-d1e95-Dd1e98">
+          <p xml:id="vnsSaS-d1e95-d1e100">
             <!--sap_Page_744.xml-->
             <pb ed="#B1" n="710"/>
             <lb ed="#B1" n="1"/>LEgitur in historijs Romanorum, quod quidam magnus princeps habuit duos 
@@ -64,8 +64,8 @@
             <lb ed="#B1" n="11"/>manum diligas.
           </p>
         </div>
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e95-Dd1e132">
+          <p xml:id="vnsSaS-d1e95-d1e134">
             <lb ed="#B1" n="12"/>MORARIS ExpOSIT1O. 
             <lb ed="#B1" n="13"/>Dpropositum. Ille princeps est DEVS, qui habuit duos filios: quorum 
             <lb ed="#B1" n="14"/>senior est CHRISTVS IESVS, qui moratur cum suo Patre in coelo tan 

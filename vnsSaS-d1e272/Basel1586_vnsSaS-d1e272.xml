@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 10 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 10 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="717"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e272">
+        <head xml:id="vnsSaS-d1e272-Hd1e95">Moralitates 10</head>
+        <div xml:id="vnsSaS-d1e272-Dd1e98">
+          <p xml:id="vnsSaS-d1e272-d1e100">
+            <lb ed="#B1" n="34"/>NArrat Plinius ad Maximum, quod inter Romanos erat quaedam contro 
+            <lb ed="#B1" n="35"/>uersia &amp; dissensio de quibusdam famosis, quis deberet esse principalis, &amp; 
+            <lb ed="#B1" n="36"/>quis foret eius titulus. Vt autem ista contrarietas pacificaretur, conuo 
+            <lb ed="#B1" n="37"/>cauerunt de vrbe omnes sapientes, &amp; philosophos, milites &amp; armigeros.  
+            <lb ed="#B1" n="38"/>diuites &amp; pecuniosos. Et ordinatum erat quod quilibet diceret suam sententiam &amp; 
+            <lb ed="#B1" n="39"/>voluntatem. Dixerunt ergo primo philolophi: Quod titulus principalis DEI vel  
+            <lb ed="#B1" n="40"/>idoli esset: vt diceretur, DEVS SAPIENS: &amp; causam reddebant: Quoniam ad 
+            <lb ed="#B1" n="41"/>DEVM pertinet omnia bene regere: Sed per sapientiam omnia reguntur quae bent  
+            <lb ed="#B1" n="42"/>reguntur. Igitur, &amp;c. Sed responsum erat u plebe, quod nullus DEVS deberet h. be 
+            <lb ed="#B1" n="43"/>re titulum Virtutis, quo sibi competit male posse vti: Sed sapientia contingit mase 
+            <lb ed="#B1" n="44"/>vti, sicut patuit de Salomone, &amp; alijs multis.
+          </p>
+          <p xml:id="vnsSaS-d1e272-d1e126">
+            <lb ed="#B1" n="45"/>Venerunt secundo milites &amp; armigeri, &amp; ipsi sententiauerunt, quod titulus prin 
+            <lb ed="#B1" n="46"/>cipalis idoli foret, DEVSMIIIAESRVEPoTEMTIAE: &amp; ipsi rationem  
+            <lb ed="#B1" n="47"/>assignabant. Quia DEO dicuntur omnia subiecta, &amp; per potentiam omnia homi 
+            <lb ed="#B1" n="48"/>nibus subijciutur: Sicuti alibi de Magno Alexandro patet. Et responsum est illis sicu 
+            <lb ed="#B1" n="49"/>ti prioribus, quod non: quia contingit male vti militia &amp; potentia.
+          </p>
+          <p xml:id="vnsSaS-d1e272-d1e139">
+            <!--sap_Page_753.xml-->
+            <pb ed="#B1" n="719"/>
+            <lb ed="#B1" n="1"/>Tertio venerunt diuites &amp; ipsi sententiam dixerunt suam, vt idolum nomina 
+            <lb ed="#B1" n="2"/>retur DEVS PECVRIAE: &amp; ratio illorum erat, quia huic tribuitur honor, re 
+            <lb ed="#B1" n="3"/>uerentia &amp; obedientia. Nam pecunie obediunt omnia. Ergo debetur illis titulus  
+            <lb ed="#B1" n="4"/>amplissimus. Et istis responsum est: quod pecunia contingit male vti.
+          </p>
+          <p xml:id="vnsSaS-d1e272-d1e155">
+            <lb ed="#B1" n="5"/>Extante igitur adhuc controuersia surrexit vnus de plebe, &amp; coram astantibus 
+            <lb ed="#B1" n="6"/>protulit vnam imaginem hominis, cum duabus alis: &amp; in ala dextera scripsit hoc 
+            <lb ed="#B1" n="7"/>verbum, PROMITTO. Et in ala sinistra scripsit hoc verbum, ERPECTO. Et  
+            <lb ed="#B1" n="8"/>circa cor ad latus scripsit hoc verbum, REMITO: Et super caput illius imaginis 
+            <lb ed="#B1" n="9"/>protitulo scripsit: hICESTDEVSCIEMEMTIAE post hanc picturam sur 
+            <lb ed="#B1" n="10"/>rexit quidam philosophus ibidem existens peritissimus, ad cuius sententiam tota ci 
+            <lb ed="#B1" n="11"/>uitas intendit oculos, &amp; perhibuit testimonium, eum vtiliter imaginem adduxisse,  
+            <lb ed="#B1" n="12"/>&amp; veraciter titulum imposuisse: Quia clementia non potest male vti. Et sic respon 
+            <lb ed="#B1" n="13"/>sum erat ad omnia argumenta ipsorum.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e272-Dd1e178">
+          <p xml:id="vnsSaS-d1e272-d1e180">
+            <lb ed="#B1" n="14"/>MOraliter haec omnia possunt intelligi de titulo crucis Domini nostri IE 
+            <lb ed="#B1" n="15"/>SVCHRISTI, qui est DEVS deorum benedictus in secula. Postquam 
+            <lb ed="#B1" n="16"/>crucifixus fuit, erat controuersia inter ludaeos, ut patet ex dictis Euan 
+            <lb ed="#B1" n="17"/>gelistarum. Nam postquam Pilatus scripserat in tribus linguis: IESVS NA 
+            <lb ed="#B1" n="18"/>ZA RENVS RERTVDAEORVM. inoss suelpod: &amp; 8 bes Ruc St 
+            <lb ed="#B1" n="19"/>lucialtap. vοvan DTTpTTShabgron Dixerunt Pilato ludaei: Noli scribere Rex lu 
+            <lb ed="#B1" n="20"/>daeorum: sed quia ipse dixit: Rex sum Iudaeorum: sicut innuit Magister in histo 
+            <lb ed="#B1" n="21"/>rijs. Illi enim qui eum reputabant daemoniacum, uolebant quod illud fuisset  
+            <lb ed="#B1" n="22"/>in eius titulo positum. Illi uero qui reputabant eum uirum iustum &amp; prophe 
+            <lb ed="#B1" n="23"/>tam, &amp; habentem Spiritum sanctum, uolebant quod fuisset hoc in eius titulo  
+            <lb ed="#B1" n="24"/>positum. Et sic de alijs iuxta singulorum opiniones. Sed ista dissensione per 
+            <lb ed="#B1" n="25"/>ieuerante determinauerunt quidam, &amp; protraxerunt istam naturam benedi 
+            <lb ed="#B1" n="26"/>ctam *homanam in cruce, &amp; dicunt quidam autentici eorum primo cum fu 
+            <lb ed="#B1" n="27"/>nibus, &amp; certum est quod etiam cum clauis.
+          </p>
+          <p xml:id="vnsSaS-d1e272-d1e213">
+            <lb ed="#B1" n="28"/>Haec autem imago duo brachia habuit extensa ad modum duarum alarum: 
+            <lb ed="#B1" n="29"/>In cuius manu dextera rationabiliter potest scribi, PROMITTO. Testante bo 
+            <lb ed="#B1" n="30"/>no latrone, qui ad dextram CHRISTI pendebat, quando ad eius petitionem, 
+            <lb ed="#B1" n="31"/>dum dixit: Memento mei, &amp;c. Promisit sibi regnum coelorum, cum dixit: A  
+            <lb ed="#B1" n="32"/>men dico tibi, hodie mecum eris in Paradiso. Item in sinistra manu scribi po 
+            <lb ed="#B1" n="33"/>tuit, ERPECTO. Testante alio latrone, cuius poenitentiam finalem CHRISTVS 
+            <lb ed="#B1" n="34"/>longanimiter sine exprobratione expectauit. De quo dicit Augustinus super 
+            <lb ed="#B1" n="35"/>loannem: Quod plus grauabat CHRISTVM sua finali impoenitentia, quam  
+            <lb ed="#B1" n="36"/>propria miseria. Istius imaginationis etiam fuisse uidetur Sanctus Bernhar 
+            <lb ed="#B1" n="37"/>dus super Cantica, sermone 9. Gemina exuberat dulcedo suauitatis de gemi 
+            <lb ed="#B1" n="38"/>nis CHRISTI manibus, in donando facilitas, &amp; in expectando longanimi 
+            <lb ed="#B1" n="39"/>tas. Istae duae alae in communi positae sunt, offeruntur omnibus, nemo illarur  
+            <lb ed="#B1" n="40"/>expers est, nisi renuerit. Ad istas alas poterit quilibet peccator fugere, &amp; dice 
+            <lb ed="#B1" n="41"/>re: Sub umbra alarum tuarum protege me
+          </p>
+          <p xml:id="vnsSaS-d1e272-d1e246">
+            <lb ed="#B1" n="42"/>Tertio in corde dicit scribi hoc uerbum: REMITTO. Patet quia stante po 
+            <lb ed="#B1" n="43"/>pulo &amp; audiente, quomodo pro persequutoribus orauit, &amp; pro crucifigenti 
+            <lb ed="#B1" n="44"/>bus, dicens: Pater ignosce illis, quia nesciunt quid faciunt. Teste etiam Lon 
+            <lb ed="#B1" n="45"/>gino, de quo ait Magister historiarum: Quod cum lanceasset eum, cum fere 
+            <lb ed="#B1" n="46"/>caligassent oculi eius, &amp; casu tetigisset oculos eius gutta sanguinis per hastam 
+            <lb ed="#B1" n="47"/>lancee decurrentis, postea clare uisum recepit. De isto loquitur Alexander Nec 
+            <lb ed="#B1" n="48"/>kam super Cantica Canticorum, lib. 2. De corde (inquit) dulcissimo CHRI 
+            <lb ed="#B1" n="49"/>STI duos fontes emanare conspicio, nimirum sanguinis &amp; aquae. Fons san 
+            <lb ed="#B1" n="50"/>guinis delicias feruentis dilectionis ministrat: fons aquae mundat, &amp; refrige 
+            <lb ed="#B1" n="51"/>rium praestat contra incentiua uitiorum: Aperiat terra sanctae matris Ecclesiae  
+            <!--sap_Page_754.xml-->
+            <pb ed="#B1" n="720"/>
+            <lb ed="#B1" n="1"/>os suum, &amp; suscipiat sanguinem iusti Abel. Quia iste sanguis iugiter clamat ad  
+            <lb ed="#B1" n="2"/>Patrem, pro nobis efficaciter interpellando: quia sanguis CHRISTI effusus est, 
+            <lb ed="#B1" n="3"/>ut peccata remittantur. In illo ergo loco scribi debet: REMITTO. Et quod ista 
+            <lb ed="#B1" n="4"/>scriptura fuerit autentica &amp; uera, patet per Euangelistam, qui testimonium per 
+            <lb ed="#B1" n="5"/>hibuit tam de scriptura quam de pictura, ad quem tota Ecclesia habet oculum, 
+            <lb ed="#B1" n="6"/>sicuti illi ad peritissimum philosophum, qui immediate de fonte diuinae sapien 
+            <lb ed="#B1" n="7"/>tiae aquam gratiae salutaris abundanter potauit, ut omnibus nobis tribueret,  
+            <lb ed="#B1" n="8"/>&amp; fontem misericordiae distribueret, qui scripturam in capite scriptam DEVM 
+            <lb ed="#B1" n="9"/>clementiae egregie depingit 1. Epist. cap. 2. Filioli mei haec scribo uobis, ut non 
+            <lb ed="#B1" n="10"/>peccetis. Sed &amp; si quis peccauerit, aduocatum habemus apud Patrem, IESVM 
+            <lb ed="#B1" n="11"/>CHRISTVM iustum. Et ipse est propitiatio pro peccatis nostris: non pro no 
+            <lb ed="#B1" n="12"/>stris autem tantum, sed etiam pro totius mundi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

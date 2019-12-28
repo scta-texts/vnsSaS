@@ -46,9 +46,9 @@
     </front>
     <body>
       <div xml:id="vnsSaS-d1e202">
-        <head>Moralitates 7</head>
-        <div>
-          <p>
+        <head xml:id="vnsSaS-d1e202-Hd1e95">Moralitates 7</head>
+        <div xml:id="vnsSaS-d1e202-Dd1e98">
+          <p xml:id="vnsSaS-d1e202-d1e100">
             <!--sap_Page_749.xml-->
             <pb ed="#B1" n="715"/>
             <lb ed="#B1" n="1"/>FErtur quendam fuisse lmperatorem, &amp; habuisse quandam filiam, delicate 
@@ -66,8 +66,8 @@
             <lb ed="#B1" n="13"/>quo sic scriptum erat. Coniuncta es, noli errare. 7:
           </p>
         </div>
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e202-Dd1e136">
+          <p xml:id="vnsSaS-d1e202-d1e138">
             <lb ed="#B1" n="14"/>Dpropositum. Haec omnia possumus conspicere in CHRISTO, qui nos 
             <lb ed="#B1" n="15"/>per passionem suam a dominio raptoris Diaboli plenarie liberauit. Im 
             <lb ed="#B1" n="16"/>pefator enim est super terrenarum rerum machinam: Rex autem est: quia 

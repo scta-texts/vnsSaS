@@ -46,8 +46,8 @@
     </front>
     <body>
       <div xml:id="vnsSaS-d1e136">
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e136-Dd1e95">
+          <p xml:id="vnsSaS-d1e136-d1e97">
             <!--m4-->
             <lb ed="#B1" n="33"/>LEgitur in Chronicis, quod Anno ab vrbe Roma condita RRIII. populus 
             <lb ed="#B1" n="34"/>Romanus columnam in foro Romano statuit: &amp; ibi statuam quoqe lulii  
@@ -61,8 +61,8 @@
             <lb ed="#B1" n="42"/>sui, quas si statim legisset: de necis suae periculo euasisset.
           </p>
         </div>
-        <div>
-          <p>
+        <div xml:id="vnsSaS-d1e136-Dd1e124">
+          <p xml:id="vnsSaS-d1e136-d1e126">
             <lb ed="#B1" n="43"/>AD propositum:. Sic est de nobis &amp; de DEO considerandum, ut homo 
             <lb ed="#B1" n="44"/>aeternam mortem euadat DEVS tria signa illi dat. Primum signum est 
             <lb ed="#B1" n="45"/>destructio literae capitalis in nomine hominis: per istam literam in prin 

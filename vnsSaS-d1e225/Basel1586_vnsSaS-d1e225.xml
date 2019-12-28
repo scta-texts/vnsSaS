@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 8 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 8 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="716"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e225">
+        <head xml:id="vnsSaS-d1e225-Hd1e95">Moralitates 8</head>
+        <div xml:id="vnsSaS-d1e225-Dd1e98">
+          <p xml:id="vnsSaS-d1e225-d1e100">
+            <lb ed="#B1" n="15"/>Ecundum Fulgentium &amp; Isidorum imago amoris fuit, puer alatus quatuo  
+            <lb ed="#B1" n="16"/>alis. Scriptura prime alae erat talis: Verus amor fortis est, &amp; magnae Virtu 
+            <lb ed="#B1" n="17"/>ctis, omnem angustiam &amp; miseriam patienter sustinet ob intuiti illius quod  
+            <lb ed="#B1" n="18"/>amatur. Scriptura secunde aletalis erat: Verus amor non quaertt quae sua 
+            <lb ed="#B1" n="19"/>sunt: &amp; verus amator non est, qui sua non largitur. Scriptura tertiae ale talis erat:  
+            <lb ed="#B1" n="20"/>Tribulationem &amp; angustiam verus amor mitigat, &amp; pro eisdem non tepescit. Scri 
+            <lb ed="#B1" n="21"/>ptura quarte ale talis erat: Est vna lex veri amoris: Quod nunquam senescit, sed  
+            <lb ed="#B1" n="22"/>iuuenescit. e lengec ieliebte.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e225-Dd1e121">
+          <p xml:id="vnsSaS-d1e225-d1e123">
+            <lb ed="#B1" n="23"/>PRo primo uersu habemus exemplum de CHRISTO, &amp; eius amore: qui  
+            <lb ed="#B1" n="24"/>tantae fortitudinis fuit, quod passionem suam aestimauit ita leuem, quod  
+            <lb ed="#B1" n="25"/>sponte se offerebat proditori, &amp; Iudaeis obuiam iuit, dicens: Quem quae 
+            <lb ed="#B1" n="26"/>ritis: Et responderunt: IESVM Naxzarenum. O quam magna flamma chari 
+            <lb ed="#B1" n="27"/>tatis arsit in corde CHRISTI.
+          </p>
+          <p xml:id="vnsSaS-d1e225-d1e136">
+            <lb ed="#B1" n="28"/>Nota quadruplex est signum caliditatis, scilicet, sudor, sitis, uestis deposi 
+            <lb ed="#B1" n="29"/>tio, &amp; ruboris apparitio. CHRISTUS sanguinem sudat, fel &amp; acetum potat:  
+            <lb ed="#B1" n="30"/>nudus in patibulo patuit, &amp; totus in corpore rubuit. IESVS fuit minutus 
+            <lb ed="#B1" n="31"/>quadruplicite: in Parasceue. Primo in flagellatione: secundo in coronatione: 
+            <lb ed="#B1" n="32"/>tertio in crucifixione, &amp; quarto in lanceatione.
+          </p>
+          <p xml:id="vnsSaS-d1e225-d1e149">
+            <lb ed="#B1" n="33"/>Pro secundo uersu exemplum de amore CHRISTI habemus, qui fuit ita 
+            <lb ed="#B1" n="34"/>largus &amp; curialis: quia primo dedit corpus suum &amp; sanguinem suis discipu 
+            <lb ed="#B1" n="35"/>lis, Patri animam, &amp; latroni Paradisum. Secundo quittauit nostra debita, re 
+            <lb ed="#B1" n="36"/>misit iniurias, excusauit offensas: ad ostendendum, quod ad habendum per 
+            <lb ed="#B1" n="37"/>fectam charitatem quatuor requiruntur, scilicet ista: primo donare propria: se 
+            <lb ed="#B1" n="38"/>cundo condonare debita: tertio remittere iniurias, &amp; quarto excusare offensas.
+          </p>
+          <p xml:id="vnsSaS-d1e225-d1e165">
+            <lb ed="#B1" n="39"/>Pro tertio uersu exemplum habemus CHRISTI Filij DEI, qui non solum o 
+            <lb ed="#B1" n="40"/>stendit nobis amorem in dolore suo, quando soluit chirographum decreti, as 
+            <lb ed="#B1" n="41"/>figens illud cruci: sed ostendit nobis amorem in gloria sua. Quia habemus ad 
+            <lb ed="#B1" n="42"/>uocatum apud Patrem, qui iugiter postulat pro nobis gemitibus inenarrabilibus.
+          </p>
+          <p xml:id="vnsSaS-d1e225-d1e176">
+            <lb ed="#B1" n="43"/>Pro quarto uersu exemplum habemus de amore CHRISTI, qui non solum 
+            <lb ed="#B1" n="44"/>dilexit nos quando mansit in terris, sed nunc diligit fortius quando regnat in 
+            <lb ed="#B1" n="45"/>coelis. Quia ipse coelum ascendit, ut nos ad se traheret &amp; locum nobis praepa 
+            <lb ed="#B1" n="46"/>raret, &amp; pacem reformaret inter DEVM &amp; hominem.
+          </p>
+          <p xml:id="vnsSaS-d1e225-d1e188">
+            <lb ed="#B1" n="47"/>Dominus IESVS pro nobis cum lachrymis, &amp; ualido clamore obtulit se 
+            <lb ed="#B1" n="48"/>metipsum: in qua immolatione septem clamores humiliter emisit. Primus cla 
+            <!--sap_Page_751.xml-->
+            <pb ed="#B1" n="717"/>
+            <lb ed="#B1" n="1"/>mor excitabat ad compassionem, cum clamauit. DeuS meus, Deus meus, 
+            <lb ed="#B1" n="2"/>quare dereliquisti me. Non ne magna humilitas, ut DEVS omnipotens di 
+            <lb ed="#B1" n="3"/>cat se derelictum, &amp; DEI auxilio destitutum: Certe sic. Secundus clamor al  
+            <lb ed="#B1" n="4"/>liciebat ad deuotionem, quia clamauit: Pater in manus tuas commendo spiri 
+            <lb ed="#B1" n="5"/>tum meum. Non ne magna humilitas, ut Filius aequalis Patri, se suo Patri re 
+            <lb ed="#B1" n="6"/>commendaret 8 Certe sic. Tertius clamor alterabat ad compassionem, quia cla 
+            <lb ed="#B1" n="7"/>mabat: Pater ignosce illis, quia nesciunt quid faciunt. Non ne ingens humi 
+            <lb ed="#B1" n="8"/>litas fuit pro illis orare inimicis, &amp; bonum pro malo reddere: Certe sic. Quar 
+            <lb ed="#B1" n="9"/>tus clamor inuitauit ad parentum honorationem, quia clamauit discipulo: Ec 
+            <lb ed="#B1" n="10"/>ce mater tua. Non ne magna humilitas fuit tradere uel commendare matrem, 
+            <lb ed="#B1" n="11"/>reginam mundi uni pauperi &amp; despecto: Certe sic. Quintus clamor confor 
+            <lb ed="#B1" n="12"/>tabat desperatos, quia clamauit latroni: Amen dico tibi, hodie mecum eris in 
+            <lb ed="#B1" n="13"/>Paradiso. An non ingens humilitas &amp; pietas, ut dignus aeternis cruciatibus ad 
+            <lb ed="#B1" n="14"/>simplicem petitionem recipitur ad consortium DEI &amp; angelorum: Certe 
+            <lb ed="#B1" n="15"/>sic. Sextus clamor clamabat per dilectionem, quia clamauit:SITIO. Non ne 
+            <lb ed="#B1" n="16"/>magna humilitas, ut DEVS infirmitatibus corporis, &amp; poenis carnis humanae 
+            <lb ed="#B1" n="17"/>anxiaretur: Certe sic. Septimus clamor concludebat per expeditionem, quia 
+            <lb ed="#B1" n="18"/>clamauit expedite: Consummatum est. Non ne magna humilitas fuit, ut ille 
+            <lb ed="#B1" n="19"/>qui est alpha &amp;o, principium &amp; finis concludatur in crucis patibulo: Certe sic  
+            <lb ed="#B1" n="20"/>Vnde D. Bernhardus super Cantica: Gutta sanguinis CHRISTI per quinque  
+            <lb ed="#B1" n="21"/>partes iugiter emanauit: Quid ultra facere debuit, &amp; non fecit: Certe nihil 
+            <lb ed="#B1" n="22"/>Quod probatur, Matthaei undecimo cap. septem modis. Primo enim ille nos 
+            <lb ed="#B1" n="23"/>illuminauit, uisum tenebrosum illuminando: Quia caci vident. Secundo nos 
+            <lb ed="#B1" n="24"/>rectificauit, gressum ruinosum consolidando: quia claudi ambulant. Tertio 
+            <lb ed="#B1" n="25"/>nos decorauit, morbum maculosum siue contagiosum perfecte eradicando:  
+            <lb ed="#B1" n="26"/>quia leprosi mundantur. Quarto nos excitauit, auditum surdum &amp; cordis du 
+            <lb ed="#B1" n="27"/>ritiem sanando &amp; resecando: cuius probatio est: Surdi audiunt. Quinto nos 
+            <lb ed="#B1" n="28"/>uiuificauit, uitam gratiae &amp; gloriae per suam mortem plenarie praestando: quia 
+            <lb ed="#B1" n="29"/>mortui resurgunt. Sexto nos ditauit, remota ignorantiae &amp; infirmitatis pauper 
+            <lb ed="#B1" n="30"/>tate, omnibus coelestibus Euangelicae cognitionis bonis locupletando: quia 
+            <lb ed="#B1" n="31"/>pauperes euangelixantur Septimo nos signauit, uitam uirtuosam gratificando 
+            <lb ed="#B1" n="32"/>cuius propatio est: Quia beatus est, qui non fuerit scandalizatus in me.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

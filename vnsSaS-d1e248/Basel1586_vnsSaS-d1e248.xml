@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 9 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 9 [Basel Transcription]</title>
+          <date when="2019-12-27">December 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="717"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e248">
+        <!-- m 9 --> 
+        <div xml:id="vnsSaS-d1e248-Dd1e97">
+          <p xml:id="vnsSaS-d1e248-d1e99">
+            <lb ed="#B1" n="33"/>NArratur quod fuit quidam miles, qui fecit proclamare hastiludia, &amp; i 
+            <lb ed="#B1" n="34"/>pse amore cuiusdam domine hastiludiauit. Et quia hastiludia non sunt  
+            <lb ed="#B1" n="35"/>in noticijs proprijs militis, qui debet hastiludiare, sed in noticia illius 
+            <lb ed="#B1" n="36"/>pro quo vel quae hastiludia committuntur. Iste miles signauit se circum 
+            <lb ed="#B1" n="37"/>quaq, literis aureis vel amoris. Ante militem scribebatur sic: Cor meum inclinatum 
+            <lb ed="#B1" n="38"/>est ad vnam puellam. pro cuius amore hodie bellum defendo: Post militem scribeba 
+            <lb ed="#B1" n="39"/>tur ille versus: Amorem nostrum nullus fastidiat, quia profunde x sauciat, si cor 
+            <lb ed="#B1" n="40"/>tangat. A dextris militis scribebatur sic: Verus amor nunquam quiescit, semper 
+            <lb ed="#B1" n="41"/>agit, &amp; non tepescit. A sinistris scribebatur sic illa sententia: Vbi amor est, ibi fre 
+            <lb ed="#B1" n="42"/>quens cogitatio &amp; desiderium, si non possideatur illud quod amatur.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e248-Dd1e124">
+          <p xml:id="vnsSaS-d1e248-d1e126">
+            <lb ed="#B1" n="43"/>Ste miles est Filius DEI, qui in hoc mundo prouocatus est ad hastiludia. 
+            <lb ed="#B1" n="44"/>Consuetudo namque est, quando milites congregantur ad locum, ubi hasti  
+            <lb ed="#B1" n="45"/>ludia celebrantur, quod mutuo se signant, siue tangunt, qui mutuo concur 
+            <lb ed="#B1" n="46"/>runt, seque scutis defendunt. Sic habent personae Trinitatis diuinae distincta 
+            <lb ed="#B1" n="47"/>scuta. Pater habet scutum potentiae, Filius scutum sapientiae, Spiritus sanctus 
+            <lb ed="#B1" n="48"/>scutum clementiae. Diabolus uero in Paradiso tetigit scutum Filij DEI, quan  
+            <!--sap_Page_752.xml-->
+            <pb ed="#B1" n="718"/>
+            <lb ed="#B1" n="1"/>do dixit primis parentibus: Eritis sicuti dij, scientes bonum &amp; malum, Genes. 3: 
+            <lb ed="#B1" n="2"/>Et ideo Filius processit ad hastiludia. Sed quia processit ex amore, apparuit in 
+            <lb ed="#B1" n="3"/>notitijs alienis, nimirum in carne humana, &amp; cum diuersis literis. Prima litera 
+            <lb ed="#B1" n="4"/>erat, cor meum, &amp;c. Pro quo titulo dicit Apostolus: Propter nimiam charita 
+            <lb ed="#B1" n="5"/>tem suam qua dilexit nos, misit filium suum in similitudinem carnis peccati,  
+            <lb ed="#B1" n="6"/>id est, peccatoris. Et isti defendit hastiludium in forma humana contra Dia 
+            <lb ed="#B1" n="7"/>bolum. Primo, quando inuenit eum in deserto, &amp; tentauit eum, dicens: Dic  
+            <lb ed="#B1" n="8"/>ut lapides isti panes fiant. Secundo quando portauit eum, &amp; statuit supra pin 
+            <lb ed="#B1" n="9"/>naculum templi, tentando eum de uana gloria, dicens: Si Filius DEI es, mit 
+            <lb ed="#B1" n="10"/>te te deorsum. Tertio quando assumpsit eum in montem excelsum tentans 
+            <lb ed="#B1" n="11"/>eum de auaritia, dicens: Haec omnia tibi dabo, si cadens adoraueris me. Se 
+            <lb ed="#B1" n="12"/>cundum Gregorium non debemus existimare, quod Diabolus CHRISTVM 
+            <lb ed="#B1" n="13"/>potuerit portare &amp; sumere: quia ille permisit, qui a membris suis uoluit cruci 
+            <lb ed="#B1" n="14"/>figi. Finis istius hastiludij fuit in Parasceue, quando Diabolus Lucifer, secun 
+            <lb ed="#B1" n="15"/>dum Magistrum historiarum redijt ad ipsum, &amp; sedit super cornu crucis. Sed  
+            <lb ed="#B1" n="16"/>anima CHRISTI mox egressa a corpore, religauit eum in infernum: secundum il 
+            <lb ed="#B1" n="17"/>lud in Apocalypsi: Alligatus est Diabolus: id est, Sathanas, nec exibit ante ad 
+            <lb ed="#B1" n="18"/>uentum Antichristi, quando introibit in corpus &amp; animam Antichristi. Item  
+            <lb ed="#B1" n="19"/>retro militem scribebatur sic: Amorem nostrum nullus, &amp;c. Iste amor neminem 
+            <lb ed="#B1" n="20"/>recusauit, qui pro omnibus mori uoluit: &amp; iste amor grauiter uulnerat. A 
+            <lb ed="#B1" n="21"/>dextris illius militis sic scriptum erat: Verus amor, &amp;c. Sic fuit de CHRISTO, 
+            <lb ed="#B1" n="22"/>amor suus non permisit eum habere quietem: quia nunc fuit in coelo, nunc in 
+            <lb ed="#B1" n="23"/>terra, nunc in inferno, &amp; ex nimio amore apparuit, ut ostenderet nobis totam  
+            <lb ed="#B1" n="24"/>cogitationem suam, &amp; curam circa nostram salutem. Ideo aperiamus cor no 
+            <lb ed="#B1" n="25"/>strum &amp; retrahamus nos ab omni re temporali, quae nos retrahit ab amore 
+            <lb ed="#B1" n="26"/>DEI. A sinistris militis scribebatur sic: Vbi amor, &amp;c. Sic fuit de CHRISTO, 
+            <lb ed="#B1" n="27"/>quia magna angustia emit amorem, quo dilexit hominem, &amp; ita fidelis fuit,  
+            <lb ed="#B1" n="28"/>quod illo amore ad mortem deduceretur. Vnde Hieronymus contra louinia. 
+            <lb ed="#B1" n="29"/>num: Peccatores se mutuo amant, quod unus pro alio paratus est mori. Nar 
+            <lb ed="#B1" n="30"/>rat etiam Tullius lib. 3. Officiorum: Quod cum unus Gentis illius damnare 
+            <lb ed="#B1" n="31"/>tur ad mortem, &amp; alius suus proximus factus est pro eo pignus, nisi reuerte 
+            <lb ed="#B1" n="32"/>retur ad diem mortis statutum. Iste reuersus est, &amp; iudex admiratus est fidem  
+            <lb ed="#B1" n="33"/>utriusque, mortem remisit, &amp; amicus eorum factus est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
