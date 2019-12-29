@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 18 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 18 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="724"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e460">
+        <head xml:id="vnsSaS-d1e460-Hd1e95">Moralitates 18</head>
+        <div xml:id="vnsSaS-d1e460-Dd1e98">
+          <p xml:id="vnsSaS-d1e460-d1e100">
+            <lb ed="#B1" n="24"/>NArrat quidius in 2. Met amorphoseun libro, quod Aitalanta erat quae 
+            <lb ed="#B1" n="25"/>dam virgo valde pulchra &amp; agilistima: &amp; concedebatur ei a dijs, quod  
+            <lb ed="#B1" n="26"/>nullus eam duceret in vxorem, nisi esset velocior ea, &amp; citius ad termi 
+            <lb ed="#B1" n="27"/>numst adij posset peruenire. Deinde &amp; hoc constitutum erat a dijs, quod  
+            <lb ed="#B1" n="28"/>si aliquis citius ea perueniret ad stadij terminum, quod caput virginis amput are 
+            <lb ed="#B1" n="29"/>tur, &amp; in profundissimum puteum mitteretur. Accidit super hoc, quod quidam iu 
+            <lb ed="#B1" n="30"/>uenis Hippomenes virginem istam adamauit, &amp; volens eam in vxorem ducere, di 
+            <lb ed="#B1" n="31"/>xit: Se citius ea peruenturum currendo ad terminum stadij, &amp; vt commodius faceret. 
+            <lb ed="#B1" n="32"/>compar auit sibi tria poma aure4. Et iam currentibus, cum virgo velocius eo curre 
+            <lb ed="#B1" n="33"/>ret, proiecit ante oculos virginis in via pomum primum aureum: sic eam pertransiit. 
+            <lb ed="#B1" n="34"/>Secundo virgo velocius currit iiuene, &amp; protinus attingens medium stadij, iterum  
+            <lb ed="#B1" n="35"/>alterum pomum proiecit in terram ante oculos virginis. Quod vidit virgo, iterum 
+            <lb ed="#B1" n="36"/>sistebat a cursu suo, &amp; pomum accepit. Et sic iuuenis eam cursu anticipauit, &amp; ci 
+            <lb ed="#B1" n="37"/>tius ca ad medium stadij peruenit. Tertio videns virgo iuuenem citius eam pra 
+            <lb ed="#B1" n="38"/>currere, iterum eum praecurrit: &amp; iuuenis tertium ponum proiecit in terram ante 
+            <lb ed="#B1" n="39"/>oculos eius. Quod cernens virgo, a cursu desistens, accepit sibi pomum. Et dum esset 
+            <lb ed="#B1" n="40"/>remorata &amp; Iollicita circa tertium pomum colligendum, Hippomenes eam cursu su 
+            <lb ed="#B1" n="41"/>perauit, &amp; ad terminum stadij citius peruenit. Quod dij videntes virgi 
+            <lb ed="#B1" n="42"/>nis caput amputauerunt, &amp; eam in profundissimum 
+            <lb ed="#B1" n="43"/>puteum proiecerunt.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e460-Dd1e147">
+          <p xml:id="vnsSaS-d1e460-d1e149">
+            <!--sap_Page_759.xml-->
+            <pb ed="#B1" n="725"/>
+            <lb ed="#B1" n="1"/>PEr istam uirginem sic pulcherrimam, &amp; a Dijs adeo dilectam intellige a 
+            <lb ed="#B1" n="2"/>nimam intellectiuam hominis, quae bene potest dici pulchra: quia ad ima 
+            <lb ed="#B1" n="3"/>ginem benedictae Trinitatis est creata. Potest etiam dici agillima: quia 
+            <lb ed="#B1" n="4"/>homo potest per animam suam siue mentem modo esse in coero, modo in 
+            <lb ed="#B1" n="5"/>terra. Et sic de alijs partibus: ita quod quantum est ex parte naturae rationalis, 
+            <lb ed="#B1" n="6"/>satis agilis est. Per Hippomenem autem qui istam uirginem uult habere in u 
+            <lb ed="#B1" n="7"/>xorem, intelligo Diabolum: quia die &amp; nocte circuit, ut eam faciat suis sugge 
+            <lb ed="#B1" n="8"/>stionibus adhaerere. Et ad hoc faciendum proiecit tria poma aurea, scilicet, iu 
+            <lb ed="#B1" n="9"/>uentutem, fortitudinem, &amp; DEI misericordiam: &amp; sic ante istam uirginem: id  
+            <lb ed="#B1" n="10"/>est, animam, nititur curare. Nam si homo sit iuuenis, &amp; DEVS gratiam suam 
+            <lb ed="#B1" n="11"/>mittat in animam suam, ut se in bonis actibus exerceat: statim Diabolus ante 
+            <lb ed="#B1" n="12"/>oculos eius proijcit primum pomum, uidelicet, TVVENTVTEM: &amp; dicit si 
+            <lb ed="#B1" n="13"/>bi: Iuuenis es, &amp; satis cito poteris esse sancta. Et sic Diabolus praeuenit eam, 
+            <lb ed="#B1" n="14"/>ne homo in iuuentute uitam perfectorum alicuius exerceat.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e460-Dd1e187">
+          <p xml:id="vnsSaS-d1e460-d1e189">
+            <lb ed="#B1" n="15"/>Similiter cum homo habuerit fortitudinem, DEVS immittit in animam gra 
+            <lb ed="#B1" n="16"/>tiam suam, &amp; dicit sibi: Tu male expendisti iuuentutem tuam, sed modo con 
+            <lb ed="#B1" n="17"/>uertere te ad me, &amp; expende tempus tibi datum in bono. Et uidens Diabo  
+            <lb ed="#B1" n="18"/>lus, quod homo bonus uel fortis uelit in bonis uitam suam exercere, praeuenit 
+            <lb ed="#B1" n="19"/>eum, &amp; ante oculos eius proijcit secundum pomum, nimirum, TORTITVDI 
+            <lb ed="#B1" n="20"/>VEM. Et dicit sic: Tu fortis es, ideo expende fortitudinem tuam in hoc mun 
+            <lb ed="#B1" n="21"/>do, dum habes, &amp; cum somnus &amp; fortitudo tua defecerit, tunc satis tempesti 
+            <lb ed="#B1" n="22"/>ue poteris te ad Dominum conuertere. Et statim hic fortis tali suggestioni con 
+            <lb ed="#B1" n="23"/>sentit, &amp; Diabolus sic eum praeuenit, ne uitam suam emendet, sed potius in 
+            <lb ed="#B1" n="24"/>malis consumat.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e460-Dd1e214">
+          <p xml:id="vnsSaS-d1e460-d1e216">
+            <lb ed="#B1" n="25"/>Item cum homo senuerit, DEUS immittit in animam gratiam suam, &amp; di 
+            <lb ed="#B1" n="26"/>cit sic: Tu male expendisti iuuentutem tuam, &amp; medium uitae tuae, saltem in 
+            <lb ed="#B1" n="27"/>ultimo uitae tuae cursu conuertere ad me. Et cum ad instinctum DEI uoluerst 
+            <lb ed="#B1" n="28"/>uitam suam corrigere, haec uidens Diabolus, ante oculos eius proijcit tertium 
+            <lb ed="#B1" n="29"/>pomum, nimirum, DEIMISERICORDIAM. Et dicit sibi: Si male colloca 
+            <lb ed="#B1" n="30"/>sti iuuentutem tuam, &amp; medium uitae tuae, noli desperare: quia magna est mi 
+            <lb ed="#B1" n="31"/>fericordia DEI, sed potius uitam sicut tibi placet adhuc exerce. Quia sufficit 
+            <lb ed="#B1" n="32"/>tibi, quod habeas ante oculos tuos &amp; ante mortem tuam tria uel quatuor uer 
+            <lb ed="#B1" n="33"/>ba, scilicet: Dominus est multum misericors. Et sic eum praeuenit, ne uitam suam 
+            <lb ed="#B1" n="34"/>corrigat, sed misericordia DEI sua finali impoenitentia temere abutitur, &amp; 
+            <lb ed="#B1" n="35"/>sanguinem Testamenti pedibus malarum cogitationum conculcat, quem tan 
+            <lb ed="#B1" n="36"/>dem DEVS in puteum inferni profundi demergit perpetualiter
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

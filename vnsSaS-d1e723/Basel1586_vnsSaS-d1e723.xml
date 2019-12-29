@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 29 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 29 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="732"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e723">
+        <head xml:id="vnsSaS-d1e723-Hd1e95">Moralitates 29</head>
+        <div xml:id="vnsSaS-d1e723-Dd1e98">
+          <p xml:id="vnsSaS-d1e723-d1e100">
+            <lb ed="#B1" n="42"/>NArratur, quod inter philomelam &amp; bubonem est naturale odium, in tantum, 
+            <lb ed="#B1" n="43"/>quod cum philomela in nocte cantat dulciter, nititur ipsam in preda 1a 
+            <lb ed="#B1" n="44"/>pere, &amp; ei fortiter insidiatur. quod cauens philomela, rubum vel spinam 
+            <lb ed="#B1" n="45"/>densissimam in frutice intrat, &amp; ibidem a bubonis insidijs conseruatur.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e723-Dd1e112">
+          <p xml:id="vnsSaS-d1e723-d1e114">
+            <!--sap_Page_767.xml-->
+            <pb ed="#B1" n="733"/>
+            <lb ed="#B1" n="1"/>MOraliter per philomelam anima deuota &amp; fidelis intelligitur, quae ad 
+            <lb ed="#B1" n="2"/>hoc creata est, ut DEUM suum per iugem contemplationem &amp; uigilem  
+            <lb ed="#B1" n="3"/>deuotionem laudet. Sed animae sic laudanti insidiatur bubo, qui in ob  
+            <lb ed="#B1" n="4"/>scuris locis latet, qui est Diabolus, qui in obscuro loco inferni se tenet. Cuius 
+            <lb ed="#B1" n="5"/>habitatio est in tenebris, &amp; in cordibus peccatorum lucem fugientium, ut eos 
+            <lb ed="#B1" n="6"/>absorbeat &amp; interficiat. Et ne anima ab eo rapiatur, intrat rubum spinarum: id  
+            <lb ed="#B1" n="7"/>est, uitam aspersam aduersitatibus &amp; durae poenitentiae: &amp; sic euadere poterit 
+            <lb ed="#B1" n="8"/>insidias Diaboli.
+          </p>
+          <p xml:id="vnsSaS-d1e723-d1e138">
+            <lb ed="#B1" n="9"/>Nota tres conditiones ab angelo Esdrae propositas: quarum prima est: Pon 
+            <lb ed="#B1" n="10"/>dera mihi in statera ignis pondus: secunda est: Mensura mihi flatum uenti: ter 
+            <lb ed="#B1" n="11"/>tia est: Aut reuoca mihi diem, quae praeterijt.
+          </p>
+          <p xml:id="vnsSaS-d1e723-d1e147">
+            <lb ed="#B1" n="12"/>Pondera (inquio) primo in statera pondus ignis: id est, amotem DEI pone in 
+            <lb ed="#B1" n="13"/>statera, &amp; pondera bene: Vtrum eum plus diligeris quam mundum, uel mi 
+            <lb ed="#B1" n="14"/>nus: Et si plus, tunc bene ponderasti: sin minus, remoue illum amorem, quem  
+            <lb ed="#B1" n="15"/>habes respectu mundi, &amp; coniungere ad amorem DEI, qui est super omnia 
+            <lb ed="#B1" n="16"/>diligendus. Vel pondera in corde tuo pondus ignis infernalis, qui ita ponde 
+            <lb ed="#B1" n="17"/>rosus erit homini, quod eius grauitatem non poterit aliquis sustinere: cuius &amp;  
+            <lb ed="#B1" n="18"/>tanta uiolentia, quod secundum D. Bernhardum, si in ipsum uniuersalitas ma 
+            <lb ed="#B1" n="19"/>rium influeret, nihil ipsum refrigeret. Et secundum Gregorium Magnum: Ibi 
+            <lb ed="#B1" n="20"/>est dolor cum formidine, flamma cum obscuritate, mors sine morte, &amp; finis si 
+            <lb ed="#B1" n="21"/>ne fine. Haec &amp; huiusmodi homo &amp; cogita bene, &amp; tuum pondus ignis re 
+            <lb ed="#B1" n="22"/>cte ponderasti. Deinde pondera quoque amorem DEI Saluatoris tui: qui nos 
+            <lb ed="#B1" n="23"/>tantum dilexit, ut cum esset excelsus, propter nostrum amorem assumpsit infir 
+            <lb ed="#B1" n="24"/>mitatem: cum esset aeternus, assumpsit temporalitatem: cum esset diues, assum 
+            <lb ed="#B1" n="25"/>psit paupertatem: cum esset immortalis, assumpsit mortalitatem.
+          </p>
+          <p xml:id="vnsSaS-d1e723-d1e180">
+            <lb ed="#B1" n="26"/>Secundo, mensura flatum venti: id est, uitam tuam, quae uento aequatur. lob  
+            <lb ed="#B1" n="27"/>inquit: Memento mei Domine, quia uentus est uita mea: Quam breuis sit ui  
+            <lb ed="#B1" n="28"/>ta humana patet: quia qualibet hora uitae suae tendit homo ad mortem, &amp; quam  
+            <lb ed="#B1" n="29"/>cito finitur homo nescit: Quia sicut herba nunc floret &amp; germinat, &amp; continue 
+            <lb ed="#B1" n="30"/>occidit, arescit, &amp; deficit: ita homo per modicam corporis infirmitatem. Men 
+            <lb ed="#B1" n="31"/>sura igitur diligenter uitam tuam, ut sic uiuas, sicut uis mori. Quia secundum 
+            <lb ed="#B1" n="32"/>Hieronymum: Qui non sic uiuit, sicut mori uult, non uiuit sicuti Christianus 
+            <lb ed="#B1" n="33"/>homo. Consideret ergo homo uitam suam, &amp; ex tali consideratione sua caue 
+            <lb ed="#B1" n="34"/>bit sibi a peccatis. Quod si homo bene mensurauerit uentum orientalem, qui  
+            <lb ed="#B1" n="35"/>est calidus &amp; siccus, per quem ortus hominis designatur, inuenit impotentiam, 
+            <lb ed="#B1" n="36"/>nuditatem &amp; Iachrymam. Si mensurauerit uentum meridionalem qui est ca  
+            <lb ed="#B1" n="37"/>lidus &amp; humidus: per quem adolescentia designatur, reperiet concupiscen 
+            <lb ed="#B1" n="38"/>tiam carnis, &amp; oculorum, &amp; superbiam uitae. Mensura igitur &amp; septentriona 
+            <lb ed="#B1" n="39"/>lem, qui est frigidus &amp; siccus, per quem designatur Senectus, &amp; inuenies de 
+            <lb ed="#B1" n="40"/>tractionem, iram &amp; immunditiem: In uento occidentali qui est frigidus &amp; hu 
+            <lb ed="#B1" n="41"/>midus, per quem significatur decrepita aetas, ut Terentius uocat, silicernium: 
+            <lb ed="#B1" n="42"/>&amp; inuenies putredinem, foetorem, &amp; escam uermium. Si sic istos quatuor uen 
+            <lb ed="#B1" n="43"/>tos bene mensuraueris o tu homo mortalis, &amp; uentum: id est, uitam miseram  
+            <lb ed="#B1" n="44"/>&amp; fluxam inuenies, maxima signa humilitatis.
+          </p>
+          <p xml:id="vnsSaS-d1e723-d1e224">
+            <lb ed="#B1" n="45"/>Tertio, Reuoca diem quae praeterijt: id est, singula momenta dierum &amp; noctium 
+            <lb ed="#B1" n="46"/>debet homo pensitare, quomodo ea expenderit, utrum in honorem DEI, an 
+            <lb ed="#B1" n="47"/>in seruitium mundi: Et si ea uiderit expendisse in immunditia &amp; uoluptate, re 
+            <lb ed="#B1" n="48"/>uoca illa tempora per dolorem &amp; abstinentiam, ut cum rege Excechia dicere 
+            <lb ed="#B1" n="49"/>possis: Recogitabo tibi omnes annos meos in amaritudine animae meae. Quo 
+            <lb ed="#B1" n="50"/>niam quicquid homo expendit de tempore suo, &amp; non in honorem DEI, tur 
+            <lb ed="#B1" n="51"/>piter expensum &amp; perditum est. Vnde de hoc exemplum habemus cuiusdam  
+            <!--sap_Page_768.xml-->
+            <pb ed="#B1" n="734"/>
+            <lb ed="#B1" n="1"/>Eremitae, qui per multum temporis ualde dissolutus fuit. Et tandem cogitam 
+            <lb ed="#B1" n="2"/>de suo statu, uitam suam perfecte emendauit. Quo facto, uenit alius quidam  
+            <lb ed="#B1" n="3"/>Eremita, ut eum uisitaret, &amp; inter alia quaesiuit ab eo: Cuius aetatis esset: Cui 
+            <lb ed="#B1" n="4"/>ille respondit: Quod esset aetatis quatuor dierum: Et cum alter de tali respon 
+            <lb ed="#B1" n="5"/>sione miraretur exposuit sibi originem uitae suae, &amp; dixit illi: Quod praeter qua 
+            <lb ed="#B1" n="6"/>tuor dies, perditum reputaui. Reuoca igitur homo diem praeteritum, &amp; quod  
+            <lb ed="#B1" n="7"/>sic potes facere quartum: Fac aquam ascendere de corde, aquam contritionis ad ocu 
+            <lb ed="#B1" n="8"/>lum cordis per quam mundatur anima, ut in fine perducat ad regna coelestia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

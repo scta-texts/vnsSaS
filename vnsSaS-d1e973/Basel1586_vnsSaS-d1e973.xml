@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 40 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 40 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="742"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e973">
+        <head xml:id="vnsSaS-d1e973-Hd1e95">Moralitates 40</head>
+        <div xml:id="vnsSaS-d1e973-Dd1e98">
+          <p xml:id="vnsSaS-d1e973-d1e100">
+            <lb ed="#B1" n="16"/>Fictura diuitiarum &amp; honoris. 
+            <lb ed="#B1" n="17"/>nrrat Fulgentius &amp; domerus in scintillario poetarum: quod status di 
+            <lb ed="#B1" n="18"/>uitiarum depingebatur vt multer vaga, habens coronam in capite, o 
+            <lb ed="#B1" n="19"/>culis velata, sceptrum regale tenens &amp; pauonem in manu, varijs vesti 
+            <lb ed="#B1" n="20"/>mentis induta, sedens in curru, quem trahebant quatuor leones trucu 
+            <lb ed="#B1" n="21"/>lenti &amp; immanissimi
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e973-Dd1e117">
+          <p xml:id="vnsSaS-d1e973-d1e119">
+            <lb ed="#B1" n="22"/>COnditio diuitiarum &amp; honoris depicta est instar uagae mulieris: Quia 
+            <lb ed="#B1" n="23"/>sicuti mulier uaga &amp; fragilis est, simulque inconstans, habens multos a 
+            <lb ed="#B1" n="24"/>matores, quos tamen non diu amat: Ita diuitiae nunc huic, nunc illi con 
+            <lb ed="#B1" n="25"/>iunguntur, &amp; tamen in fine utrumque derelinquunt. Caeca, quia diuitiae non 
+            <lb ed="#B1" n="26"/>plus respiciunt personam pauperis, quam personam diuitis. Nam quandoque  
+            <lb ed="#B1" n="27"/>filius pauperis ad dignitates tollitur, filius diuitis fame moritur. Coronam  
+            <lb ed="#B1" n="28"/>habet in capite, quod homo diues honoratur, &amp; pauper in hoc seculo com 
+            <lb ed="#B1" n="29"/>muniter contemnitur. Sceptrum tenet in manu: in signum, quod sicuti regi 
+            <lb ed="#B1" n="30"/>obediunt omnia, ita &amp; pecuniae. Pauonem quoque portat in manu: Haec est 
+            <lb ed="#B1" n="31"/>proprietas pauonis, quod quando cantat, leuat caudam, anteriora ornat, po 
+            <lb ed="#B1" n="32"/>steriora deturpat: ita diues quandiu uiuit omnia sua sunt in ornatu &amp; splen 
+            <lb ed="#B1" n="33"/>dore: sed respiciendo caudam posteriorem, scilicet mortis nudus &amp; spoliatus 
+            <lb ed="#B1" n="34"/>ad infernum descendit turpiter. Varia ueste induitur: quia diuitiae in uarijs in 
+            <lb ed="#B1" n="35"/>ueniuntur, ut in mercemonijs, &amp; alijs. In curru sedet: nam sicut in rota currus, 
+            <lb ed="#B1" n="36"/>illa pars quae nunc est superior, nunc est inferior, &amp; econuerso: ita mundani 
+            <lb ed="#B1" n="37"/>iam diuites siunt pauperes, iam pauperes diuites. Et ideo concludit Seneca:  
+            <lb ed="#B1" n="38"/>Quod omnis felicitas fortunae est instabilis. Vnde quidam dixit:  
+            <lb ed="#B1" n="39"/>O fortuna breuis, cui vis, das munera quaeuis.  
+            <lb ed="#B1" n="40"/>Sed cui vis tu diuitias quoq, diuidis vt vis.  
+            <lb ed="#B1" n="41"/>Das cui vis quiduis, nec differs tempore quouis:  
+            <lb ed="#B1" n="42"/>Sed cui vis, aufert quaelibet hora breuis.  
+            <lb ed="#B1" n="43"/>Hic currus fortunae quatuor leonibus trahitur: nam diuitibus quatuor ui  
+            <lb ed="#B1" n="44"/>tia praedominantur, scilicet obliuio, ingratitudo, contemptus &amp; superbia. 
+            <lb ed="#B1" n="45"/>Obliuio enim, regnat in diuitibus, ut patet, cum aliquis fuit pauper, &amp; postca 
+            <lb ed="#B1" n="46"/>dicatus fuerit, statim obliuiscitur sui, nec cogitat qualis fuit. Quod ingrati  
+            <!--sap_Page_777.xml-->
+            <pb ed="#B1" n="743"/>
+            <lb ed="#B1" n="1"/>tudo regnet in diuitibus manifestum est: Quia aliquis pro eo aliquid fecit,  
+            <lb ed="#B1" n="2"/>quando pauper fuit, uix eum tandem cognoscit. Quod contemptus regnet  
+            <lb ed="#B1" n="3"/>in diuitibus patet. Nam si fuerit natus de parentibus pauperculis, ipsos paren 
+            <lb ed="#B1" n="4"/>tes uix uult inspicere, eo quod pauperes sint, &amp; contemnit eos. Quod super 
+            <lb ed="#B1" n="5"/>bia regnet in locupletibus, uidemus. Quia nee DEVM timent, nec homines 
+            <lb ed="#B1" n="6"/>reuerentur, sed solum faciunt, quod eis placet. Vel potest exponi aliter. Per 
+            <lb ed="#B1" n="7"/>istos quatuor leones, quibus circumfertur currus diuitiarum, intelliguntur  
+            <lb ed="#B1" n="8"/>quatuor uitia, quae communiter regnant in istis diuitibus, scilicet superbia 
+            <lb ed="#B1" n="9"/>luxuria, inuidia, &amp; cupiditas quae auaritiae mater est, quae applica sicut scis  
+            <lb ed="#B1" n="10"/>&amp; uis, &amp;c 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

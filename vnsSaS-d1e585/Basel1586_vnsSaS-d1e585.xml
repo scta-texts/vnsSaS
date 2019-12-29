@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 23 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 23 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="729"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e585">
+        <head xml:id="vnsSaS-d1e585-Hd1e95">Moralitates 23</head>
+        <div xml:id="vnsSaS-d1e585-Dd1e98">
+          <p xml:id="vnsSaS-d1e585-d1e100">
+            <lb ed="#B1" n="7"/>oenitentia depingebatur iterum in templo dea Vestae ad similitudine mi 
+            <lb ed="#B1" n="8"/>litis armati, ad ostendendum quod semper debemus cum Diabolo pugna 
+            <lb ed="#B1" n="9"/>re. Et in galea militis scribebatur sic: Ancora sum faluans, &amp; st abiliens  
+            <lb ed="#B1" n="10"/>homines contra tempestates &amp; undus peccati. In Iorica scribebatur sic: Ho 
+            <lb ed="#B1" n="11"/>mo me deserens, non incedit ratione: quoniam eno sum porta salutis &amp; vite. In scu 
+            <lb ed="#B1" n="12"/>to scribebatur sic: omnes crucem penitentiae assumite, quia ego sum via gratiae, de 
+            <lb ed="#B1" n="13"/>ducens ad ianuam gloriae, &amp;c 
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e585-Dd1e119">
+          <p xml:id="vnsSaS-d1e585-d1e121">
+            <lb ed="#B1" n="14"/>Oenitentia depingebatur ad modum militis, ad ostendendum: Quod dum 
+            <lb ed="#B1" n="15"/>uiuimus nunquam quieti sumus a tentationibus Vnde D. Bernhardus di 
+            <lb ed="#B1" n="16"/>cit: Castrum animae nostrae in terra inimicorum situm est, &amp; undique impu 
+            <lb ed="#B1" n="17"/>gnatur. Inferius pugnat concupiscentia carnis: contra istam uigilet rigor disci 
+            <lb ed="#B1" n="18"/>plinae: superius seuerum iudicium DEI: contra illud uigilet confessionis fre 
+            <lb ed="#B1" n="19"/>quentatio. Retro persequitur mortifera delectatio ex recordatione praeterito  
+            <lb ed="#B1" n="20"/>rum peccatorum: conrra illud uigilias habeat memoria aeternae mortis. Ante 
+            <lb ed="#B1" n="21"/>nos uenit instantia tentationum: contra has excubias agat orationis humilis 
+            <lb ed="#B1" n="22"/>frequentatio. A sinistris instat inquietudo proximorum: Contra illud uigilet  
+            <lb ed="#B1" n="23"/>humilis patientia. A dextris insultat aemulatio de bonis proximi: contra illud  
+            <lb ed="#B1" n="24"/>uigilet fraterna dilectio.
+          </p>
+          <p xml:id="vnsSaS-d1e585-d1e147">
+            <lb ed="#B1" n="25"/>Vnde uita humana bene custodita debet currere per quatuot rotas. In pri 
+            <lb ed="#B1" n="26"/>ma rota debet scribi: Lego, quid feci. In secunda rota: Lego, quid facio: In ter 
+            <lb ed="#B1" n="27"/>tia, Lego, quid faciam. In quarta rota: Lego, unde uenio, quod breuiter ma 
+            <lb ed="#B1" n="28"/>neo &amp; leuiter transeo.
+          </p>
+          <p xml:id="vnsSaS-d1e585-d1e158">
+            <lb ed="#B1" n="29"/>Quatuor stultitias lnuenio in hoc mundo. Prima, quod homo audet uiue 
+            <lb ed="#B1" n="30"/>re in istostatu, scilicet peccati, &amp; tamen nullus audet nec uult mori in eo. Se 
+            <lb ed="#B1" n="31"/>cunda, quod homo quaerit, quae non potest inuenire, &amp; amittit quae potest in 
+            <lb ed="#B1" n="32"/>uenire. Nam homo quaerit diu uiuere, &amp; potest, sed non uult. Tertia, quod ho 
+            <lb ed="#B1" n="33"/>mo non cogitat: quod mors mala &amp; uita bona: id est, uoluptuosa, Luc. 16. 
+            <lb ed="#B1" n="34"/>sic concurrunt. Quarta, quod homo semper intendit benefacere, &amp; tamen 
+            <lb ed="#B1" n="35"/>nunquam benefacit. Et haec faciunt, quia cogitant, quod cras uolunt corrige 
+            <lb ed="#B1" n="36"/>re uitam suam, &amp; non corrigunt, &amp;c 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

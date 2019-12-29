@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 37 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 37 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="738"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e906">
+        <head xml:id="vnsSaS-d1e906-Hd1e95">Moralitates 37</head>
+        <div xml:id="vnsSaS-d1e906-Dd1e98">
+          <p xml:id="vnsSaS-d1e906-d1e100">
+            <lb ed="#B1" n="9"/>LEgitur quod sunt quidam pisces in mari, qui vocantar Delphines: hi vo 
+            <lb ed="#B1" n="10"/>ces hominum, &amp; Aquilonis venti flatum libenter audiunt &amp; percipiunt.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e906-Dd1e108">
+          <p xml:id="vnsSaS-d1e906-d1e110">
+            <lb ed="#B1" n="11"/>Ic multi in hoc seculo, cum flat eis aquilonis uentus: id est, cum accidit eis  
+            <lb ed="#B1" n="12"/> infirmitas corporis, quae benem potest per aquilonem designari, quia uen 
+            <lb ed="#B1" n="13"/>tus est frigidus &amp; obscurus. Dum enim sunt in tali statu, audiunt uocem  
+            <lb ed="#B1" n="14"/>CHRISTI, uocantis peccatores ad poenitentiam, de quibus Esaias: Domine 
+            <lb ed="#B1" n="15"/>in angustia quaesierunt te: Sed cessant flante austro. Per austrum enim quod 
+            <lb ed="#B1" n="16"/>clarum, lucidum &amp; calidum est, intelligitur prosperitas mundi: in qua positi 
+            <lb ed="#B1" n="17"/>mundani, uocati ad poenitentiam non audiunt, sed potius ad culpam redeunt.  
+            <lb ed="#B1" n="18"/>De quibus conqueritur Dominus per leremiam cap. 22. dicens: Locutus 
+            <lb ed="#B1" n="19"/>sum ad te in abundantia tua, &amp; dixisti non audiam. Item tantum indurant  
+            <lb ed="#B1" n="20"/>mundanae prosperitates corda hominum, quod nec DEVM, nec fragilitatem  
+            <lb ed="#B1" n="21"/>propriam ualeant recognoscere. Sed si ab eis auferantur, tunc DEVM &amp; sei 
+            <lb ed="#B1" n="22"/>psos cognoscunt: Vt uidere de Nabuchodonosore rege Babyloniorum, qui  
+            <lb ed="#B1" n="23"/>postquam flagellatus &amp; eiectus est de regno suo, benedixit DEVM coeli, &amp; 
+            <lb ed="#B1" n="24"/>dixit: Benedico uiuentem in secula seculorum, &amp; glorifico Regem coeli: quia 
+            <lb ed="#B1" n="25"/>omnia opera eius uera sunt, &amp; omnes uiae eius iudicia, &amp; gradientes in super 
+            <lb ed="#B1" n="26"/>bia potest humiliare.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 46 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 46 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="746"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e1085">
+        <head xml:id="vnsSaS-d1e1085-Hd1e95">Moralitates 46</head>
+        <div xml:id="vnsSaS-d1e1085-Dd1e98">
+          <p xml:id="vnsSaS-d1e1085-d1e100">
+            <lb ed="#B1" n="25"/>Ro istis xtribus explicandis est quaedam figura, quam tangit beatus Augu 
+            <lb ed="#B1" n="26"/>stinus TVIII. libro de Ciuitate DEI, cap. 13. &amp; 40. de Chimaera. De Chi 
+            <lb ed="#B1" n="27"/>mera &amp; alijs quae diffusius dicuntur, quomodo Bellerophontes eam occide  
+            <lb ed="#B1" n="28"/>rit, iste erat processus. Erant tres reges, amici coniunctissimi &amp; fidelissuni, 
+            <lb ed="#B1" n="29"/>quorum vnus habebat filiam pulcherrimam desponsandam. Pro quae desponsanda 
+            <lb ed="#B1" n="30"/>venerunt parentes eius, vt eam iuueni darent in vxorem. Nullus tamen pro eius 
+            <lb ed="#B1" n="31"/>coniugio reputabatur dignus. Tandem ordinatum erat de ea, quod nullus haberet  
+            <lb ed="#B1" n="32"/>eam in vxorem, nisi Chimeram posset debellare. De ista Chimaera sunt variae o 
+            <lb ed="#B1" n="33"/>piniones, quidam praecipue putant chimaeram animal fuisse monstrosum, cuius 
+            <lb ed="#B1" n="34"/>pars superior erat leo, in parte media capra, in parte inferiori draco, vt indicat 
+            <lb ed="#B1" n="35"/>Lucretius: 
+            <lb ed="#B1" n="36"/>Prima leo, postrema draco, media ipsa * Chimaera. 
+            <lb ed="#B1" n="37"/>quidius lib. 6. Met amorphoseun. 
+            <lb ed="#B1" n="38"/>Quoque Chimaera iugo medijs in partibus hircum, 
+            <lb ed="#B1" n="39"/>Pectus &amp; ora leae, caudam serpentis habebat.  
+            <lb ed="#B1" n="40"/>Quidam autem miles hanc Chimaram deuicit ob amorem puella: Et eam accepit 
+            <lb ed="#B1" n="41"/>&amp; duxit, victo monstro, in vxorem. Ad cuius nuptias veniunt predicti ires reges. 
+            <lb ed="#B1" n="42"/>&amp; quilibet eorum obtulit militi munus suum. Pater puellae obtulit coronam, in quae 
+            <lb ed="#B1" n="43"/>scribebatur sic, NEO0. Secundus Rex obtulit annulum, in quo scriptum crat sic  
+            <lb ed="#B1" n="44"/>LEO O. Tertius Rex obtulit pallium, in quo hoc verbum assignatum erat, scil. TEOO. 
+            <lb ed="#B1" n="45"/>isti tres reges confederati sunt, scilicet, Fortuna, Peccatu, Mors. Et hi quantum ad 
+            <lb ed="#B1" n="46"/>tres particulas prius positas in eadem existunt auctoritate. Vnus istorum generat fi 
+            <!--sap_Page_781.xml-->
+            <pb ed="#B1" n="747"/>
+            <lb ed="#B1" n="1"/>liam, militis fortissimi sponsam, scilicet, Vanam gloriam. Sed nullus istam filiam ha 
+            <lb ed="#B1" n="2"/>bebit in vxorem, nisi possit Chimaeram debellare.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1085-Dd1e160">
+          <p xml:id="vnsSaS-d1e1085-d1e162">
+            <lb ed="#B1" n="3"/>Sta Chimaera est uana religio &amp; poenitentia, quam debet quilibet in princi 
+            <lb ed="#B1" n="4"/>pio debellare, si uelit istam filiam regis in uxorem ducere. Monstra produ 
+            <lb ed="#B1" n="5"/>cuntur ex superfluitate naturae: Quia igitur non uident reges, quod religio 
+            <lb ed="#B1" n="6"/>si &amp; alij poenitentes sint solliciti, sicut isti, circa honorem consequendum, ui  
+            <lb ed="#B1" n="7"/>detur eis, quod ipsi superfluunt. Et qui ducet istam filiam, oportet Chimaeram  
+            <lb ed="#B1" n="8"/>superare, &amp; superfluitatem tanquam monstrum debellare. Istam ergo Chi  
+            <lb ed="#B1" n="9"/>maeram postquam uicerit, ducet filiam Fortunae regis in uxorem, &amp; illi adhae 
+            <lb ed="#B1" n="10"/>rebit tanquam uxori suae. Sed postquam Chimaera fuerit debellata, ista uana  
+            <lb ed="#B1" n="11"/>gloria, sponsa debet duci ad thalamum priuatum. Iste thalamus priuatus est 
+            <lb ed="#B1" n="12"/>tumulus, ubi praedicti tres reges conueniunt. Pater scilicet Fortuna, socer mi 
+            <lb ed="#B1" n="13"/>litis, cui dabat COROVAM: quia stabunt amici tui iuxta pheretrum instar u 
+            <lb ed="#B1" n="14"/>nius coronae. De isto non confidas nimis: quia inscribitur, DNECO. Quod si 
+            <lb ed="#B1" n="15"/>experiri uolueris, uadat aliquis pauper, ut petat eleemosynam: Et statim sibi 
+            <lb ed="#B1" n="16"/>negabitur, &amp; saepe respondebitur, Abi, possibilitas non adest, &amp;c. Secundus 
+            <lb ed="#B1" n="17"/>rex: id est, peccatum, datANNVRVM, in quo scribitur DEO0. Vnde dici 
+            <lb ed="#B1" n="18"/>Chrysostomus homilia 36. Hic enim abscondimus opera nostra, &amp; corda no 
+            <lb ed="#B1" n="19"/>stra celamus, exuta anima, nihil est quod respondeamus: nisi coelum &amp; terra,  
+            <lb ed="#B1" n="20"/>Sol &amp; Luna, dies &amp; nox stabunt aduersus nos in testimonium peccatorum no 
+            <lb ed="#B1" n="21"/>strorum. Etsi omnia taceant, tamen ipsae cogitationes nostrae, &amp; opera nostra 
+            <lb ed="#B1" n="22"/>specialiter stabunt ante oculos nostros, accusantes nos apud DEVM nostrum. 
+            <lb ed="#B1" n="23"/>Tertius Rex scilicet Mors, dabit PALILIVM: in quo scribitur, TEO0. Ille 
+            <lb ed="#B1" n="24"/>rex concedit tibi tantum de terra, quantum corpus tuum poterit tegi. Et lice 
+            <lb ed="#B1" n="25"/>Alexander, ita magnus fuerit, quod toti mundo imperauerit: tamen eum mor: 
+            <lb ed="#B1" n="26"/>tandem inuasit, &amp; pallium quale alijs tale sibi concessit. Ad cuius tumulum 
+            <lb ed="#B1" n="27"/>plures philosophi conuenerunt, quorum unus dixit: Alexander heri ex auro 
+            <lb ed="#B1" n="28"/>fecit amplum thesaurum, nunc econuerso de eo facit angustum sepulchrum. 
+            <lb ed="#B1" n="29"/>Alter dixit: Heri Alexander multos potuit liberare: hodie mortis iacula non 
+            <lb ed="#B1" n="30"/>potuit euitare, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1085-Dd1e226">
+          <p xml:id="vnsSaS-d1e1085-d1e228">
+            <lb ed="#B1" n="31"/>Et non solum mors abscondit mortales corporaliter, sed etiam spiritualiter.  
+            <lb ed="#B1" n="32"/>Vnde optime scripsit: Secundus philosophus de ista materia, cum inquirere 
+            <lb ed="#B1" n="33"/>tur ab eo, quae esset propria conditio mortis. Scripsit in quadam charta duos 
+            <lb ed="#B1" n="34"/>circulos, &amp; in medio diuisit pergamenum uel chartam sic scriptam. Et cum 
+            <lb ed="#B1" n="35"/>circumstantes hanc uiderent &amp; non intelligerent, accessit quidam discipulus 
+            <lb ed="#B1" n="36"/>eius, &amp; scripsit inter duos illos circulos, BEIVI. Et sic ex omnibus literis col  
+            <lb ed="#B1" n="37"/>lectis magistri &amp; discipuli, habebatur OBRIVIO. Reuera sic facimus &amp; nos 
+            <lb ed="#B1" n="38"/>in isto mundo duos circulos. Corpus facit unum circulum, &amp; parentes alium 
+            <lb ed="#B1" n="39"/>Nam corpus egreditur de terra, unde nascitur, &amp; ad eam per separationem a 
+            <lb ed="#B1" n="40"/>nimae reuertitur. Et isto modo sit circulatio ab uno puncto uitae ad eundem  
+            <lb ed="#B1" n="41"/>punctum mortis, iuxta illud: Puluis es &amp; in puluerem reuerteris. Sed paren 
+            <lb ed="#B1" n="42"/>tes faciunt alterum circulum: Quia quando puer uel infans nascitur, mox ad 
+            <lb ed="#B1" n="43"/>ducunt eum ad Ecclesiam *, ut sacrum suscipiat baptismum: &amp; quando mo 
+            <lb ed="#B1" n="44"/>ritur, ipsum reportant, ut sepeliatur: &amp; sic terminatur circumferentia secundi 
+            <lb ed="#B1" n="45"/>circuli. Postquam autem isti duo circuli fuerunt terminati, &amp; corpus sepul  
+            <lb ed="#B1" n="46"/>tum, adiacet substantiae OBEIVIO. Quia pergamenum tuum, uel charta 
+            <lb ed="#B1" n="47"/>erit uacua, &amp;c 
+            <!-- also TEMPUS OMNIUM SEPULTRA (not sure if it is part of main text)-->
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

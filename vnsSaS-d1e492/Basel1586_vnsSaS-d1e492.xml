@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 19 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 19 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="725"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e492">
+        <head xml:id="vnsSaS-d1e492-Hd1e95">Moralitates 19</head>
+        <div xml:id="vnsSaS-d1e492-Dd1e98">
+          <p xml:id="vnsSaS-d1e492-d1e100">
+            <lb ed="#B1" n="37"/>COMMENDATOR Iuuenalis super illud fuuenalis: Ecelo descendi 
+            <lb ed="#B1" n="38"/>VVodi eetuzu, dicit, quod or aculum Apollinis fuit vyoli mournu: id est, 
+            <lb ed="#B1" n="39"/>Nosce teipsum. Vnde oratio depingebatur ad modum hominis, qui ha 
+            <lb ed="#B1" n="40"/>buit caput &amp; cor conuersum ad celum: imago vero fulciebatur quatuor  
+            <lb ed="#B1" n="41"/>angelis, &amp; quilibet tenebat rotulum in manu sua: xcuius pictura erat iste versus: 
+            <lb ed="#B1" n="42"/>Terris, igni, mari, uento, peto praedominari. 
+            <lb ed="#B1" n="43"/>Secundus angelus tenebat in manu sua rotulum aliud, in quo iste versus: 
+            <lb ed="#B1" n="44"/>Vir pete, sum praesto, si plangas cominus asto. 
+            <lb ed="#B1" n="45"/>Tertius angelus tenebat in manu sua aliud rotulum, in quo scriptus erat iste versus: 
+            <lb ed="#B1" n="46"/>Cum petor, accedo: non postolor, inde recedo. 
+            <!--sap_Page_760.xml-->
+            <pb ed="#B1" n="726"/>
+            <lb ed="#B1" n="1"/>Quartus angelus tenebat in manu sau quartum rotulum, in quo scriptus erat  
+            <lb ed="#B1" n="2"/>iste versus: 
+            <lb ed="#B1" n="3"/>Adiuuo constanter, non desero, pugno libenter
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e492-Dd1e136">
+          <p xml:id="vnsSaS-d1e492-d1e138">
+            <lb ed="#B1" n="4"/>ORatio depingebatur conuersa sursum, quod postulans debet ponere 
+            <lb ed="#B1" n="5"/>spem &amp; fiduciam suam totam in Domino, &amp; non haesitare de petitione. 
+            <lb ed="#B1" n="6"/>Exemplum habetur de Helisaeo, qui orauit Dominum pro puero mor 
+            <lb ed="#B1" n="7"/>tuo, &amp; resuscitatus est, 4. Reg. 4. Et depingebatur eum quatuor angelis, ad o 
+            <lb ed="#B1" n="8"/>stendendum, quod angeli sunt semper parati orationes nostras offerre DEO, 
+            <lb ed="#B1" n="9"/>Exemplum de Raphaele, qui dixit, Thobiae cap. 12. Quando orabas cum la 
+            <lb ed="#B1" n="10"/>chrymis, &amp;c. ego obtuli orationem tuam Domino. Sed quatuor sunt angeli 
+            <lb ed="#B1" n="11"/>quod quatuor sunt conditiones orationis deuotae. Prima conditio est, quod  
+            <lb ed="#B1" n="12"/>in omni petitione sit res expediens. Et ideo scribitur iste uersus: 
+            <lb ed="#B1" n="13"/>Terris, igne, mari, vento, peto praedominari.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e492-Dd1e163">
+          <p xml:id="vnsSaS-d1e492-d1e165">
+            <lb ed="#B1" n="14"/>Quod expedit in igne, patet de Helia propheta, qui orauit ut ignis deuora  
+            <lb ed="#B1" n="15"/>ret &amp; descenderet: &amp; descendit &amp; combussit quinquagenarium &amp; quinqua 
+            <lb ed="#B1" n="16"/>ginta suos, 4. Regum 1. cap. Quod oratio expedit uento, patet iterum in He 
+            <lb ed="#B1" n="17"/>lia. Qui orauit, &amp; non descendit ros neque pluuia, in tantum quod Helias pa 
+            <lb ed="#B1" n="18"/>scebatur a coruo, qui mane &amp; uesperi apportauit ei cibum, lib. 4. Reg. cap. 17. 
+            <lb ed="#B1" n="19"/>Quod oratio expedit in aqua, patet de mari rubro, in quo non uidentes terram, 
+            <lb ed="#B1" n="20"/>ut per aquam transire possent, mare diuisit se ad orationem eorum, Exod. 14. 
+            <lb ed="#B1" n="21"/>Item patet de filijs Israel non habentibus aquam ad bibendum, orauit Moy  
+            <lb ed="#B1" n="22"/>ses &amp; eduxit aquam de petra. Nota historiam, Exod. 17. Secunda conditio 
+            <lb ed="#B1" n="23"/>orationis est, ut fiat cum dolore siue contritione, &amp; ideo scribitur iste uersus 
+            <lb ed="#B1" n="24"/>secundi angeli:  
+            <lb ed="#B1" n="25"/>Vir pete, sum prasto. si plangas cominus asto.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e492-Dd1e195">
+          <p xml:id="vnsSaS-d1e492-d1e197">
+            <lb ed="#B1" n="26"/>Exemplum sume dae Excechia rege ludaeorum, cum grauiter ad mortem ae 
+            <lb ed="#B1" n="27"/>grotassat, &amp; cum Iachrymis ad Dominum orasset. Nota historiam usque ad re 
+            <lb ed="#B1" n="28"/>uersionem Solis, 4. Regum 20. 2. Paralip. 32. Esaiae 38. Tertia conditio ora 
+            <lb ed="#B1" n="29"/>tionis est, ut sit continua. Et ideo scribitur iste uersus: 
+            <lb ed="#B1" n="30"/>Cum petor accedo, non postulor, inde recedo.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e492-Dd1e212">
+          <p xml:id="vnsSaS-d1e492-d1e214">
+            <lb ed="#B1" n="31"/>Exemplum de Moyse, cessante oratione eius, uincebat Amalech Israelitas. 
+            <lb ed="#B1" n="32"/>Nota diligenter totam historiam, Exod. 17. Cum leuaret Moyses manus, uin 
+            <lb ed="#B1" n="33"/>cebat liraei: sin autem paululum remisisset, superabat Amalec. Quarta con 
+            <lb ed="#B1" n="34"/>ditio orationis, quod fiat cum omni diligentia &amp; intentione: Ideo scribitur  
+            <lb ed="#B1" n="35"/>ille versus:
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e492-Dd1e228">
+          <p xml:id="vnsSaS-d1e492-d1e230">
+            <lb ed="#B1" n="36"/>Exemplum de Iuda Machabaeo, qui oratione praemissa intrauit bellum: &amp; 
+            <lb ed="#B1" n="37"/>statim aduersarijs uiri in equis de coelo apparuerunt, ex quibus duo Macha 
+            <lb ed="#B1" n="38"/>baeum in medio habentes, armis circumseptum incolumem seruauerunt, &amp; in 
+            <lb ed="#B1" n="39"/>aduersarios tela &amp; fulmina iaciebant: ex quo &amp; caecitate confusi, &amp; repleti per 
+            <lb ed="#B1" n="40"/>turbatione cadebant. Interfecti autem sunt uiginti millia, quingenti, &amp; sexcen 
+            <lb ed="#B1" n="41"/>ti equites, 3. Machab 10.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

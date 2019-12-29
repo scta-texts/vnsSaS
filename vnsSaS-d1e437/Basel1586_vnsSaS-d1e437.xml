@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 17 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 17 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="724"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e437">
+        <head xml:id="vnsSaS-d1e437-Hd1e95">Moralitates 17</head>
+        <div xml:id="vnsSaS-d1e437-Dd1e98">
+          <p xml:id="vnsSaS-d1e437-d1e100">
+            <lb ed="#B1" n="5"/>LEgitur secundum Remigium in annalibus ludaeorum, quod erat quaedam  
+            <lb ed="#B1" n="6"/>domina adamata &amp; desiderata a quatuor regibus, quae sibi varia dona 
+            <lb ed="#B1" n="7"/>promiserunt, &amp; literas diuersas scripserunt. Litera prima missa a primo re 
+            <lb ed="#B1" n="8"/>ge scilicet Carne, hec erat: I voluptate delitiaru erit tota vita tuasi con 
+            <lb ed="#B1" n="9"/>iuncta mihi fueris per emorem. Litera secunda missa a secundo Rege scil. 2 
+            <lb ed="#B1" n="10"/>Mundo talis est: In abundantia diuitiarum &amp; gaudij cordis deduceres dies tuos si 
+            <lb ed="#B1" n="11"/>coniuncta mihi fueris per coniugium. Litera transmissa dominae a tertio rege scili 
+            <lb ed="#B1" n="12"/>cet Diabolo, haec est: Super omnes te extollam per superbiam, si mihi coniuncta fue 
+            <lb ed="#B1" n="13"/>ris per obedientiam. Litera quarti regis videlicet CHRISTI sic erat: Si mthi con 
+            <lb ed="#B1" n="14"/>senseris, regina eris in faelici vita, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e437-Dd1e125">
+          <p xml:id="vnsSaS-d1e437-d1e127">
+            <lb ed="#B1" n="15"/>ISta domina est anima rationalis in homine: si uult euadere laqueos litera  
+            <lb ed="#B1" n="16"/>rum trium regum, unicuique regum sic respondebit. Responsio dominae pri 
+            <lb ed="#B1" n="17"/>mo regi: Voluptatem &amp; delectationem frequenter sensi, sed earum finis est 
+            <lb ed="#B1" n="18"/>amarus, ideo respuo. Responsio dominae secundo regi: Diuitiae mundanae &amp; 
+            <lb ed="#B1" n="19"/>gaudia humana crebro ueniunt &amp; transeunt sicut umbra, ideo respuo, quia fal 
+            <lb ed="#B1" n="20"/>libilia esse cerno. Responsio dominae ad tertium regem: De superbia &amp; excel  
+            <lb ed="#B1" n="21"/>lentia nolo amplius gloriari, quia mors tollit pauperem cum nobili militari. 
+            <lb ed="#B1" n="22"/>Responsio dominae ad quartum regem: Corde toto te affecto, nolo alium prae 
+            <lb ed="#B1" n="23"/>dilecto, pro omnibus transgressionibus ueniam expecto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

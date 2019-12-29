@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 28 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 28 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="732"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e703">
+        <head xml:id="vnsSaS-d1e703-Hd1e95">Moralitates 28</head>
+        <div xml:id="vnsSaS-d1e703-Dd1e98">
+          <p xml:id="vnsSaS-d1e703-d1e100">
+            <lb ed="#B1" n="14"/>ARRAT Plinius, quod est quaedam arbor in india, cuius flores &amp; fru 
+            <lb ed="#B1" n="15"/>ctus dulcem habent non solum odorem, sed etiam saporem, &amp; iuxta prae 
+            <lb ed="#B1" n="16"/>dictam arborem manet quidam serpens, qui vocatur: acrisus. Iste odo 
+            <lb ed="#B1" n="17"/>rem arboris multum odit: &amp; ideo vt flores &amp; fructus penitus destruat  
+            <lb ed="#B1" n="18"/>ad radicem arboris veniens, illam intoxicat, &amp; sibi venenum propetrat. Quod vi 
+            <lb ed="#B1" n="19"/>dentes hortulani ipsius paratam tyriacam accipiunt, &amp; in quadam virga in summi 
+            <lb ed="#B1" n="20"/>tate ipsius arboris infundunt, &amp; mox inde venenum expellunt, &amp; radicem, quam 
+            <lb ed="#B1" n="21"/>prius venenum infecerat, statim fecundam reddit, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e703-Dd1e121">
+          <p xml:id="vnsSaS-d1e703-d1e123">
+            <lb ed="#B1" n="22"/>PEr istam arborem potest intelligi homo, Matth. 8. Vidi homines quasi ar 
+            <lb ed="#B1" n="23"/>bores ambulantes: fructus huius arboris sunt opera bona. Nam sicuti fru 
+            <lb ed="#B1" n="24"/>ctus conditionem arboris ostendunt: sic opera bona conditionem homi 
+            <lb ed="#B1" n="25"/>nis manifestant, Matth. 7. Ex fructibus eorum cognoscetis eos. Fructus dul  
+            <lb ed="#B1" n="26"/>ces &amp; sapidos produxit haec arbor ante lapsum, ut uere de ea illud Sapientiae 
+            <lb ed="#B1" n="27"/>possit dici: Flores mei fructus honoris &amp; honestatis. Hos fructus &amp; odorem  
+            <lb ed="#B1" n="28"/>suauitatis antiquus serpens sustinere non potuit, sed uenenum in ea posuit, &amp; 
+            <lb ed="#B1" n="29"/>radicem uastauit: quando peccatum posuit in primo parente: &amp; sic illa arbor  
+            <lb ed="#B1" n="30"/>infecta stat: Quia fructum dulcem afferre DEO non potuit, cum per nulla o 
+            <lb ed="#B1" n="31"/>pera quantumcunque bona, homo in coelum ingredi potuit. Sed sapiens hor 
+            <lb ed="#B1" n="32"/>tulanus, scilicet Pater coelestis tyriacam infudit in una uirga istius arboris. Ista 
+            <lb ed="#B1" n="33"/>uirga fuit beata uirgo Maria, de qua Esaias dicit: Et egredietur uirga de radice 
+            <lb ed="#B1" n="34"/>lesse, &amp; flos de radice eius ascendet, &amp;c. In hac igitur Virga posita fuit tyriaca:  
+            <lb ed="#B1" n="35"/>qua Filius DEI missus fuit in uterum Virginis, qui natus est de Virgine, &amp; ue 
+            <lb ed="#B1" n="36"/>nenum peccati a genere humano per carnis suae supplicium expulit. Et sic ar 
+            <lb ed="#B1" n="37"/>bor ista dulcedinem pristinam, mediante tyriaca, recepit: quia nunc potest ho 
+            <lb ed="#B1" n="38"/>mo per fructum boni operis &amp; poenitentiae consequi uitam aeternam, Rom. 6. 
+            <lb ed="#B1" n="39"/>Nunc aut liberati a peccato, serui aut facti DEO, habetis fructum uestrum in 
+            <lb ed="#B1" n="40"/>sanctificationem, finem uero uitam aeternam. Stipendia enim peccati, mors. Gra 
+            <lb ed="#B1" n="41"/>tia autem DEI, uita aeterna in Christo IESVDomino nostro, Amen
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

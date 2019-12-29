@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 16 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 16 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="723"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e413">
+        <head xml:id="vnsSaS-d1e413-Hd1e95">Moralitates 16</head>
+        <div xml:id="vnsSaS-d1e413-Dd1e98">
+          <p xml:id="vnsSaS-d1e413-d1e100">
+            <lb ed="#B1" n="24"/>Efert Boëthius de consolatione libro quarto, metro tertio: quod quidam. 
+            <lb ed="#B1" n="25"/>miles, quem Neritium ducem vocat in carmine, nomine Vlysses, cum so 
+            <lb ed="#B1" n="26"/>cijs suis rediret de bello Troiano, errando per mare depulius est in quan 
+            <lb ed="#B1" n="27"/>dam insulam, in qua habitabat quaedam maga nomine * Circe, quae fuit  
+            <lb ed="#B1" n="28"/>recina. Ista maga de quibusdam herbis potum praeparauit, &amp; dedit socijs Vlistis, &amp; 
+            <lb ed="#B1" n="29"/>biberunt, &amp; statim in diuersa animalia sunt mutati. Sed Vlysses habens florem de 
+            <lb ed="#B1" n="30"/>Mer curio in manu sua, &amp; isti maëae eum ostendens, per virtutem istiusstoris eua 
+            <lb ed="#B1" n="31"/>sit, erupit, ne mutaretur sicut soci lui, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e413-Dd1e121">
+          <p xml:id="vnsSaS-d1e413-d1e123">
+            <lb ed="#B1" n="32"/>PEr istum Vlyssem intelligo CHRISTVM: per socios suos omnes homi 
+            <lb ed="#B1" n="33"/>nes qui CHRISTO assimilantur per naturam sibi iunctam. Per magam 
+            <lb ed="#B1" n="34"/>illam intelligo mundi deceptoriam uanitatem: per insulam, mundum. Nam 
+            <lb ed="#B1" n="35"/>ista maga, mundi scilicet uanitas potum secum portat &amp; parat sociis Vlyssis, quan  
+            <lb ed="#B1" n="36"/>do homines inducit ad diuersa peccata, ex quibus habetis delectationibus in a 
+            <lb ed="#B1" n="37"/>nimalia irrationabilia transformantur: quia de peccato ad peccatum ex appe  
+            <lb ed="#B1" n="38"/>titu sensitiuo ducuntur. Sed nota in quae animalia homines modo transfor 
+            <lb ed="#B1" n="39"/>mati sunt. Certe in simiam, bubonem &amp; asinum. Per simiam intelligo super 
+            <lb ed="#B1" n="40"/>bum, qui sicut simia uult facere omnia quae uidet alios facere, &amp; omnia sibi li  
+            <lb ed="#B1" n="41"/>cere putat. Et ideo nota narrationem de simia, quae proprium collum uoluit  
+            <lb ed="#B1" n="42"/>amputare: ita faciunt modo homines: &amp; ita bene per simiam intelligimus su 
+            <lb ed="#B1" n="43"/>perbum. Per bubonem intelligo luxuriosum. Quia sicut uidemus, quod bu 
+            <lb ed="#B1" n="44"/>bo communiter non uolat, nec diligit nisi tenebras: ita luxuriosi modo ma 
+            <lb ed="#B1" n="45"/>nent in tenebris peccatorum, &amp; diligunt loca obscura, ut ibi compleant pra 
+            <lb ed="#B1" n="46"/>uas suas operationes. Per asinum intelligo cupidum. Nam sicut asini quan  
+            <lb ed="#B1" n="47"/>tumcunque grauibus oneribus succumbant, nunquam tamen recalcitrantur. Sic 
+            <lb ed="#B1" n="48"/>cupidi quantumcunque diuitijs affluant, non tamen satiantur, nunquam di 
+            <!--sap_Page_758.xml-->
+            <pb ed="#B1" n="724"/>
+            <lb ed="#B1" n="1"/>cunt, satis est. Nota quomodo primi nostri parentes potati sunt de illo potu 
+            <lb ed="#B1" n="2"/>&amp; quomodo transformati erant, &amp; similitudinem DEI amiserant, &amp;c. Sed  
+            <lb ed="#B1" n="3"/>de isto potu non bibit Vlysses, quoniam praeseruatus fuit flore Mercurij: id  
+            <lb ed="#B1" n="4"/>est, potestate suae diuinitatis
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 47 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 47 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="748"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e1109">
+        <head xml:id="vnsSaS-d1e1109-Hd1e95">Moralitates 47</head>
+        <div xml:id="vnsSaS-d1e1109-Dd1e98">
+          <p xml:id="vnsSaS-d1e1109-d1e100">
+            <!--sap_Page_782.xml-->
+            <pb ed="#B1" n="748"/>
+            <lb ed="#B1" n="1"/>LEgitur pardbdlice ue quodam rege, tres filios habente, &amp; iam volente de 
+            <lb ed="#B1" n="2"/>regno luo secundum ex tremam suam voluntatem disponere. Conuocatis  
+            <lb ed="#B1" n="3"/>coram se tribus filijs suis, dixit: Se pigriori velle regnum legare. Tunc ait 
+            <lb ed="#B1" n="4"/>primus filius: Mhi igitur detur regnum: quia adeo piger sum, quod ad i 
+            <lb ed="#B1" n="5"/>gnem sedens prius crura comburi permitto, quam inde me retrano. Secundus dixit.  
+            <lb ed="#B1" n="6"/>mihi debetur: quia magis ad regnum propter acediam aptior. Nom cum funem in 
+            <lb ed="#B1" n="7"/>collo habeam &amp; mox suspendi debeam, &amp; qladium in mea manu teneam, propter ma 
+            <lb ed="#B1" n="8"/>gnam pigritiam meam ad scindendam, chordam manum non extendo. Imo subdi  
+            <lb ed="#B1" n="9"/>tertius: Ego regnare debeo: quia pigritia cateros praecello, dicens: Supinus in fecto ia 
+            <lb ed="#B1" n="10"/>ce0. &amp; gutte pluuiarum super vtrumque oculum cadunt, &amp; propter nimiam meam pi 
+            <lb ed="#B1" n="11"/>gritiam a strato meo nescio me mouere, neque ad dextram neque ad sinistram possum 
+            <lb ed="#B1" n="12"/>hanc tadiosam pluuiam amouere. Audiens hoc Rex isti vltimo tanquam pigriori 
+            <lb ed="#B1" n="13"/>filio suo legauit regnum, negligentioribus &amp; somnolentioribus test amento singula 
+            <lb ed="#B1" n="14"/>riter ordinatum,
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1109-Dd1e138">
+          <p xml:id="vnsSaS-d1e1109-d1e140">
+            <lb ed="#B1" n="15"/>Ste Rex Diabolus est, qui rex super omnes filios superbiae, lob 41. &amp; pater  
+            <lb ed="#B1" n="16"/>filiorum &amp; seruorum pigrorum &amp; malorum. Per primum filium ille con 
+            <lb ed="#B1" n="17"/>grue designatur, qui existens in societate peruersa, per quam ad mala &amp; im 
+            <lb ed="#B1" n="18"/>ietatem incenditur, magis eligit igne peccati cremari, quam a toto consortio 
+            <lb ed="#B1" n="19"/>malorum separari. Secundus filius signat illum hominem, qui licet uideat se 
+            <lb ed="#B1" n="20"/>peccatorum suorum funibus circumplexum, &amp; mox suspendendum ad inferni 
+            <lb ed="#B1" n="21"/>patibulum, tamen funem peccati praescindere gladio linguae in confessione 
+            <lb ed="#B1" n="22"/>non potest, nec uult. Tertius uero filius figurat illum, qui audit doctrinam de 
+            <lb ed="#B1" n="23"/>paradisi gaudio, &amp; inferni supplicio: &amp; tamen ductus uel superatus maxima 
+            <lb ed="#B1" n="24"/>&amp; detestabili pigritia, statum suum non dimittit, nec se uoluit ad dextram 
+            <lb ed="#B1" n="25"/>amore &amp; desiderio praemiorum: nec ad sinistram, ut saltem  
+            <lb ed="#B1" n="26"/>peccatum deserat metu &amp; tremore infer 
+            <lb ed="#B1" n="27"/>ni tormentorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

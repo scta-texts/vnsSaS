@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 45 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 45 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="745"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e1062">
+        <head xml:id="vnsSaS-d1e1062-Hd1e95">Moralitates 45</head>
+        <div xml:id="vnsSaS-d1e1062-Dd1e98">
+          <p xml:id="vnsSaS-d1e1062-d1e100">
+            <lb ed="#B1" n="41"/>Epingebatur domina Fortuna, secundum quidium in fallacijs fortunae. 
+            <lb ed="#B1" n="42"/>habere in manu sinistra tres flores: scilicet rosammarcidam, quae signat  
+            <lb ed="#B1" n="43"/>Tfortunam, quae cito citius transit. Depingebatur etiam cum lilio deciden 
+            <lb ed="#B1" n="44"/>tibus folijs: ad designandum: Quod gratiae nobis date scilicet corporales  
+            <lb ed="#B1" n="45"/>non sunt firme, sed facile desluentes, &amp; intereuntes, &amp; intercidentes. Folia enim li  
+            <lb ed="#B1" n="46"/>lij dum florent, lilio adhaerent, &amp; suauiter odorant, &amp; visum confortant: sed cum 
+            <lb ed="#B1" n="47"/>de stipite cadunt, uili ssime fetent. Sic gratie nostrae corporales, dum florent in iuuen 
+            <lb ed="#B1" n="48"/>tute optime sapiunt: sed cum peruenerimus ad senectutem: quando caligare inci 
+            <lb ed="#B1" n="49"/>piunt oculi, &amp; alij sensus ad terram declinare: scilicet oculi obscurantur, vacillant  
+            <!--sap_Page_780.xml-->
+            <pb ed="#B1" n="746"/>
+            <lb ed="#B1" n="1"/>articuli, nires fuunt, dinte te ae xescunt, languet spiritus, fetet anhelitus facies &amp; 
+            <lb ed="#B1" n="2"/>statura rugosa deficuns crn&amp; ee 7: tunc cadunt folia lilij prius florentis, &amp; manifennt 
+            <lb ed="#B1" n="3"/>patent miseria corporis negtri. Fe xtio, depicta est cum flore, quae dicitur Solsequium, a ore 
+            <lb ed="#B1" n="4"/>cis appellatur vcrpemiu: Et Daec significat seuitiam mortis immineniis. Sicut e. 
+            <lb ed="#B1" n="5"/>nim Sole lucente solsequium aperitur, &amp; Sole occumbente, occluditur: Sic gratia ni 
+            <lb ed="#B1" n="6"/>strae corporales spost quam Sol prosperitatis nobis luxerit &amp; caluerit: tandem oc 
+            <lb ed="#B1" n="7"/>cumbente Sole: id est, uita nostra recedente &amp; caliginosa &amp; frigida mortis nocte ac 
+            <lb ed="#B1" n="8"/>cedente, in quodam cemiterio, viridi tumulo clauduntur &amp; absconduntur Hinc  
+            <lb ed="#B1" n="9"/>cognoscamus nostram fluxam &amp; miseram vitam in tribus fortune floribus pulchrt 
+            <lb ed="#B1" n="10"/>descriptam: neque speremus diu manere in hac multis miserijs &amp; peccatis mortife 
+            <lb ed="#B1" n="11"/>ris repleta vita, vbi videmus alios &amp; nos breuiter &amp; cito pertransire. Vtinam at  
+            <lb ed="#B1" n="12"/>tenderent mortales, quod dicit D. Bernhardus in libro Meditationum cap. 2. Cur 
+            <lb ed="#B1" n="13"/>ergo tantopere (inquit) vitam istam desider amus, in qua quanto amplius viuimus. 
+            <lb ed="#B1" n="14"/>tanto plus peccamus. Quanto enim vita est longior, tanto culpa numerosior. Quoti 
+            <lb ed="#B1" n="15"/>die namque crescunt mala, &amp; subtrahuntur bona. Asidue variatur homo per pra 
+            <lb ed="#B1" n="16"/>spera &amp; aduersa, &amp; ignorat quando moriatur. Sicut enim in celo stella coruscam 
+            <lb ed="#B1" n="17"/>currit velociter: &amp; repente deficit: &amp; sicut scintilla ignis subito exiinguitur, &amp; in 
+            <lb ed="#B1" n="18"/>cinerem redigitur:  
+            <lb ed="#B1" n="19"/>Sic cito finitam datur istam cernere uitam. 
+            <lb ed="#B1" n="20"/>Item: 
+            <lb ed="#B1" n="21"/>Cernis in hac urna, quam non sit uita diurna. 
+            <lb ed="#B1" n="22"/>Et quia non durat, miser est qui uiuere curat.  
+            <lb ed="#B1" n="23"/>Item. 
+            <lb ed="#B1" n="24"/>Fumus homo &amp; bulla est, stupa, umbra &amp; fictilis urna
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

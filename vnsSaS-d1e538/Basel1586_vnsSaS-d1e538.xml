@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 21 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 21 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="726"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e538">
+        <head xml:id="vnsSaS-d1e538-Hd1e95">Moralitates 21</head>
+        <div xml:id="vnsSaS-d1e538-Dd1e98">
+          <p xml:id="vnsSaS-d1e538-d1e100">
+            <lb ed="#B1" n="8"/>Efert Titus Liuius, quod Romae fuit inuenta vna mensa aurea, &amp; consu 
+            <lb ed="#B1" n="9"/>labatur Apollo, quibus esset danda, respondit: Quod sapientiae amatori 
+            <lb ed="#B1" n="10"/>bus. Et tunc iuxta responsum data Thaleti: Thales autem ex sua humili  
+            <lb ed="#B1" n="11"/>tate misit eam Bianti, Bias Pittaco, pittacus periandro, &amp; sic semper al 
+            <lb ed="#B1" n="12"/>ter alteri: &amp; per septem vsque peruenit * Salomoni, qui virtutem humilitatis depin 
+            <lb ed="#B1" n="13"/>xit in eam, &amp; imaginem humilitatis posuit in templo Apollinis. Erat autem imago 
+            <lb ed="#B1" n="14"/>humilitatis facta ad similitudinem cuiusdam hominis inclinantis caput &amp; corpus 
+            <lb ed="#B1" n="15"/>deorsum, eo quod humilitas humilia respicit, &amp; no alta: id est, superba. Manus istiu. 
+            <lb ed="#B1" n="16"/>imaginis fulciebatur duabus alis, &amp; pedes duabus, &amp; pectus vna al4. Primo in al 
+            <lb ed="#B1" n="17"/>dextre manus erat scriptus ille versus: 
+            <lb ed="#B1" n="18"/>Sum caro x despecta, cutis hispida, puluere tecta: 
+            <lb ed="#B1" n="19"/>Secundo, in ala alterius manus erat scriptus ille versiculus: 
+            <lb ed="#B1" n="20"/>Conscia deploro ueniam, rea criminis oro.  
+            <lb ed="#B1" n="21"/>In ala dextri pedis erat ille versus descriptus: 
+            <lb ed="#B1" n="22"/>Sum mens inculta, mens decipit, errat adulta 
+            <lb ed="#B1" n="23"/>In ala sinistri pedis erat assignatum hoc monostichon: 
+            <lb ed="#B1" n="24"/>Sum pia, nec temere sperno, nec iudico quenquam: 
+            <lb ed="#B1" n="25"/>in pectoris ala hoc erat carmen adscriptum: 
+            <lb ed="#B1" n="26"/>Sic sum depicta, cito prosequar hic pia dicta
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e538-Dd1e145">
+          <p xml:id="vnsSaS-d1e538-d1e147">
+            <lb ed="#B1" n="27"/>Era humilitas habet quinque bonas conditiones. Prima est, quod natu  
+            <lb ed="#B1" n="28"/>ra per se humilis reputat se coram omnibus uilem. In cuius figura scribe 
+            <lb ed="#B1" n="29"/>batur uersus: Sumcaro, &amp;c. Exemplum habetur de Dauid, qui secun 
+            <lb ed="#B1" n="30"/>dum testimonium Sacrae scripturae, 1. Reg. 16. erat rusus, pulcher &amp; decorus 
+            <lb ed="#B1" n="31"/>aspectu &amp; tamen de seipso dicebat: Quid persequeris Rex Israel: quem per 
+            <lb ed="#B1" n="32"/>sequeris: canem mortuum persequeris, &amp; pulicem unum, 2. Regum, 24. cap.  
+            <lb ed="#B1" n="33"/>Sic Abraham Genes. 18. cap.
+          </p>
+          <p xml:id="vnsSaS-d1e538-d1e165">
+            <lb ed="#B1" n="34"/>Secunda conditio per se etiam humilis est, quod reputat se * abominabi  
+            <lb ed="#B1" n="35"/>lem in conscientia. In cuius figura scribebatur ille versus: conscia deploro, &amp;c 
+            <lb ed="#B1" n="36"/>Exemplum habetur de Publicano humili in templo, qui nolebat oculos suos 
+            <lb ed="#B1" n="37"/>ad coelum leuare, Luc. 18.
+          </p>
+          <p xml:id="vnsSaS-d1e538-d1e176">
+            <lb ed="#B1" n="38"/>Tertia conditio personae humilis est, quod reputat se exilem in scientia: in 
+            <lb ed="#B1" n="39"/>cuius figura scribebatur iule versus: Sum mens inculta, &amp;c. Exemplum de hoc 
+            <lb ed="#B1" n="40"/>habetur in leremia propheta, qui cum mitteretur ad prophetandum ex magna 
+            <lb ed="#B1" n="41"/>humilitate profitetur de seipso: Nescio loqui, quia puer ego sum, lerem. cap. 1 
+            <lb ed="#B1" n="42"/>Sic sapiens Socrates ait: Hoc unicum scio, me nihil scire. Quod uero uersicu 
+            <lb ed="#B1" n="43"/>lus habet, mens decipit, errat adulta, bene nobis notandum uenit, ut cognosca 
+            <lb ed="#B1" n="44"/>mus nostram miseriam, &amp; omni tempore humiliter de nobis sentiamus, nec 
+            <lb ed="#B1" n="45"/>ullam perfectionem in hac uita nobis somniemus, taceo quod speremus. Nen 
+            <lb ed="#B1" n="46"/>scimus quid serus afferat uesper: Multos decepit mens adulta, &amp; grauiter er 
+            <!--sap_Page_762.xml-->
+            <pb ed="#B1" n="728"/>
+            <lb ed="#B1" n="1"/>rarunt: ut Salomon sapiens in senectute mente deceptus adorat idola, 3. Re 
+            <lb ed="#B1" n="2"/>gum lib. 11. cap. Cicero iam senex eloquentissimus destruxit Rempublicam  
+            <lb ed="#B1" n="3"/>Romanam, &amp; libertatem commendatione adolescentis in extremam perni 
+            <lb ed="#B1" n="4"/>ciem deduxit. Samson fortissimus quanto adultior, tanto morti &amp; casui uici 
+            <lb ed="#B1" n="5"/>nior. Sic Saulum regem potentem mens decepit adulta, ut a Domino &amp; ueri 
+            <lb ed="#B1" n="6"/>tate defecerit. Igitur in omnibus donis tuis te humilem exhibe, &amp; in cunctis  
+            <lb ed="#B1" n="7"/>rebus hominem te esse cogita, cuius proprium est errare, raro recte sapere &amp; 
+            <lb ed="#B1" n="8"/>bene agere. Perpende illud dictum Solonis philosophi: Foelicitatis iudex ul  
+            <lb ed="#B1" n="9"/>timus dies, sicuti &amp; Ouidius libro 3. Metamorphos. Solonis sententiam pul  
+            <lb ed="#B1" n="10"/>chre proponit inquiens: 
+            <lb ed="#B1" n="11"/>sed scilicet vltima semper 
+            <lb ed="#B1" n="12"/>Expect anda dies homini est, dicique beatus 
+            <lb ed="#B1" n="13"/>Ante obitum nemo supremaque funera debet.
+          </p>
+          <p xml:id="vnsSaS-d1e538-d1e231">
+            <lb ed="#B1" n="14"/>Quarta conditio personae humilis est, quod sit boni iudicij, &amp; bonae opi 
+            <lb ed="#B1" n="15"/>nionis, quantum ad proximos: In cuius figura scribebatur sic: Sumpia, &amp;c 
+            <lb ed="#B1" n="16"/>Exemplum de hoc habetur in Sacra scripturatquod tamen aduersatur quartae 
+            <lb ed="#B1" n="17"/>conditioni humilitatis iam nominatae) de Michol uxore Dauidis, quae male 
+            <lb ed="#B1" n="18"/>iudicauit de Dauide marito optimo: propterea priuauit eam DEVS liberis,  
+            <lb ed="#B1" n="19"/>lib. 2. Reg. cap. 6.
+          </p>
+          <p xml:id="vnsSaS-d1e538-d1e247">
+            <lb ed="#B1" n="20"/>Quinta conditio personae humilis est, quod sit promptae obedientiae &amp; bo 
+            <lb ed="#B1" n="21"/>nae executionis. In cuius figura scribebatur iule versus: Sic sum depicta, &amp;c 
+            <lb ed="#B1" n="22"/>Exemplum conforme habetur de beata uirgine Maria, quae ad uocem angeli  
+            <lb ed="#B1" n="23"/>mox respondit: Ecce ancilla Domini, fiat mihi secundum uerbum tuum. Vn 
+            <lb ed="#B1" n="24"/>de D.Ambrosius inquit: Ex castitate DEO placuit, sed ex humilitate DEVM 
+            <lb ed="#B1" n="25"/>concepit, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

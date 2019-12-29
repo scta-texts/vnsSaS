@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 25 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 25 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="730"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e628">
+        <head xml:id="vnsSaS-d1e628-Hd1e95">Moralitates 25</head>
+        <div xml:id="vnsSaS-d1e628-Dd1e98">
+          <p xml:id="vnsSaS-d1e628-d1e100">
+            <lb ed="#B1" n="31"/>SEcundum ouidium de arte amandi: Amor efficit redamantes x vna mens: 
+            <lb ed="#B1" n="32"/>in honore participes, in labore excutit fastidium, &amp; inducit solatium. Et secun 
+            <lb ed="#B1" n="33"/>dum istas quatuor conditiones amorisut recitat Trotanus) Helena depinxit  
+            <lb ed="#B1" n="34"/>Deam amoris cir cumrotatam quatuor rotis. In prima rota scriptum erat:  
+            <lb ed="#B1" n="35"/>HoNO Ro. In circultu eius iste versus: 
+            <lb ed="#B1" n="36"/>Est amor insulsus, in honorum laude repulsus. 
+            <lb ed="#B1" n="37"/>In secunda rota scriptum erat: LAEO Ro. Et in circuitu eius iste versus: 
+            <lb ed="#B1" n="38"/>Balnea mille mei labor &amp; zelus pharisaesid est, diuisi  
+            <lb ed="#B1" n="39"/>In tertia rota sic scribebatur: DELECTO R.Et in circuitu eius iste versus: 
+            <lb ed="#B1" n="40"/>Hic amor egregius uel dulcor in ossibus haeret. 
+            <lb ed="#B1" n="41"/>In quaerta rota scriptum erat: COo NSOLO R.In circuitus eius ille versus: 
+            <lb ed="#B1" n="42"/>Sunt meus ob uisus adamantis carmina risus.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e628-Dd1e130">
+          <p xml:id="vnsSaS-d1e628-d1e132">
+            <lb ed="#B1" n="43"/>Stas quatuor conditiones amoris Maria Magdalena ostendit Domino no 
+            <lb ed="#B1" n="44"/>stro iESVCHRISTO. Primo honorem: quando CHRISTVS in specie 
+            <lb ed="#B1" n="45"/>hortulani dixit illi, Maria. At illa conuersa, cognoscens uocem IESV, ge 
+            <lb ed="#B1" n="46"/>nu flexit &amp; adorauit: &amp; uoluit osculari pedes eius. Secundo ostendit laborem: 
+            <lb ed="#B1" n="47"/>quia cum adhuc tenebrae essent, uenit ad monumentum, &amp; ibi remansit plorans
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e628-Dd1e146">
+          <p xml:id="vnsSaS-d1e628-d1e148">
+            <!--sap_Page_765.xml-->
+            <pb ed="#B1" n="731"/>
+            <lb ed="#B1" n="1"/>Tertio ostendit delectationem, quando recedentibus discipulis ipsa non re 
+            <lb ed="#B1" n="2"/>cessit, sed amoris eius igne accensa, ardebat eius desiderio. Quarto ostendit  
+            <lb ed="#B1" n="3"/>consolationem: quia praeuenit ungere corpus IESV in memoriam &amp; sepul 
+            <lb ed="#B1" n="4"/>turam. Sed quilibet Chhistianus ostendat haec signa amoris cum &amp; Domino 
+            <lb ed="#B1" n="5"/>IESVSaluatore suo, tum &amp; proximo tanquam membro suo, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

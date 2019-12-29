@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 35 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 35 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="738"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e863">
+        <head xml:id="vnsSaS-d1e863-Hd1e95">Moralitates 35</head>
+        <div xml:id="vnsSaS-d1e863-Dd1e98">
+          <p xml:id="vnsSaS-d1e863-d1e100">
+            <lb ed="#B1" n="39"/>Sinus semel induit pellem leonis, qui veniens inter alias bestias elatus est 
+            <lb ed="#B1" n="40"/>in superbiam: quia sibi supra x modum solitum habere referebat, coepit 
+            <lb ed="#B1" n="41"/>eas pedibus conculcare, &amp; despectas habere. Venit autem dominus auni 
+            <lb ed="#B1" n="42"/>c quaerens eum. Sed minime ipsum cognoscens propter pellem, quam su 
+            <!--sap_Page_773.xml-->
+            <pb ed="#B1" n="739"/>
+            <lb ed="#B1" n="1"/>per se habebat: Diu tamen &amp; melius intuens, cognouit eum per longas aures e 
+            <lb ed="#B1" n="2"/>ius, &amp; dixit. 
+            <lb ed="#B1" n="3"/>Forsitan ignotos mutato murmure fallis  
+            <lb ed="#B1" n="4"/>Es mihi qui quondam semper asellus eris.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e863-Dd1e125">
+          <p xml:id="vnsSaS-d1e863-d1e127">
+            <lb ed="#B1" n="5"/>PEr istum asinum intelligo quemlibet habentem sensum asininum, &amp; di 
+            <lb ed="#B1" n="6"/>mittentem rationem &amp; cognitionem sui. Vnde Psalmus: Nolite fieri si 
+            <lb ed="#B1" n="7"/>cut equus &amp; mulus, quibus non est intellectus, &amp;c. Iste aliquando induit  
+            <lb ed="#B1" n="8"/>pellem leonis: per leonem intelligo CHRISTVM: quia est DEO de tribu lu 
+            <lb ed="#B1" n="9"/>da. Per pellem intelligo gratiam suam creaturae infusam, quae induit uel uestit 
+            <lb ed="#B1" n="10"/>&amp; decorat internis bonis ad modum pellis per largitionem donorum, alteri 
+            <lb ed="#B1" n="11"/>magis, alteri minus: quia diuisiones gratiarum sunt, Ad 1. Corinth.12. Sed con 
+            <lb ed="#B1" n="12"/>tingit aliquando, quod homo asinus a ratione eleuatur aliqua, cuius gratia 
+            <lb ed="#B1" n="13"/>picta sapientia uel pulchritudine ornatus, suijpsius obliuiscitur: ita quod nec 
+            <lb ed="#B1" n="14"/>DEVM timet, nec ueretur homines. Tandem uenit dominus asini, CHRI 
+            <lb ed="#B1" n="15"/>STVSIESUS naturali possessione Dominus noster, quaerens ipsum asinum: 
+            <lb ed="#B1" n="16"/>Sed non cognoscit ipsum propter superbiam. Quia despicit superbos mente 
+            <lb ed="#B1" n="17"/>cordis sui. Sed quid: tandem in finali iudicio cognoscit tales praelongas au 
+            <lb ed="#B1" n="18"/>res eius: scilicet per inobedientiam &amp; obstinatiam suam, quae uiae sunt Diaboli.  
+            <lb ed="#B1" n="19"/>Recognoscat ergo quilibet seipsum per ueram humilitatem esse cinerem &amp; uer 
+            <lb ed="#B1" n="20"/>mem &amp; non hominem, quantum ex se propter peccatum, &amp;c 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

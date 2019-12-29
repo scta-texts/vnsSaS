@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 22 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 22 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="728"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e562">
+        <head xml:id="vnsSaS-d1e562-Hd1e95">Moralitates 22</head>
+        <div xml:id="vnsSaS-d1e562-Dd1e98">
+          <p xml:id="vnsSaS-d1e562-d1e100">
+            <lb ed="#B1" n="26"/>Imago penitentiae, quam depinxerunt sacerdotes deae Vestae secundum Remigium. 
+            <lb ed="#B1" n="27"/>Penitentia depingebatur ad modum vnius hominis nudati per totum corpus. 
+            <lb ed="#B1" n="28"/>qui tenebat in manu sua quoddam flagellum quinque folia ferens, in quo scribe 
+            <lb ed="#B1" n="29"/>bantur quinque ver sus vel sententiae. Scriptura primi folij talis erat: Peccaui, ces  
+            <lb ed="#B1" n="30"/>sare volo, quod peccaut, grauiter doleo. Scriptura secundi folij hec erat: Pemtentia 
+            <lb ed="#B1" n="31"/>ubenter me affuigo, quia contra DEVM iniuste egi. Scriptura tertij folij talis erat:  
+            <lb ed="#B1" n="32"/>Totam meam spem pono in celum, ubi DEVS propitius est, &amp; pro misericordia la 
+            <lb ed="#B1" n="33"/>chrymabiliter precor DEVM. Scriptura quaerti folij talis erat: Exercere volo ope  
+            <lb ed="#B1" n="34"/>ra misericordiae: vt mihi aperiatur porta veniae. Scriptura quinti folij talis erat: In 
+            <lb ed="#B1" n="35"/>uita bona perseuerabo propter gaudium celi, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e562-Dd1e125">
+          <p xml:id="vnsSaS-d1e562-d1e127">
+            <lb ed="#B1" n="36"/>IMago poenitentiae, tenens in manu flagellum cum quinque folijs, in signum 
+            <lb ed="#B1" n="37"/>est, quod si peccator uelit uenire ad DEO acceptam &amp; sanctam uitam, opor 
+            <lb ed="#B1" n="38"/>tet necessario, quod primo habeat confessionem oris, contritionem cordis, 
+            <lb ed="#B1" n="39"/>&amp; mutationem uoluntatis: &amp; hoc est, illud quod signatur per illum uersum: 
+            <lb ed="#B1" n="40"/>Peccaui, cessare volo, &amp;c. Postea oportet, quod homo det se spontaneae poeni 
+            <lb ed="#B1" n="41"/>tentiae: id est, uoluntarie se submittat flagello contritionis: &amp; hoc signatur per 
+            <lb ed="#B1" n="42"/>secundum uersum: Penitentia me libenter affligo, &amp;c. Tertio oportet, quod  
+            <lb ed="#B1" n="43"/>homo ponat spem &amp; fiduciam in DEI pietate &amp; misericordia: &amp; hoc signifi 
+            <lb ed="#B1" n="44"/>catur per tertium uersum: Totam meam spem, &amp;c. Quarto oportet quod ho 
+            <lb ed="#B1" n="45"/>mo se det operibus pietatis, &amp; studeat innocentiae: &amp; illud signatur per quin 
+            <lb ed="#B1" n="46"/>tam sententiam: Exercere volo opera, &amp;c. Quinto oportet, quod homo per 
+            <lb ed="#B1" n="47"/>seueret in bono: Quoniam qui perseuerauerit in finem, saluus erit, Matth. 24. 
+            <!--sap_Page_763.xml-->
+            <pb ed="#B1" n="729"/>
+            <lb ed="#B1" n="1"/>Act. 2. Et hoc significat quintus uersiculus, scilicet: In uita bona perseuerabo, 
+            <lb ed="#B1" n="2"/>&amp;c. Et ideo uere poenitens debet dicere ex corde suo, &amp;c 
+            <lb ed="#B1" n="3"/>peccaui grauiter, sceleris me penitet omnis 
+            <lb ed="#B1" n="4"/>inque DEVM firmam colloco spemque, sidem  
+            <lb ed="#B1" n="5"/>Et supplex veniam peto: nunc vitam pietati  
+            <lb ed="#B1" n="6"/>Conformo, DEUS haec votaqe, firmet, Amen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 31 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 31 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="734"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e776">
+        <head xml:id="vnsSaS-d1e776-Hd1e95">Moralitates 31</head>
+        <div xml:id="vnsSaS-d1e776-Dd1e98">
+          <p xml:id="vnsSaS-d1e776-d1e100">
+            <lb ed="#B1" n="40"/>TVLLIVS in Academicis quaestionibus, quaestione quaerta commendat  
+            <lb ed="#B1" n="41"/>VVarronem, eo quod ipse tradidit iura Deorum. Vbi in expositone inueni, 
+            <lb ed="#B1" n="42"/>quod Varro depinxit peccatum ad similitudinem Deae, cuius poneban 
+            <lb ed="#B1" n="43"/>tur tres imagines. Prima fuit imago DEI: secunda fuit imago Diaboli:  
+            <lb ed="#B1" n="44"/>tertia fuit imago hominis. Et ista Dea imago vnicuique imagini vnam literam siue 
+            <!--sap_Page_769.xml-->
+            <pb ed="#B1" n="735"/>
+            <lb ed="#B1" n="1"/>thartam porrigebat. Et tenor chartae primae DEO exhibitae, iste erat: DEVM cum 
+            <lb ed="#B1" n="2"/>suis angelis finaliter amisi, ue quod natus fui. Secunda charta directa Diabolo sic e 
+            <lb ed="#B1" n="3"/>rat: Diabolo &amp; eius angelis imaginem feci, quando per consensum in peccatum ceci 
+            <lb ed="#B1" n="4"/>di. Charta scripta homini talis erat. Verecundia &amp; confusio est finis peccati, decli 
+            <lb ed="#B1" n="5"/>nans in peccato finaliter confundetur, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e776-Dd1e129">
+          <p xml:id="vnsSaS-d1e776-d1e131">
+            <lb ed="#B1" n="6"/>PEccatum depingebatur cum tremore, ad ostendendum: Quod peccatum 
+            <lb ed="#B1" n="7"/>inquietat hominem, &amp; non permittit ipsum habere pacem, &amp; quietem  
+            <lb ed="#B1" n="8"/>in conscientia. In figura huius, Adam postquam peccauit, fugit in Paradi 
+            <lb ed="#B1" n="9"/>so, &amp; abscondit se in medio ligni Paradisi. lonas postquam inobedientia pec 
+            <lb ed="#B1" n="10"/>cauit, abscondit se in naui. Nabuchodonosor Rex Babyloniae postquam pec 
+            <lb ed="#B1" n="11"/>cauit, fugit ad desertum, &amp; abscondit se cum bestijs terrae. Iudas post quam pec 
+            <lb ed="#B1" n="12"/>cauit, abscondit se, &amp; laqueo suspendit. Sed nihil occultum quod non reuele 
+            <lb ed="#B1" n="13"/>tur: Adam deprehensus est, &amp; exulatus de paradiso: lonas deprehensus est, &amp; 
+            <lb ed="#B1" n="14"/>in mare proiectus, &amp; a pisce deuoratus est, ubi iacuit tribus diebus &amp; tribus 
+            <lb ed="#B1" n="15"/>noctibus. Nabuchodonosor deprehensus est, &amp; proiectus a consortio homi 
+            <lb ed="#B1" n="16"/>num ad consortium bestiarum, cum quibus septem annis uixit, reptando &amp; 
+            <lb ed="#B1" n="17"/>comedendo herbas sicut bos: ludas deprehensus est, &amp; proiectus est a con 
+            <lb ed="#B1" n="18"/>sortio CHRISTI &amp; Apostolorum eius ad consortium daemonis, &amp; ange 
+            <lb ed="#B1" n="19"/>lorum eius.
+          </p>
+          <p xml:id="vnsSaS-d1e776-d1e164">
+            <lb ed="#B1" n="20"/>Pro charta prima homo amisit DEVM &amp; angelos eius propter peccatum 
+            <lb ed="#B1" n="21"/>patet ex Scriptura sacra, de Core, Dathan &amp; Abirom: Qui cum peccassent ex  
+            <lb ed="#B1" n="22"/>inuidia, auaritia, &amp; inobedientia, terra dirupta est &amp; tremuit sub pedibus eo  
+            <lb ed="#B1" n="23"/>rum, &amp; aperuit se, &amp; deuorauit eos: &amp; ipsi uiui descenderunt in infernum. Et  
+            <lb ed="#B1" n="24"/>Magister scholasticae historiae indicat cap. 20. Num. Cum descendissent in in 
+            <lb ed="#B1" n="25"/>fernum: id est, in patulum terrae hiatum, reducta est terra, quasi nihil horum fa 
+            <lb ed="#B1" n="26"/>ctum esse uideretur. Sed &amp; ignis egressus est de thuribulo Core, postquam 
+            <lb ed="#B1" n="27"/>peccauit inuidia &amp; auaritia, &amp; thuribulis concilij eius, tantus (inquam) ignis, 
+            <lb ed="#B1" n="28"/>quantus nec de terra prolatus, uel concursione fulminum, aut uiolentia spiri 
+            <lb ed="#B1" n="29"/>tuum uisus est unquam exilire, &amp; deuorauit eos, &amp; animas eorum trasmisit ad  
+            <lb ed="#B1" n="30"/>infernum: Aarone stante illaeso, &amp;c
+          </p>
+          <p xml:id="vnsSaS-d1e776-d1e190">
+            <lb ed="#B1" n="31"/>Pro secunda charta, quotiens homo peccat, totiens facit homagium Dia 
+            <lb ed="#B1" n="32"/>bolo. Sed aliqui faciunt homagium Diabolo per luxuriam: &amp; quia iuxuria re 
+            <lb ed="#B1" n="33"/>gnat in tenebris, ideo in uindictam luxuriae Deus misit tenebras, &amp; ita den 
+            <lb ed="#B1" n="34"/>sas in terra Aegypti, quod nullus potuit alterum uidere: quae tenebrae ita fue 
+            <lb ed="#B1" n="35"/>runt magnae, quod palpari potuerunt: &amp; ita fortes, quod nullus potuit se mo 
+            <lb ed="#B1" n="36"/>uere de loco, in quo stabat uel sedebat, &amp;c. Aliqui faciunt homagium Diabo 
+            <lb ed="#B1" n="37"/>lo per auaritiam. Et quia auaritia hominum est circa fructus terrae, ideo DEVS 
+            <lb ed="#B1" n="38"/>in uindictam homagij auaritiae misit in terram Aegypti, tonitrua, grandines, 
+            <lb ed="#B1" n="39"/>fulgura, &amp; ignes, &amp; destruxit omnes fructus terrae Aegypti. Aliqui faciunt ho 
+            <lb ed="#B1" n="40"/>magium Diabolo per superbiam: Sed in uindictam homagij superbiae infer 
+            <lb ed="#B1" n="41"/>nus factus est, qui in hoc mundo existit. Et ideo dicit Scriptura: Quod Diabo  
+            <lb ed="#B1" n="42"/>lus est Rex inferni &amp; princeps mundi: &amp; dum peregrinamur in hoc mundo,  
+            <lb ed="#B1" n="43"/>habitamus sub graui dominio. Alij faciunt homagium Diabolo per inuidiamn. 
+            <lb ed="#B1" n="44"/>Sic Cain fecit, Genes. 4. In cuius uindictam illi Deus maledictionem dedit.  
+            <lb ed="#B1" n="45"/>Prima uindicta, quam DEVS in hoc mundo incoepit, fuit maledictio. Quia 
+            <lb ed="#B1" n="46"/>Deus maledixit Diabolo in paradiso, &amp; postea Cain in hoc mundo, ad desi 
+            <lb ed="#B1" n="47"/>gnandum: Quod sicuti maledictio DEI est maxima uindicta, sic inuidia est 
+            <lb ed="#B1" n="48"/>maximum peccatum, &amp; causa omnis miseriae praecipua, Sapientiae 2. Aliqui  
+            <lb ed="#B1" n="49"/>faciunt homagium Diabolo per odium cordis, sicuti fecerunt fratres ipsius lo 
+            <lb ed="#B1" n="50"/>seph, qui ipsum ex odio lsmaelitis pro triginta argenteis tradiderunt. Sed de 
+            <lb ed="#B1" n="51"/>homagio odij istius DEVS uindictam fecit, quod omnes ipsi, &amp; progenies 
+            <!--sap_Page_770.xml-->
+            <pb ed="#B1" n="736"/>
+            <lb ed="#B1" n="1"/>eorum inciderint in seruitutem regis Pharaonis. Alij faciunt homagium Dia 
+            <lb ed="#B1" n="2"/>bolo per xaccidiam, sicut fecit Heli facerdos senex. Sed de homagio * accidiae 
+            <lb ed="#B1" n="3"/>fecit DEVS uindictam: quia priuauit eum &amp; suos filios sacerdotio, &amp; episco  
+            <lb ed="#B1" n="4"/>patn ludaeorum, &amp; ipse cecidit retrorsum, &amp; fractis ceruicibus expirauit. Qui  
+            <lb ed="#B1" n="5"/>dam faciunt Diabolo homagium per gulam, &amp; pro isto homagio DEVS fe 
+            <lb ed="#B1" n="6"/>cit uindictam, quod omnis aqua terrae Aegypti conuersa fuit in sanguinem, in 
+            <lb ed="#B1" n="7"/>tantum quod omnes pisces mortui sint. ributum istorum homagiorum est 
+            <lb ed="#B1" n="8"/>perditio animae &amp; corporis. In cuius figura DEVS dicet peccatoribus in iu 
+            <lb ed="#B1" n="9"/>dicij die illud Matthaei 25. cap. Ite maledicti in ignem aeternum, qui paratus 
+            <lb ed="#B1" n="10"/>est Diabolo &amp; angelis eius.
+          </p>
+          <p xml:id="vnsSaS-d1e776-d1e264">
+            <lb ed="#B1" n="11"/>Pro tertia charta, quod homo consequitur ex peccato uerecundiam &amp; con 
+            <lb ed="#B1" n="12"/>fusionem, patet ex ludaeis: qui ita speciales amici cum DEO fuerunt, quod  
+            <lb ed="#B1" n="13"/>cum peruenissent ad mare rubrum, Moyses uirga sua percussit aquas maris, 
+            <lb ed="#B1" n="14"/>&amp; statim diuisae sunt, &amp; Iudaei transierunt per mare sicco pede, &amp; aqua stetit a 
+            <lb ed="#B1" n="15"/>sinistris &amp; dextris eorum tanquam murus: Et cum percussisset Dominus ma 
+            <lb ed="#B1" n="16"/>re, submersit exercitum Pharaonis &amp; equites &amp; pedites eius. Et Dominus prae 
+            <lb ed="#B1" n="17"/>cessit ludaeos in die per columnam nubis, ut protegeret eos a feruore Solis: in 
+            <lb ed="#B1" n="18"/>nocte columna ignis contra tenebras, ut sibi a serpentibus prouiderent: &amp; pa 
+            <lb ed="#B1" n="19"/>uit eos manna de coelo 30. annos, &amp; induxit eos in terram lacte &amp; melle fluen 
+            <lb ed="#B1" n="20"/>tem. Quid uero propter peccata ludaeorum accidit: nimirum summa uere 
+            <lb ed="#B1" n="21"/>cundia, &amp; horrenda confusio omnibus peccantibus, ut illis Deus minatus 
+            <lb ed="#B1" n="22"/>est in lege, Leuit. 26. Deut. 28. Vide eorum captiuitatem in libris Regum, &amp; 
+            <lb ed="#B1" n="23"/>exilium LTR. annorum apud prophetas, &amp; omnimodam internecionem, 
+            <lb ed="#B1" n="24"/>Luc. 19. a CHRISTO praedictam, Matth. 23. Patet etiam de Adam, quomo 
+            <lb ed="#B1" n="25"/>do incurrit uerecundiam propter peccatum, quando uidit se nudum, &amp; ab  
+            <lb ed="#B1" n="26"/>scondit se prae nimia uerecundia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 34 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 34 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="738"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e843">
+        <head xml:id="vnsSaS-d1e843-Hd1e95">Moralitates 34</head>
+        <div xml:id="vnsSaS-d1e843-Dd1e98">
+          <p xml:id="vnsSaS-d1e843-d1e100">
+            <lb ed="#B1" n="8"/>NArrat Valerius libro quarto. de nlexandro Magno, qui cum esset homo, 
+            <lb ed="#B1" n="9"/>magnus quidem &amp; nobilis, tres tamen malas habuit coditiones siue af 
+            <lb ed="#B1" n="10"/>fectiones: Vna est, quod contempsit patrem suum nobilem Philippum, 
+            <lb ed="#B1" n="11"/>regem Macedonum, &amp; dixit se filium Iouis esse: Secunda fuit, eo quod  
+            <lb ed="#B1" n="12"/>fuit Macedo, &amp; noluit vti Macedonica veste: quia videbatur sibi nimis vitupero.  
+            <lb ed="#B1" n="13"/>sum: Tertia, quia noluit vt homo haberi nec reputari, sed vt DEVS
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e843-Dd1e117">
+          <p xml:id="vnsSaS-d1e843-d1e119">
+            <lb ed="#B1" n="14"/>Odem modo comparatum est de illis, qui habent pauperem patrem, cum 
+            <lb ed="#B1" n="15"/>non fatentur, nec uellent eum uidere: sed si dicatus fuerit ipsum fatentur  
+            <lb ed="#B1" n="16"/>parentem &amp; cognatum. Item uestis communiter usitata ab antiquis nec 
+            <lb ed="#B1" n="17"/>in habitu seruatur, nec quo ad colorem aequaliter placet. Sed modo uno die u 
+            <lb ed="#B1" n="18"/>titur ueste huius gentis, alio die illius uel aliarum: modo unius prouinciae, mo 
+            <lb ed="#B1" n="19"/>do alterius. Et antiquis erat dictum, quod mulieres essent mutabiles, sed nunc 
+            <lb ed="#B1" n="20"/>potest dici, quod omnes homines cuiuscunque status existant, sint mulieri 
+            <lb ed="#B1" n="21"/>bus mutabiliores. Qui hodie sunt Anglici, cras erunt Gallici: Et sic de alijs  
+            <lb ed="#B1" n="22"/>lam habent * typena super capita sua quasi caudam serpentis: in signum, quod  
+            <lb ed="#B1" n="23"/>sint pleni ueneno peccati. Habent etiam manicas quasi alas: in signum quod 
+            <lb ed="#B1" n="24"/>uolunt uolare, sed non ad coelum superius, sed cum Lucifero ad infernum de 
+            <lb ed="#B1" n="25"/>orsim. Tertia fuit, quia noluit reputari ut homo, sed ut DEVS: Ita est de mul  
+            <lb ed="#B1" n="26"/>tis comparatum, quod si aliquis sit rector, non sufficit sibi, nisi sit praebendatus, 
+            <lb ed="#B1" n="27"/>postea archidiaconus, deinceps episcopus, ut honoretur, &amp; ab hominibus 
+            <lb ed="#B1" n="28"/>magnus reputetur, non ut homo, sed ut DEVS. Sic miles, non sufficit sibi, nec 
+            <lb ed="#B1" n="29"/>bono, nec dux, nec Rex sua sorte contentus. Nam sic est de omni statu mundi 
+            <lb ed="#B1" n="30"/>sub sole. Et ideo uanitas uanitatum, &amp; omnia uanitas. Ideo se habet de istis 
+            <lb ed="#B1" n="31"/>tribus generibus, sicut narratur de quodam infirmo, cui uidebatur se esse sine 
+            <lb ed="#B1" n="32"/>capite. Ad quem accersito medico, ait ei: scio infirmitatem tuam: Qui * capel  
+            <lb ed="#B1" n="33"/>lum de plumbo capiti eius imposuit, qui ob capelli frigiditatem, accedenti 
+            <lb ed="#B1" n="34"/>bus pristinis uirtutibus, ait: lam sentio caput meum. Sic est de superbis: Qui  
+            <lb ed="#B1" n="35"/>dum sani sunt, sine capite se esse credunt, quia DEVM tunc scire nolunt: Sed  
+            <lb ed="#B1" n="36"/>facto capello de plumbo infirmitatis onerosae uel ponderosae, tunc DEVM 
+            <lb ed="#B1" n="37"/>qui est caput eorum, &amp; seipsos cognoscere incipiunt. Ideo ait Psalmus: Imple 
+            <lb ed="#B1" n="38"/>facies eorum ignominia, &amp; quaerent nomen tuum, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

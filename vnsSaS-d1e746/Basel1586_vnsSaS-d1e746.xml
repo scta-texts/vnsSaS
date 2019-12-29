@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 30 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 30 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="732"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e746">
+        <head xml:id="vnsSaS-d1e746-Hd1e95">Moralitates 30</head>
+        <div xml:id="vnsSaS-d1e746-Dd1e98">
+          <p xml:id="vnsSaS-d1e746-d1e100">
+            <lb ed="#B1" n="9"/>NArrat Ouidius libro 5. de transformatis: Quod tres fuerunt Sirenes in 
+            <lb ed="#B1" n="10"/>quadam insula maris: quarum vna cantabat cum cithara, altera cum 
+            <lb ed="#B1" n="11"/>lyra, tertia cum voce humana. Quae omnes simulit a suauem resonabani 
+            <lb ed="#B1" n="12"/>melodiam, quod omnes transeuntes iuxta insulam illam obdormire fa 
+            <lb ed="#B1" n="13"/>ciebant. Quae cum dormire eos sensissent, ascendebant naues, &amp; cos inuadebant, &amp; sic  
+            <lb ed="#B1" n="14"/>interficiebat. Cum vero Vlysses inde trasiret, et sciret imminere periculum, iussit se li  
+            <lb ed="#B1" n="15"/>gari ad malum, &amp; aures sociorum cum cera obturare. Et sic periculum prefata euasit.
+          </p>
+          <p xml:id="vnsSaS-d1e746-d1e118">
+            <lb ed="#B1" n="16"/>INsula maris est iste mundus, qui undique plurimis circumdatur amaritudi  
+            <lb ed="#B1" n="17"/>nibus. Istae tres Sirenes sunt tria, quae in mundo sunt, ad peccatum incitan 
+            <lb ed="#B1" n="18"/>tia: scilicet, caro, mundus, &amp; Diabolus princeps mundi, &amp; rector carnis 
+            <lb ed="#B1" n="19"/>Tria carmina sunt, diuitiae, honores, &amp; delitiae. Cantat enim Iuxuriose in citha 
+            <lb ed="#B1" n="20"/>ra Caro: cantat suauiter ad uoluptates cum lyra mundus: cantat honores &amp; 
+            <lb ed="#B1" n="21"/>diuitias &amp; excellentias in uoce humana Diabolus: Persuadet enim mundus, 
+            <lb ed="#B1" n="22"/>dicens: Iuuenis es, &amp; ideo debes uacare diuitijs congregandis, ut prouideas 
+            <lb ed="#B1" n="23"/>tibi: contra senecturem. Caro cantat, &amp; dicit: Iuuenis es &amp; adolescens, si tam 
+            <lb ed="#B1" n="24"/>cito poenitentia te affligas, teipsum, interficis: satis cito &amp; bene poteris in sene 
+            <lb ed="#B1" n="25"/>ctute poenitentiam agere, &amp; nunc uoluptatibus corporis uacare. Sed nota, 
+            <lb ed="#B1" n="26"/>quod uita hominis uentus est, sicuti in praecedente moralitate ostensum est. 
+            <lb ed="#B1" n="27"/>Diabolus cantat &amp; persuadet homini, &amp; dicit: Nimis curiosus es, * non debes 
+            <lb ed="#B1" n="28"/>subesse alicui: fortis &amp; potens es, ideo non sinas te despici a quoquam: &amp; si a 
+            <lb ed="#B1" n="29"/>liquis aliquid a te uendicat, licet iuste uel iniuste possideas, causam tuam cum 
+            <lb ed="#B1" n="30"/>fortitudine defende: quia non decet te, eo quod ita generosus es, iniuste suc 
+            <lb ed="#B1" n="31"/>cumbere. Sed ab istis persuasionibus debes aures tuas obturare cum cera, co  
+            <lb ed="#B1" n="32"/>gitando illud Psalmi: Sicuti fluit cera a facie ignis, sic pereant peccatores a fa 
+            <lb ed="#B1" n="33"/>cie DEI, &amp;c. Et non saltem debes aures obturare, sed etiam manus ad malum 
+            <lb ed="#B1" n="34"/>ligare, scilicet ad crucem CHRISTI, cogitando: quanta sustinuit pro nobis, 
+            <lb ed="#B1" n="35"/>quam pauper factus, in cruce nudus pependit, quantas poenalitates in fame 
+            <lb ed="#B1" n="36"/>&amp; siti, &amp; in alijs miserijs passus est: quam humilis etiam factus usque ad mor 
+            <lb ed="#B1" n="37"/>tem crucis. Et sic secure poterimus transire a ttibus * Sirenis &amp; periculis prae 
+            <lb ed="#B1" n="38"/>dictis. Quod Augustinus ostendit, dicens: O homo si non uis sequi humi 
+            <lb ed="#B1" n="39"/>lem hominem, imitare saltem humilem DEVM, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

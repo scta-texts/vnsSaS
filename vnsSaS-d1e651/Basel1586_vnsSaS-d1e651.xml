@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 26 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 26 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="731"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e651">
+        <head xml:id="vnsSaS-d1e651-Hd1e95">Moralitates 26</head>
+        <div xml:id="vnsSaS-d1e651-Dd1e98">
+          <p xml:id="vnsSaS-d1e651-d1e100">
+            <lb ed="#B1" n="6"/>NArrat Fulgentius in quodam libro de gestis Romanorum: Quod Romant 
+            <lb ed="#B1" n="7"/>verum amorem siue veram amicitiam hoc modo descripserunt, scilicet: 
+            <lb ed="#B1" n="8"/>Quod imago amoris vel amicitiae depicta erat instar iuuenis cutusdam  
+            <lb ed="#B1" n="9"/>valde pulenri, induti habitu viridi. Facies eius &amp; caput discooperta erant  
+            <lb ed="#B1" n="10"/>siue nudata, &amp; in fronte ipsius erat hoc scriptum: HTEMS ET AE  
+            <lb ed="#B1" n="11"/>STA S. Erat latus eius apertu, ita vt videretur cor, in quo scripta erant hec verba: 
+            <lb ed="#B1" n="12"/>LONOEET PRO PE: Et in simbria vestimenti eius erat scriptum: Mo Rs 
+            <lb ed="#B1" n="13"/>ETVHA: Similiter ista imago habebat pedes nudos, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e651-Dd1e121">
+          <p xml:id="vnsSaS-d1e651-d1e123">
+            <lb ed="#B1" n="14"/>ISta imago quae depicta erat ad similitudinem hominis iuuenis, in signum: 
+            <lb ed="#B1" n="15"/>QQuod uerus amor &amp; sincera amicitia senescere non debet, &amp; per consequens 
+            <lb ed="#B1" n="16"/>in necessitate non deficere, sed semper iuuenescere, &amp; aeque stabilis esse in 
+            <lb ed="#B1" n="17"/>principio &amp; in fine. Ista imago habebat caput, &amp; faciem discoopertam, in si 
+            <lb ed="#B1" n="18"/>gnum: Quod uerus anor &amp; sincera amicitia non potest diu latere in corde,  
+            <lb ed="#B1" n="19"/>sed sese extendit in opere exterius: iuxta illud Gregorij: Probatio dilectionis, 
+            <lb ed="#B1" n="20"/>est exhibitio operis. Erant scripta, hyems &amp; aestas: id est, aduersitas &amp; prospe 
+            <lb ed="#B1" n="21"/>ritas, in signum: Quod ueri amici secreta cordis inuicem debent intimare, &amp; 
+            <lb ed="#B1" n="22"/>necessitates quaslibet alter alteri ostendere: Et ideo scriptum est in corde, lon 
+            <lb ed="#B1" n="23"/>ge &amp; prope, in signum: Quod amicus tantundem diligendus est quando di 
+            <lb ed="#B1" n="24"/>stat, ac si prope existeret. In fimbria scriptum erat, Mors &amp;. Vita, in signum: 
+            <lb ed="#B1" n="25"/>Quod uerus amor &amp; amicus sincerus debet esse perseuerans non solum in ui 
+            <lb ed="#B1" n="26"/>ta praesenti, sed etiam in morte, quae per fimbriam designatur. Item uestis ui  
+            <lb ed="#B1" n="27"/>ridis indicat amicitiam semper debere esse recentem &amp; suauem, nullaque tem 
+            <lb ed="#B1" n="28"/>poris diuturnitate tepescentem, &amp; instar hederae semper uirescere, &amp;c. per om 
+            <lb ed="#B1" n="29"/>nia tempora &amp; loca inseparabiliter amico adhaerere, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

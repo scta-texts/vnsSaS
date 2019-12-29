@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 33 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 33 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="737"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e819">
+        <head xml:id="vnsSaS-d1e819-Hd1e95">Moralitates 33</head>
+        <div xml:id="vnsSaS-d1e819-Dd1e98">
+          <p xml:id="vnsSaS-d1e819-d1e100">
+            <lb ed="#B1" n="20"/>FErtur in libro Deorum, quod Socrates depinxit imaginem superbiae corona 
+            <lb ed="#B1" n="21"/>tam tribus coronis, ad ost endendum: Quod superbus omnibus vult domi 
+            <lb ed="#B1" n="22"/>nari, scilicet superioribus, inferioribus &amp; equalibus. Et in prima corona 
+            <lb ed="#B1" n="23"/>scribebatur iste ver sus: 
+            <lb ed="#B1" n="24"/>Effluo, tran scendo, quo quis priuatur habendo.  
+            <lb ed="#B1" n="25"/>In secunda corona scriptus erat ille versus: 
+            <lb ed="#B1" n="26"/>Transmigrat genus exceditque homo, qui nec obedit.  
+            <lb ed="#B1" n="27"/>in tertia vero corona erat versus talis:  
+            <lb ed="#B1" n="28"/>Turbor &amp; affligor, perturbor, &amp; undique laedor.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e819-Dd1e123">
+          <p xml:id="vnsSaS-d1e819-d1e125">
+            <lb ed="#B1" n="29"/>SVperbus habet tres conditiones malas. Prima, quod reputat se praeferen 
+            <lb ed="#B1" n="30"/>dum omnibus alijs: in cuius figura scribebatur ille versus: Effluo, transcen 
+            <lb ed="#B1" n="31"/>do, &amp;c. Exemplum de hoc habetur in Antiocho, qui tantum effluebat su 
+            <lb ed="#B1" n="32"/>perbia, &amp; in tantam superbiam se effudit, quod uidebatur sibi tanta uirtute ab  
+            <lb ed="#B1" n="33"/>undare, quod fluctibus maris imperaret, plana &amp; montium altitudines aequa 
+            <lb ed="#B1" n="34"/>ret, &amp; usqe ad coeli astra contingeret. Vt habetur 2. Machabaeorum 5. Existi 
+            <lb ed="#B1" n="35"/>mans se prae superbia terram ad nauigandum, pelagus uero ad iter agendum, 
+            <lb ed="#B1" n="36"/>deducturum, propter mentis elationem. Et tandem ad tantam dementiam ue 
+            <lb ed="#B1" n="37"/>nit, quod in seipso affligebatur dolore uiscerum &amp; intestinorum, in tantum 
+            <lb ed="#B1" n="38"/>quod uermes de corpore suo scaturirent, &amp; undique nec ipse nec exercitus foe 
+            <lb ed="#B1" n="39"/>torem tollerare posset, ut 2. Machabaeor. cap. 9. Secunda conditio, quod om 
+            <lb ed="#B1" n="40"/>ni homini uult praeferri, &amp; nulli vult obedire. In cuius figura scriptus est ille 
+            <lb ed="#B1" n="41"/>uersus: Transmigrat genus, &amp;c. Exemplum de hoc habetur in Roboam, qui  
+            <lb ed="#B1" n="42"/>populo noluit obedire, sed tantum se reputauit transmigrare, &amp; alios excelle 
+            <lb ed="#B1" n="43"/>re, qui dixit: Minimus digitus meus grossior est dorso patris mei. Pater meus 
+            <lb ed="#B1" n="44"/>caecidit uos flagellis: ego autem caedam uos scorpionibus, ut habetur 3. Reg.  
+            <lb ed="#B1" n="45"/>12. cap. Tertia conditio est: quod manus eius contra omnes, &amp; manus om 
+            <lb ed="#B1" n="46"/>nium contra eum. In cuius figura scribebatur ille versus: Turbor &amp; affligor, &amp;c 
+            <lb ed="#B1" n="47"/>Exemplum de hoc habetur in Heliodoro, qui tantum perturbauit ludaeos,  
+            <!--sap_Page_772.xml-->
+            <pb ed="#B1" n="738"/>
+            <lb ed="#B1" n="1"/>quod per uniuersam ciuitatem eos afflixit, ut manus omnium protensae erant  
+            <lb ed="#B1" n="2"/>in coelum. Sed inuocato DEI auxilio &amp; adiutorio, affuit equus, terribilem ha 
+            <lb ed="#B1" n="3"/>bens sessorem in armis aureis: &amp; duo iuuenes, qui tantum perturbabant &amp; as 
+            <lb ed="#B1" n="4"/>fligebant Heliodorum, quod equus priores calces elisit Heliodoro: &amp; iuuenes 
+            <lb ed="#B1" n="5"/>ex utraqe parte flagellabant sine intermissione, eum multis plagis uerbetantes. 
+            <lb ed="#B1" n="6"/>Et tandem multa caligine circumfusum rapuerunt, &amp; extra aerarium proiece 
+            <lb ed="#B1" n="7"/>runt mutum, omni spe &amp; salute priuatum, 2. Machabs 3.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

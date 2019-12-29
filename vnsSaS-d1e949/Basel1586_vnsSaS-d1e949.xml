@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 39 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 39 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="741"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e949">
+        <head xml:id="vnsSaS-d1e949-Hd1e95">Moralitates 39</head>
+        <div xml:id="vnsSaS-d1e949-Dd1e98">
+          <p xml:id="vnsSaS-d1e949-d1e100">
+            <lb ed="#B1" n="39"/>REfert fsieronymus contra louinianum, quod Diogenes ita perfectus erat in 
+            <lb ed="#B1" n="40"/>paupertate, quod dolium pro domo habebat, cuius ostium semper ver sus 
+            <lb ed="#B1" n="41"/>Solem dirigebat. Ad quem in Sole sedentem cum Alexander Magnus 
+            <lb ed="#B1" n="42"/>accessisset, &amp; hortaretur, vt si quae ab eo praestari sibi vellet, indicaret. Re 
+            <lb ed="#B1" n="43"/>spondit: Quod dare mihi posses, nolo: sed rogo ne auferas, quod dare non potes. Ex in 
+            <lb ed="#B1" n="44"/>terpositione enim sua Solem Diogeni auferebat. Sic igitur Alexander, qui omnes 
+            <lb ed="#B1" n="45"/>quasi nationes vicit, a Diogene victus recessit eo die, quo uidit aliquem in 
+            <lb ed="#B1" n="46"/>terris pauperem, cui nec dare quicquam posset,  
+            <lb ed="#B1" n="47"/>nec eripere.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e949-Dd1e123">
+          <p xml:id="vnsSaS-d1e949-d1e125">
+            <!--sap_Page_776.xml--> <!-- needs rexport after line deletion -->
+            <pb ed="#B1" n="742"/>
+            <lb ed="#B1" n="1"/>PEr istum pauperem quilibet nostrum intelligi potest: quia omnes paupe 
+            <lb ed="#B1" n="2"/>res facti sumus nimis. Vita enim nostra praesens est quasi dolium, in quo 
+            <lb ed="#B1" n="3"/>manemus: Quia sicut dolium est uersatile de loco ad locum: ita uita no 
+            <lb ed="#B1" n="4"/>stra praesens de uno statu &amp; conditione ad alium statum &amp; conditionem transfer 
+            <lb ed="#B1" n="5"/>tur, &amp; quotidie mutatur: nunc homo tristatur, nunc laetatur, nunc infirmatur, nunc 
+            <lb ed="#B1" n="6"/>sanatur, &amp; nunquam in eodem statu permanet. In isto dolio sedentes: id est, 
+            <lb ed="#B1" n="7"/>in ista uita praesenti manentes semper nos uertere oportet ad Solem iusticiae: 
+            <lb ed="#B1" n="8"/>id est, CHRISTVM, de quo Malachiae 3. Orietur uobis timentibus DEVM 
+            <lb ed="#B1" n="9"/>Sol iusticiae. Et si ueniat Alexander Magnus: id est, mundus, &amp; quaerat, an a 
+            <lb ed="#B1" n="10"/>liqua volumus nobis ab eo praestari, habendo diuitias, honores, &amp; huiusmo  
+            <lb ed="#B1" n="11"/>di: solum hoc petamus, ut non stet inter nos &amp; Solem iusticiae, scilicet ut nihil 
+            <lb ed="#B1" n="12"/>temporale ponat ante oculos nostros, per quod seperemur ab amore diuino  
+            <lb ed="#B1" n="13"/>Mundus enim cum suis amatoribus nititur montem superbiae interponere. 
+            <lb ed="#B1" n="14"/>Inde recte dicitur: Superbia mons est positus inter nos &amp; Solem iusticiae, ne 
+            <lb ed="#B1" n="15"/>eum uidere possumus, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

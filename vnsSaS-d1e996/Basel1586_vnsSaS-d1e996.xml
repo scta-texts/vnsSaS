@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 41 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 41 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="743"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e996">
+        <head xml:id="vnsSaS-d1e996-Hd1e95">Moralitates 41</head>
+        <div xml:id="vnsSaS-d1e996-Dd1e98">
+          <p xml:id="vnsSaS-d1e996-d1e100">
+            <lb ed="#B1" n="11"/>BEatus Bernhardus vidit quendam hominem stantem super vnum pu 
+            <lb ed="#B1" n="12"/>teum, scintillas de puteo exeuntes deuorantem, &amp; macilentem faciem ha 
+            <lb ed="#B1" n="13"/>bentem, &amp; toto corpore trementem. Et tandem cum obstupuisset beatus 
+            <lb ed="#B1" n="14"/>pernhardus, quaesiuit ab eo, qua de causa sic staret super puteum: Respon 
+            <lb ed="#B1" n="15"/>dit: propter honorem. Iterum beatus bernhardus interrogauit eum: Quare habes  
+            <lb ed="#B1" n="16"/>tale corpus tremens: respondit: propter timorem.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e996-Dd1e117">
+          <p xml:id="vnsSaS-d1e996-d1e119">
+            <lb ed="#B1" n="17"/>Et istum hominem super puteum stantem, &amp; scintillas deuorantem intel 
+            <lb ed="#B1" n="18"/>ligo hominem auarum siue cupidum, qui toto tempore uitae suae est in la 
+            <lb ed="#B1" n="19"/>boribus, sudoribus &amp; uigilijs multis ad lucrandum totum mundum, ue 
+            <lb ed="#B1" n="20"/>cumulandas ingentes opes. Et si quaeratur ab illo, quare sic facis &amp; sudas: Re 
+            <lb ed="#B1" n="21"/>spondit, propterHONOREM: quia libenter uellet multa lucrari, ut esset ma 
+            <lb ed="#B1" n="22"/>gnus &amp; honorabilis coram cunctis hominibus. Et inde prima proprietas aua 
+            <lb ed="#B1" n="23"/>ritiae siue cupiditatis, quod toto mundo non potest satiari. Quia quo magis cu 
+            <lb ed="#B1" n="24"/>piunt, eo magis sitiunt. Sic auarus quo plus abundat, eo plus laborat. Caula qua 
+            <lb ed="#B1" n="25"/>re tremit, estTIMOE: quia sibi ab omnibus timet. Si uidit pauperem, credit esse  
+            <lb ed="#B1" n="26"/>furem, si uxorem &amp; familiam, credit ipsos eum uelle occidere, &amp; bona sua per 
+            <lb ed="#B1" n="27"/>furtum abducere. Et ideo diuitiae acquiruntur cum labore, &amp; custodiuntur  
+            <lb ed="#B1" n="28"/>cum timore, &amp; perduntur cum dolore. Causa, quare cupidus est macilentus, 
+            <lb ed="#B1" n="29"/>est inopia: quia si auarus obulo uel denario indiget, nunquam audet expen 
+            <lb ed="#B1" n="30"/>dere denarium ad usum proprium, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

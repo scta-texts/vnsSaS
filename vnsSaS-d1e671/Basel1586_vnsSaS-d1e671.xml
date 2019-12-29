@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 27 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 27 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="731"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e671">
+        <head xml:id="vnsSaS-d1e671-Hd1e95">Moralitates 27</head>
+        <div xml:id="vnsSaS-d1e671-Dd1e98">
+          <p xml:id="vnsSaS-d1e671-d1e100"> 
+            <lb ed="#B1" n="30"/>REfert Valerius ad Ruffinum: Quod Pacuuius venit ad vicinum suum Ar 
+            <lb ed="#B1" n="31"/>rium, fiens &amp; conquestus est, dicens: Arborem infelicem in horto meo 
+            <lb ed="#B1" n="32"/>habeo, in quae vxor mea prima se suspendit, post ea secunda, nunc autem ter 
+            <lb ed="#B1" n="33"/>tia. Cui nrrius respondit: Muror te in tantis succestibus lachrymas inue 
+            <lb ed="#B1" n="34"/>nisse. REt iterum:] Nom cum arbor ista tibi tot suspendia intulit, rogo vt  
+            <lb ed="#B1" n="35"/>des mihi de illa arbore surculos, quos seram in horto meo: quia forte oportebit te men 
+            <lb ed="#B1" n="36"/>dicare surculos arboris illius, cum inueniri non poterunt, &amp;c.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e671-Dd1e119">
+          <p xml:id="vnsSaS-d1e671-d1e121">
+            <lb ed="#B1" n="37"/>ISta arbor est crux sancta, secundum illud Canticorum 8 cap. Sub arbore,  
+            <lb ed="#B1" n="38"/>malo suscitaui te. Haec arbor in horto hominis ponitur in anima, &amp; habet.  
+            <lb ed="#B1" n="39"/>memoriam passionis Dominicae. Est autem quasi hortus, in quo DEVS 
+            <lb ed="#B1" n="40"/>seminat uirtutes, Cantic. 6. cap. Dilectus meus descendit in hortum suum. Vn 
+            <lb ed="#B1" n="41"/>de aituenerabilis Beda: Hortus dilecti est anima sancta. In ista anima suspen 
+            <lb ed="#B1" n="42"/>duntur tres uxores hominis, cum in arbore poenitentiae tria ista peccata de 
+            <lb ed="#B1" n="43"/>struuntur, de quibus dicitur in Canonica loannis cap. 2. Omne quod est in 
+            <lb ed="#B1" n="44"/>mundo, aut est concupiscentia carnis, aut oculorum, aut superbia uitae. Homo 
+            <!--sap_Page_766.xml-->
+            <pb ed="#B1" n="732"/>
+            <lb ed="#B1" n="1"/>enim natus in mundum, quasi tres uxores ducit. Vna est filia carnis, &amp; uoc a 
+            <lb ed="#B1" n="2"/>tur Voluptas: altera est filia mundi, &amp; uocatur Cupiditas: tertia est filia Dia 
+            <lb ed="#B1" n="3"/>boli, &amp; uocatur Fastuositas siue superbia. Sed quando peccator per gratiam  
+            <lb ed="#B1" n="4"/>DEI adhaerere arbori poenitentiae, istas tres uxores nonn habet, sed suspendun 
+            <lb ed="#B1" n="5"/>tur: Voluptas fune sanctimoniae siue scientiae: cupiditas fune eleemosynae siue 
+            <lb ed="#B1" n="6"/>beneficentiae: Superbia fune humilitatis &amp; obedientiae. Quod Diabolus non 
+            <lb ed="#B1" n="7"/>diu sustinens suggerit homini, quod istam uitam amplius sustinere non possit. 
+            <lb ed="#B1" n="8"/>Vnde poenitens murmurat, &amp; arborem istam infelicem uocat: non cogitans 
+            <lb ed="#B1" n="9"/>Quod per eam natura humana pacificatur, culpa remittitur, &amp; uita aeterna 
+            <lb ed="#B1" n="10"/>condonatur. Dirigamus igitur mentes nosttas ad DEVM, &amp; omnia erunt fa 
+            <lb ed="#B1" n="11"/>cillima. Vnde D. Gregorius primo Moralium libro: Si mens in DEVM forti 
+            <lb ed="#B1" n="12"/>intensione dirigatur, quicquid sit in hac uita, dulce putatur esse quod affligit,  
+            <lb ed="#B1" n="13"/>requiem aestimat transire per mortem, appetit ut obtinere melius uitam possit, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

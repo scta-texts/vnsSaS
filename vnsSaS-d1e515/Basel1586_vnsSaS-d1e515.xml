@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 20 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 20 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="726"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e515">
+        <head xml:id="vnsSaS-d1e515-Hd1e95">Moralitates 20</head>
+        <div xml:id="vnsSaS-d1e515-Dd1e98">
+          <p xml:id="vnsSaS-d1e515-d1e100">
+            <lb ed="#B1" n="42"/>Arrat Solinus de mirabilibus mundi, quod in India erat quidam mons 
+            <lb ed="#B1" n="43"/>magnus &amp; altus, &amp; in illo monte erat fons, de quo exibant riuuli aqua 
+            <lb ed="#B1" n="44"/>rum, ad irrigandam totam terram in circuitu: Et si aliquando contin 
+            <lb ed="#B1" n="45"/>geret, quod terra propter ariditatem aqua indigeret, habitatores illaerum 
+            <lb ed="#B1" n="46"/>uallium miserunt in montem pulcherrimam puellam, quae ante fontem cantaret. Et  
+            <lb ed="#B1" n="47"/>fonstalem habuit virtutem, quod statim ad vocem puelle riuos suos abundanter fine 
+            <lb ed="#B1" n="48"/>re permitteret, &amp; totam terram, quantum necesse erat, irrigaret: &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e515-Dd1e119">
+          <p xml:id="vnsSaS-d1e515-d1e121">
+            <!--sap_Page_761.xml-->
+            <pb ed="#B1" n="727"/>
+            <lb ed="#B1" n="1"/>Er istum montem magnum &amp; altum intelligo coelum: per fontem DEVM 
+            <lb ed="#B1" n="2"/>Patrem: per aquam istius fontis gratiam suam: per terram uallium, cor 
+            <lb ed="#B1" n="3"/>da hominum, quia de terra sunt: per puellam, sanctam &amp; deuotam oratio  
+            <lb ed="#B1" n="4"/>nem. Vt igitur corda nostra quae sicca sunt, gratia DEI perfundantur &amp; recre 
+            <lb ed="#B1" n="5"/>entur, mittamus ad DEVM Patrem orationem Dominicam, quae inter omnes 
+            <lb ed="#B1" n="6"/>melior &amp; praestantior est, ut possimus istam aquam uiuificam recipere, ad irri 
+            <lb ed="#B1" n="7"/>gandum corda nostra quae arida sunt, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

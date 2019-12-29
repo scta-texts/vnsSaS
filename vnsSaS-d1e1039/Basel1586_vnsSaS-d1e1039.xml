@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 44 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 44 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="744"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e1039">
+        <head xml:id="vnsSaS-d1e1039-Hd1e95">Moralitates 44</head>
+        <div xml:id="vnsSaS-d1e1039-Dd1e98">
+          <p xml:id="vnsSaS-d1e1039-d1e100">
+            <lb ed="#B1" n="23"/>Pictura fortunae secundum Titum Liiium: Matrone Romanorum dedica 
+            <lb ed="#B1" n="24"/>uerunt deae Fortunae templum: Cuius imago fuit, mulier habens faciem  
+            <lb ed="#B1" n="25"/>binam: onam splendidam, &amp; alteram obscuram, &amp; vtraque facie caca e 
+            <lb ed="#B1" n="26"/>rat: depingebatur etiam in curru, quem trahebant tres dextrarij: Et ante 
+            <lb ed="#B1" n="27"/>eandem imaginem scriptum erat sic: Amor mundi excecat mentem hominis: quia 
+            <lb ed="#B1" n="28"/>non cogitat diem mortis, nec ext remi examinis. Retro scribebatur sic: Fortuna mun 
+            <lb ed="#B1" n="29"/>di fluit &amp; refluit, &amp; nisi praecautatur, hominem finaliter decipit. A dextris scri 
+            <lb ed="#B1" n="30"/>bebatur sic: Fortuna mundi est aura suffians homini, arridens pauperi, nocens vire 
+            <lb ed="#B1" n="31"/>nobilim. Vnde Castius dixit: 
+            <lb ed="#B1" n="32"/>Infoelix uirtus &amp; solis prouida uerbis: 
+            <lb ed="#B1" n="33"/>Fortunam in rebus cur sequeris dominam: 
+            <lb ed="#B1" n="34"/>A sinistris scribebatur sic: Fortuna mundi fallax dinoscitur: quia promittit la 
+            <lb ed="#B1" n="35"/>titiam, &amp; inducit tristitiam, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1039-Dd1e132">
+          <p xml:id="vnsSaS-d1e1039-d1e134">
+            <lb ed="#B1" n="36"/>Ro primo uersu ait Diuus Bernhardus: Paupertas fuit uia CHRISTI de 
+            <lb ed="#B1" n="37"/>coelo ad terram, &amp; uia CHRISTI &amp; suorum fidelium ad coelum: quia pau 
+            <lb ed="#B1" n="38"/>perum est regnum coelorum. Sed diuites sunt caeci sedentes extra uiam i 
+            <lb ed="#B1" n="39"/>stam, &amp; ideo si uelint intrare uiam ducentem ad coelum, teneant uiam pauper 
+            <lb ed="#B1" n="40"/>tatis, D. Augustinus super illud Iohannis: Mundus transit &amp; concupiscentia 
+            <lb ed="#B1" n="41"/>eius, &amp;c. Quid uis: utrum amare temporalia, &amp; transire cum tempore: an 
+            <!--sap_Page_779.xml-->
+            <pb ed="#B1" n="745"/>
+            <lb ed="#B1" n="1"/>CHRISTUM amare, &amp; in aeternum uiuere: Rerum temporalium fluuius 
+            <lb ed="#B1" n="2"/>xtransit: Sed iuxta fluuium nata est arbor, scilicet Dominus IESVS CHRI 
+            <lb ed="#B1" n="3"/>STVS, assumpsit carnem, &amp; a morte resurrexit, ascendit in coelum. Voluit se 
+            <lb ed="#B1" n="4"/>quodammodo circa fluuium temporum plantare: raperis in praeceps, tene li  
+            <lb ed="#B1" n="5"/>gnum: uoluit te amor mundi, tene CHRISTVM. Propter te factus est tem 
+            <lb ed="#B1" n="6"/>poralis, ut tu fias aeternus, &amp;c. Et cerne pauperem ipsum, si amas istam flui  
+            <lb ed="#B1" n="7"/>dam uitam &amp; miseram, ubi cum omni labore uiuis: quanto magis debes istam  
+            <lb ed="#B1" n="8"/>perpetuam uitam amare, ubi nullus labor sustinebitur.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1039-Dd1e172">
+          <p xml:id="vnsSaS-d1e1039-d1e174">
+            <lb ed="#B1" n="9"/>Pro secundo uersu Gregorius in homilia quarta: Mundus talis, ut ipsae e 
+            <lb ed="#B1" n="10"/>ius ruinae praedicent &amp; doceant, quod amandus non est. Et ideo concludit in 
+            <lb ed="#B1" n="11"/>alia homilia. Quod despiciamus cuncta praesentia: quia nulla sunt, quum trans  
+            <lb ed="#B1" n="12"/>ire possunt, &amp; quod constat paruo tempore, non est diligendum. Idem in ho 
+            <lb ed="#B1" n="13"/>milia 2. Nolite ergo fratres mei diligere, quem uidetis diustare non posse: Prae 
+            <lb ed="#B1" n="14"/>cepta apostolica in animo ponite, quibus nos admonet, dicens: Nolite diligere 
+            <lb ed="#B1" n="15"/>mundum, neque ea quae sunt in mundo: Et in tertia parte curae pastoralis, admo 
+            <lb ed="#B1" n="16"/>nitione 28. de uerbis doctoris &amp; praedicatoris gentium: Praeterit enim figura 
+            <lb ed="#B1" n="17"/>huius mundi. Ac si aperte diceret: Nolite constanter mundum diligere, quan 
+            <lb ed="#B1" n="18"/>do &amp; ipse non potest, quem diligitis, stare. In cassum cor quasi manentes figi 
+            <lb ed="#B1" n="19"/>tis, dum fugit ipse quem amatis
+          </p>
+          <p xml:id="vnsSaS-d1e1039-d1e200">
+            <lb ed="#B1" n="20"/>Pro tertio uersu ait D. Augustinus de Verbis Domini, sermone 5. Quam 
+            <lb ed="#B1" n="21"/>multi heri diuites, hodie pauperes: Quam multi dormiunt diuites, &amp; ueni 
+            <lb ed="#B1" n="22"/>entibus latronibus &amp; cuncta auferentibus, euigilant pauperes. Ergo non spe 
+            <lb ed="#B1" n="23"/>rate in incerto diuitiarum, sed in DEO uiuo, qui praestat nobis omnia abun 
+            <lb ed="#B1" n="24"/>danter ad fruendum aeterna, ad utendum temporalia. Temporalia tanquam 
+            <lb ed="#B1" n="25"/>uiatoribus, aeterna tanquam habitatoribus. Temporalia, unde bona facia 
+            <lb ed="#B1" n="26"/>mus: aeterna, unde boni efficiamur. Quales ergo diuitiae sunt, quas latrones  
+            <lb ed="#B1" n="27"/>te occiso auferunt &amp; fugiunt: quales sunt diuitiae, propter quas concupiscen 
+            <lb ed="#B1" n="28"/>das ad infernum descendas: Si uerae diuitiae essent, securitatem praestarent, Ba 
+            <lb ed="#B1" n="29"/>ruch. 3. quaerit, ubi sunt diuitiae &amp; principes. Qui dominatur super bestias ter 
+            <lb ed="#B1" n="30"/>rae, &amp; reges exterminati, &amp; ad inferos descenderant.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e1039-Dd1e227">
+          <p xml:id="vnsSaS-d1e1039-d1e229">
+          <lb ed="#B1" n="31"/>Pro quarto uersu clamat Euangelista: Quod diues mortuus est, &amp; sepul  
+          <lb ed="#B1" n="32"/>tus in inferno. Vnde Chrysostomus &amp; Gregorius dicunt sic: Quod quam 
+          <lb ed="#B1" n="33"/>uis diues possit esse consolatus in hoc mundo, &amp; etiam saluatus, tamen ualde 
+          <lb ed="#B1" n="34"/>rarum est: quod uix uti possumus recte rebus &amp; bonis temporalibus: Atte 
+          <lb ed="#B1" n="35"/>stante ueritate CHRISTO, Matth. 9. Difficile, qui pecunias habent, intrabum 
+          <lb ed="#B1" n="36"/>in regnum DEI. Et Hieronymus in quadam epistola ait: Difficile imo impos 
+          <lb ed="#B1" n="37"/>sibile est, ut praesentibus quis &amp; futuris fruatur bonis, ut hic uentrem, &amp; illic  
+          <lb ed="#B1" n="38"/>mentem impleat: &amp; sic de delitijs ad delitias transeat, ut in utroque seculo, ut in 
+          <lb ed="#B1" n="39"/>terra sic in coelo appareat gloriosus. Item D. Bernhardus: Qui carnalibus uo 
+          <lb ed="#B1" n="40"/>luptatibus pascitur, aeternarum delitiarum epulis indignus habetur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

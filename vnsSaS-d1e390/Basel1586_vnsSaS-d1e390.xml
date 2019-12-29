@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 15 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 15 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="722"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e390">
+        <head xml:id="vnsSaS-d1e390-Hd1e95">Moralitates 15</head>
+        <div xml:id="vnsSaS-d1e390-Dd1e98">
+          <p xml:id="vnsSaS-d1e390-d1e100">
+            <lb ed="#B1" n="21"/>Egitur quod inter Sentiles in quadam ciuitate, quae erat dedicata dea For 
+            <lb ed="#B1" n="22"/>tunae, erant quinque fontes in medio: Ad quos cum illi de ciuitate a praedicta 
+            <lb ed="#B1" n="23"/>Dea aliquid impetrare vellent, miserunt quinque virgines pulcbras, precio 
+            <lb ed="#B1" n="24"/>sis ornamentis ornatas: quarum quaelibet portabat in manu sua vnum flo 
+            <lb ed="#B1" n="25"/>rem. &amp; quaelibet earum cantabat canticum suum, uicissim ad fontes. Prima 
+            <lb ed="#B1" n="26"/>incipiebat iunior, postea aliae subsequent es secundum ordinem earum aetatum, ad pla 
+            <lb ed="#B1" n="27"/>candam Deam illam. Habebant autem quinque signa, per quae manifeste scire poterant.  
+            <lb ed="#B1" n="28"/>quando placata erat: &amp; quaendo a Dea ex audite erant. Primum signum erat. si aa 
+            <lb ed="#B1" n="29"/>cantum prime virginis cantantis, aqua fontium ex se inciperet moveri. Secundum 
+            <lb ed="#B1" n="30"/>signum erat, si ad cantum secundae virginis inciperet tume scere. Tertium signum e 
+            <lb ed="#B1" n="31"/>rat. si ad cantum tertie virginis inciperet clarescere. Quartum signum erat, si ad 
+            <lb ed="#B1" n="32"/>cantum quartae virginis inciperet effluere. Quintum signum erat, si ad cantum 
+            <lb ed="#B1" n="33"/>quintae virginis inciperet totaliter euanescere.7.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e390-Dd1e132">
+          <p xml:id="vnsSaS-d1e390-d1e134">
+            <lb ed="#B1" n="34"/>Oraliter autem ista ciuitas est anima hominis, multiplicibus fortunis  
+            <lb ed="#B1" n="35"/>exposita. Quinque fontes in medio existentes sunt quinque sensus, siue ap 
+            <lb ed="#B1" n="36"/>petitus respectu appetibilium quinque sensuum exteriorum positi in anima 
+            <lb ed="#B1" n="37"/>hominis. Quinque uirgines sunt quinque continentiae, quarum quaelibet portat flo 
+            <lb ed="#B1" n="38"/>rem: quia quaelibet continentia per colorem uitam decorat, &amp; per odorem fa 
+            <lb ed="#B1" n="39"/>mam bonam augmentat.
+          </p>
+          <p xml:id="vnsSaS-d1e390-d1e150">
+            <lb ed="#B1" n="40"/>Cantat ergo prima uirgo: id est, continentia respectu uisus. Credo uidere 
+            <!--sap_Page_757.xml-->
+            <pb ed="#B1" n="723"/>
+            <lb ed="#B1" n="1"/>bona Domini in terra uiuentium. Ad cuius uocem incipit aqua praui appe  
+            <lb ed="#B1" n="2"/>titus mox moveri: quoniam cum incipit homo contemplari diuina, tunc in 
+            <lb ed="#B1" n="3"/>cipiunt in eo commoueri terrena.
+          </p>
+          <p xml:id="vnsSaS-d1e390-d1e166">
+            <lb ed="#B1" n="4"/>Secunda uirgo, scilicet continentia respectu auditus cantauit: Audiam quid  
+            <lb ed="#B1" n="5"/>loquatur in me Dominus DEVS: quoniam loquetur pacem in plebem suam, 
+            <lb ed="#B1" n="6"/>&amp; super sanctos suos, &amp;c. Item: Auditu auris audiui te, &amp;c. Ad cuius uocem 
+            <lb ed="#B1" n="7"/>incipit aqua tumescere, &amp; a profundo eleuari: Quoniam cum homo coelestes  
+            <lb ed="#B1" n="8"/>delectationes aure mentis percipit, delectationes carnales eradicare, a fundo 
+            <lb ed="#B1" n="9"/>amouere incipit, &amp; eas contemnit.
+          </p>
+          <p xml:id="vnsSaS-d1e390-d1e182">
+            <lb ed="#B1" n="10"/>Tertia uirgo uidel continentia respectu gustus cantat: Gustate &amp; uidete:  
+            <lb ed="#B1" n="11"/>quoniam suauis est DOMINVS, &amp;c. Ad cuius uocem incipit aqua mali appe 
+            <lb ed="#B1" n="12"/>titus clarescere: id est, eius turbatio abscedere. Quia cum interne gustatur Do 
+            <lb ed="#B1" n="13"/>minus, necessario cessat turbatio mali appetitus: quia nullo modo simul sta 
+            <lb ed="#B1" n="14"/>re possunt.
+          </p>
+          <p xml:id="vnsSaS-d1e390-d1e195">
+            <lb ed="#B1" n="15"/>Quarta uirgo scil continentia respectu odoratus cantat cum sponsa in Can 
+            <lb ed="#B1" n="16"/>ticis: Nardus mea dedit odorem suauitatis. Ad cuius uocem aqua mali appe 
+            <lb ed="#B1" n="17"/>titus incipit defluere. Quia tam flagrans &amp; uehemens est amor, &amp; odor dile 
+            <lb ed="#B1" n="18"/>cti sponsi, quod in eius praesentia no potest anima alterius rei sentire odorem.
+          </p>
+          <p xml:id="vnsSaS-d1e390-d1e207">
+            <lb ed="#B1" n="19"/>Quinta uirgo respectu tactus cantat cum sponsa. Ego dilecto meo, &amp; dile 
+            <lb ed="#B1" n="20"/>ctus meus mihi, qui pascitur inter lilia. Ad cuius uocem aqua mali appetitus 
+            <lb ed="#B1" n="21"/>prorsus euanescit. Quia cum anima in sponsi amplexibus iucundatur, omnes 
+            <lb ed="#B1" n="22"/>mali appetitus in anima hominis mortificantur: Et sic anima exauditur pro 
+            <lb ed="#B1" n="23"/>gratia impetranda
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

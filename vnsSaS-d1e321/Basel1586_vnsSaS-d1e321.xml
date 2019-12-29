@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 12 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 12 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="721"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e321">
+        <head xml:id="vnsSaS-d1e321-Hd1e95">Moralitates 12</head>
+        <div xml:id="vnsSaS-d1e321-Dd1e98">
+          <p xml:id="vnsSaS-d1e321-d1e100">
+            <lb ed="#B1" n="5"/>LEgitur in historia ntheniensium, quod quidam nobilis deliquit contra suum 
+            <lb ed="#B1" n="6"/>regem: In cuius transgressione pracepit Rex, ipsum O omnes sibi affines exu 
+            <lb ed="#B1" n="7"/>lari. Contigit autem ipsum filium regis pro amore &amp; pietate illi delinquenti  
+            <lb ed="#B1" n="8"/>amorem &amp; subsidium ministrare. Quo audito, Rex suam dictauit senten 
+            <lb ed="#B1" n="9"/>tiam, vt &amp; filius suus in exilium deportaretur. Filius autem accepta sententia exi 
+            <lb ed="#B1" n="10"/>lij arma sua mutauit, &amp; fecit sibi scutum nigrum, in signum magni doloris &amp; tristi 
+            <lb ed="#B1" n="11"/>tiae. In medio autem istius scuti fecit scribisic: VHA. In vltimo puncto ipsius scuti  
+            <lb ed="#B1" n="12"/>fecit scribi, MOR8. In puncto dextrofecit scribi, INEORTVNRVVM. In sinistro 
+            <lb ed="#B1" n="13"/>puncto fecit scribi sic, REMEDIVM. In circuitu vero scribebatur sic: En iam non 
+            <lb ed="#B1" n="14"/>inuenitur, quod mors &amp; vita &amp; infortunium in omne BONVM conuertantur: 
+            <lb ed="#B1" n="15"/>Iste Filius ita bene se gessit tempore exilij, quod inde reuocatus est, &amp; Regi in eo com 
+            <lb ed="#B1" n="16"/>placuit, &amp; pristinae hereditati restitutus est. qui in suo reditu mutauit arma sua &amp; 
+            <lb ed="#B1" n="17"/>fecit scutum album, in signum latitiae &amp; iucunditatis, &amp; in medio ipsius scuti scribe 
+            <lb ed="#B1" n="18"/>batur sic, ODIVM: in vltimo, AMORin dextro oHEENSA: in sinistro, PAR 
+            <lb ed="#B1" n="19"/>In circuitu scriptum erat: Dolor &amp; miseria in tempore cessant. Nam odium in amo 
+            <lb ed="#B1" n="20"/>rem, offensa in reconciliationem iam conuertuntur.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e321-Dd1e138">
+          <p xml:id="vnsSaS-d1e321-d1e140">
+            <lb ed="#B1" n="21"/>PEr istum nobilem regem intelligo DEVM Patrem, conditorem coeli &amp; 
+            <lb ed="#B1" n="22"/>terrae: per nobilem qui praeuaricatus est contra eum, intelligo primum pa 
+            <lb ed="#B1" n="23"/>rentem nostrum Adam, qui de Paradiso exulatus &amp; in mundum istum re 
+            <lb ed="#B1" n="24"/>legatus est. Sed Filius DEI compatiens ipsi Adamo, condemnatus est exilio 
+            <lb ed="#B1" n="25"/>&amp; relegatus de coelo ad terram. in quo exilio mutauit arma sua, quando no 
+            <lb ed="#B1" n="26"/>stram naturam assumpsit, in quibus armis scripsit ista quatuor, uitam, mortem, 
+            <lb ed="#B1" n="27"/>infortunium &amp; remedium. Vitam gratiae dedit fidem suscipientibus: mortem 
+            <lb ed="#B1" n="28"/>miseriae dedit renunciantibus: infortunium uindictae dedit daemonibus: reme 
+            <lb ed="#B1" n="29"/>dium dedit sanctis patribus. Iste namque Filius ita egregie se habuit, quam diu 
+            <lb ed="#B1" n="30"/>fuit in isto mundo, quod reuocatus est ad coelum, &amp; haereditati, quam habuii  
+            <lb ed="#B1" n="31"/>ante constitutionem mundi, restitutus. In quo reditu mutauit arma sua, quan  
+            <lb ed="#B1" n="32"/>do corpus suum ostendit glorificatum omnibus. Et in istis armis scripsit haec 
+            <lb ed="#B1" n="33"/>quatuor: uidel. odium, amorem, offensam &amp; pacem. Quia odium est conuersun 
+            <lb ed="#B1" n="34"/>in amorem, offensa conuersa in concordiam &amp; pacem fidelium Christianorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

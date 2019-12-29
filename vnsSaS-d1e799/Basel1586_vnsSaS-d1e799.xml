@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 32 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 32 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="736"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e799">
+        <head xml:id="vnsSaS-d1e799-Hd1e95">Moralitates 32</head>
+        <div xml:id="vnsSaS-d1e799-Dd1e98">
+          <p xml:id="vnsSaS-d1e799-d1e100">
+            <lb ed="#B1" n="27"/>DEa Vesta depingebatur cum lilio quinque folia habente, &amp; in quolibet foli 
+            <lb ed="#B1" n="28"/>scribebatur vnus ver sus, quos sacerdotes templi in concursu populi, in tem 
+            <lb ed="#B1" n="29"/>Iplo Dea Vestae, exponerent. Scriptura primi versus talis erat: Ex tuo cor 
+            <lb ed="#B1" n="30"/>de me dilige: quia te consolor, &amp; letumfacio. Scriptura secundi folij hac 
+            <lb ed="#B1" n="31"/>erat: Dilige me in voluntate tua: quia te fortifico in viribus, &amp; in natura. Scripturae 
+            <lb ed="#B1" n="32"/>tertij folij erat talis: Dilige me finaliter: quia a Diabolo &amp; suis satellitibus te defen 
+            <lb ed="#B1" n="33"/>do. Scriptura quarti folij erat eiusmodi: Requiescat in me tuus cogitatus: quiae 
+            <lb ed="#B1" n="34"/>DEVMO hominem coniungo. Scriptura quinti folij talis erat: Ista quatuor a me 
+            <lb ed="#B1" n="35"/>moria tua non recedant.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e799-Dd1e123">
+          <p xml:id="vnsSaS-d1e799-d1e125">
+            <lb ed="#B1" n="36"/>PEccatum reddit hominem multum grauem &amp; ponderosum: quia secun 
+            <lb ed="#B1" n="37"/>dum Psalmistam: Iniquitates meae supergressae sunt caput meum, &amp; sicut  
+            <lb ed="#B1" n="38"/>onus graue grauatae sunt super me: Nam Iudas postquam peccauit, ita 
+            <lb ed="#B1" n="39"/>ponderosus &amp; plenus factus est, quid laqueo se suspendens crepuit medius, &amp;c 
+            <lb ed="#B1" n="40"/>Et ideo contra ponderositatem peccati loquitur Vesta dea munditiae, dicens: 
+            <lb ed="#B1" n="41"/>Ex corde tuo me dilige, &amp;c. Quia conscientia munda, est semper iucunda, &amp; 
+            <lb ed="#B1" n="42"/>habet pacem quae superat omnem sensum, qua omnes diligentes DEVM re 
+            <lb ed="#B1" n="43"/>plentur, &amp; ab onere peccati releuantur. Peccatum uero etiam priuat homi 
+            <lb ed="#B1" n="44"/>nem ratione intellectuali, &amp; fortitudine corporali. Sic loquitur de Salomone 
+            <lb ed="#B1" n="45"/>Scriptura: Qui postquam peccauit, ita fuit debilitatus ratione &amp; sensu, &amp; in 
+            <lb ed="#B1" n="46"/>tantam dementiam deuenit, quod dereliquerit Dominum DEUM suum, &amp; 
+            <lb ed="#B1" n="47"/>coluerit deos alienos, scil. Moloch, Astaroth, Chamos, &amp;c. Legitur etiam  
+            <lb ed="#B1" n="48"/>quod Samson tantae erat fortitudinis, quod leonem saeuientem interfecit, &amp; 
+            <!--sap_Page_771.xml-->
+            <pb ed="#B1" n="737"/>
+            <lb ed="#B1" n="1"/>cum mandibula asini occidit mille uiros: Et tamen ita debilis factus est, quod  
+            <lb ed="#B1" n="2"/>a muliere superatus &amp; infatuatus fuit. Et ideo contra hoc peccatum, quod ita 
+            <lb ed="#B1" n="3"/>debilitat hominem ratione &amp; sensibus, loquitur Dea munditiae: id est, Vesta,  
+            <lb ed="#B1" n="4"/>secundum uersum, dicens: Dilige me in uoluntate tua, &amp;c. Propter peccatum 
+            <lb ed="#B1" n="5"/>etiam legitur in Tobia, quod Asmodaeus, Diabolus sic nominatus, propter 
+            <lb ed="#B1" n="6"/>peccatum luxuriae septem uiros iugulauit. Legitur etiam in Euangelio de mul  
+            <lb ed="#B1" n="7"/>tis afflictis a Diabolo propter peccatum: &amp; ideo contra peccatum, quo peri 
+            <lb ed="#B1" n="8"/>muntur &amp; confunduntur homines, loquitur Vesta dea munditiae tertium uer 
+            <lb ed="#B1" n="9"/>sum: Dilige me finaliter, &amp;c. Propter peccatum etiam legitur, quod natura an 
+            <lb ed="#B1" n="10"/>gelica, a DEO est diuisa, &amp; eiecta de coelo usque ad infernum. Similiter propter 
+            <lb ed="#B1" n="11"/>peccatum natura humana a DEO est diuisa, &amp; eiecta de Paradiso in mun 
+            <lb ed="#B1" n="12"/>dum, &amp; a mundo hoc in infernum. Et ideo contra peccatum, quod a DEO 
+            <lb ed="#B1" n="13"/>separat hominem, loquitur Dea Vesta hunc quartum uersum, dicens: Re 
+            <lb ed="#B1" n="14"/>quiescat in me tuus cogitatus, &amp;c. Ex istis ergo concluditur quinta scriptu 
+            <lb ed="#B1" n="15"/>ra: scilicet, Ista quatuor a memoria tua non recedant. Quia ego contra pon 
+            <lb ed="#B1" n="16"/>derositatem peccati, consolor: contra hoc quod peccatum debilitat hominem, 
+            <lb ed="#B1" n="17"/>fortifico: contra hoc, quod Diabolus interficit intus per peccatum, defendo: 
+            <lb ed="#B1" n="18"/>contra hoc quod peccatum diuidit hominem a DEO, dicit domina mundi 
+            <lb ed="#B1" n="19"/>tiae, coniungo, scilicet hominem DEO &amp; consortio angelorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

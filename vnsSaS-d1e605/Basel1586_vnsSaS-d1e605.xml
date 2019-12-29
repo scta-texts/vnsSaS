@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 24 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 24 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="729"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e605">
+        <head xml:id="vnsSaS-d1e605-Hd1e95">Moralitates 24</head>
+        <div xml:id="vnsSaS-d1e605-Dd1e98">
+          <p xml:id="vnsSaS-d1e605-d1e100">
+            <lb ed="#B1" n="37"/>REfert Romulus in annalibus ludaorum: quod quaedam domina praeuen 
+            <lb ed="#B1" n="38"/>ta amoris magnitudine, dominum proprium repudiauerit, &amp; alteri con 
+            <lb ed="#B1" n="39"/>glutinata fuerit in amore. Sed tandem domina cognita sua miseria &amp; pec 
+            <lb ed="#B1" n="40"/>cato. ad captandam beneuolentiam Domint prioris sui quem reliquerat.  
+            <lb ed="#B1" n="41"/>misit illi quatuor annulos aureos, &amp; epistolam. Scriptura primi annuli hec erat:  
+            <lb ed="#B1" n="42"/>Amore langueo. Scriptura secundi haec erat: Languendo pereo. Scriptura terti 
+            <lb ed="#B1" n="43"/>talis erat: pereundo spero. Scriptura quaerti erat: Sperando reuiuisco. Tenor 
+            <lb ed="#B1" n="44"/>epistolae talis erat: Quem fugi diligo, quem dilexi fugio: quod  
+            <lb ed="#B1" n="45"/>fugi paeniteo, &amp; penitendo resilio, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e605-Dd1e123">
+          <p xml:id="vnsSaS-d1e605-d1e125">
+            <!--sap_Page_764.xml-->
+            <pb ed="#B1" n="730"/>
+            <lb ed="#B1" n="1"/>ISta domina est Maria Magdalena, siue anima peccatrix, praeuenta amoris  
+            <lb ed="#B1" n="2"/>magnitudine, creatorem coeli &amp; terrae, sponsum peregrinationis grauitate in 
+            <lb ed="#B1" n="3"/>omnibus repudiauit, &amp; alterius conglutinata est in amorem, scilicet princi 
+            <lb ed="#B1" n="4"/>pi luxuriae &amp; uoluptatis. Sed tandem compuncta de magnitudine peccati, &amp; 
+            <lb ed="#B1" n="5"/>offensa sui sponsi, ut reuocaret animum sui sponsi dulcedine, ideo scribit, Amo 
+            <lb ed="#B1" n="6"/>re langueo, ex conscientiae contritae poenitudine languendo pereo ex culpae 
+            <lb ed="#B1" n="7"/>propriae formidine: pereundo spero ex gratiae diuinae fortitudine: &amp; speran 
+            <lb ed="#B1" n="8"/>do reuiuisco, ex futurae gloriae certitudine. Et ideo quem fugij diligo: quia 
+            <lb ed="#B1" n="9"/>IESVM deserui: Quem dilexi, fugio Diabolum, cui adhaesi: quem fugi per 
+            <lb ed="#B1" n="10"/>culpam, iam nunc poeniteo, &amp; poenitendo per gratiam nunc resilio: cogitan 
+            <lb ed="#B1" n="11"/>do meum statum, meum reatum, tempus amissum, DEVM offensum. Et ideo 
+            <lb ed="#B1" n="12"/>ne desperetis uos, qui peccare soletis, exemploque meo uos reparate DEO, &amp; 
+            <lb ed="#B1" n="13"/>conuertimini ad eum.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e605-Dd1e161">
+          <p xml:id="vnsSaS-d1e605-d1e163">
+            <lb ed="#B1" n="14"/>Vnde est notandum, quod quidam uolens iuxta Romam domum suam di 
+            <lb ed="#B1" n="15"/>latare, fodiens inuenit quatuor tabulas disiunctas. In quarum prima erat scri 
+            <lb ed="#B1" n="16"/>ptum: ERPAVCIS PEVRIMI. In secunda tabula erat assignatum: ET 
+            <lb ed="#B1" n="17"/>PEVRINISPAVCI. Intertia: EROMRIBVS NVLLVS. In quarta: O M 
+            <lb ed="#B1" n="18"/>VESPERVNVM. Sed iste non intelligens scripturam, rogauit quendam san 
+            <lb ed="#B1" n="19"/>ctum, ut DEVM interpellaret pro expositone illarum tabularum. Cui in fom 
+            <lb ed="#B1" n="20"/>nis angelus apparens exposuit scripturam, &amp; ait: Exposito primae tabulae est: 
+            <lb ed="#B1" n="21"/>Quod ex paucis hominibus plurimi sunt generati: ex pluribus pauci sunt salua 
+            <lb ed="#B1" n="22"/>ti: Sed nullus ex omnibus ante CHRISTI aduentum uitam aeternam intra 
+            <lb ed="#B1" n="23"/>re potuit: Et omnes per unum saluati sunt &amp; redempti. Potest &amp; sic exponi: 
+            <lb ed="#B1" n="24"/>Ex pluribus pauci: quia ex omnibus hominibus uocati sunt Christiani pauci: 
+            <lb ed="#B1" n="25"/>Ideo, quia multi modo sunt falsi Christiani. Et ideo: quia ex paucis plurimi 
+            <lb ed="#B1" n="26"/>sunt reprobati. Quia multi sunt uocati, pauci uero electi. Ex omnibus nullus 
+            <lb ed="#B1" n="27"/>potest uirtute propria mereri uitam aeternam. Cum, inquit CHRISTVS, om 
+            <lb ed="#B1" n="28"/>nia benefeceretis, dicite: Quia serui inutiles sumus. Sed omnes per unum, 
+            <lb ed="#B1" n="29"/>scilicet DEVS Pater omnes saluat per unum, scilicet Filium suum unigeni 
+            <lb ed="#B1" n="30"/>tum, Dominum nostrum, &amp;c
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

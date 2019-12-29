@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 38 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 38 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="740"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e926">
+        <head xml:id="vnsSaS-d1e926-Hd1e95">Moralitates 38</head>
+        <div xml:id="vnsSaS-d1e926-Dd1e98">
+          <p xml:id="vnsSaS-d1e926-d1e100">
+            <lb ed="#B1" n="27"/>Egitur in historijs Sraecorum, quod Sardanapalus Rex Babiloniorum, ita 
+            <lb ed="#B1" n="28"/>incontinens &amp; Iuxuriosus fuit, quod in sepulchro suo fecit scribi: 
+            <lb ed="#B1" n="29"/>Ede, bibe, Iude, post mortem nulla voluptas, vel sic:  
+            <lb ed="#B1" n="30"/>Cum te mortalem noris, praesentibus exple 
+            <lb ed="#B1" n="31"/>Delicijs animum, post mortem nulla voluptas. 
+            <lb ed="#B1" n="32"/>Asiud quoque Epitaphium eiusdem refert Cicero quinto Tusculanarum quaestio 
+            <lb ed="#B1" n="33"/>num, sic sonans 
+            <lb ed="#B1" n="34"/>Haec habeo quae edi, quaeqe exaturata libido  
+            <lb ed="#B1" n="35"/>Hausit, at illa iacent, multa &amp; praeclara relicta 
+            <lb ed="#B1" n="36"/>Haec verba (inquit Cicero)in bouis non in regis sepulchro scribi debuerant. Fue 
+            <lb ed="#B1" n="37"/>rat autem vir effeeminatus, &amp; omnis generis luxuriae deditus, nec erubuit inter scor 
+            <lb ed="#B1" n="38"/>torum greges nere, &amp; muliebri habitu feminas omnes lasciuia ant eire. Quamob  
+            <lb ed="#B1" n="39"/>rem indignati Babilonij tali feminae parere, duce nthace alias Arbacto prefecto 
+            <lb ed="#B1" n="40"/>Medorum, descissentes, bellum Sardanapalo intulerunt. Qui victus in regiam se 
+            <lb ed="#B1" n="41"/>recepit, &amp; extructa pyra, se atque diuitias in incendium milit. Mort uo autem isto 
+            <lb ed="#B1" n="42"/>rege in detestationem luxuriae Sraeci deae Vestae construxerunt imagines luxuriae. Haec 
+            <!--sap_Page_775.xml-->
+            <pb ed="#B1" n="741"/>
+            <lb ed="#B1" n="1"/>imago facta fuit ad similitudinem hominis reclinantis in molli lecto, &amp; multum de 
+            <lb ed="#B1" n="2"/>licato, quem supportabant quatuor vulpes, in signum, quod luxuria omnibus hone 
+            <lb ed="#B1" n="3"/>stis fetet. Circa caput prime vulpis scriptus erat ille versus: 
+            <lb ed="#B1" n="4"/>* Effoemino fortem, robustam dirimo mentem. 
+            <lb ed="#B1" n="5"/>Circa caput secunde vulpis scriptum erat hoc carmen: 
+            <lb ed="#B1" n="6"/>Altero discretum, *criminibus offero lotum, 
+            <lb ed="#B1" n="7"/>Circa caput tertia vulpis assignatus erat ille versus: 
+            <lb ed="#B1" n="8"/>Infero torporem, rado uirtutis honorem. 
+            <lb ed="#B1" n="9"/>Circa caput quarte vulpis scriptum erat tale meirum: 
+            <lb ed="#B1" n="10"/>Obstinat induratque uiam, uix cedere curat.  
+            <lb ed="#B1" n="11"/>Et de ore illius imaginis procedebat lamina aurea versus populum, in qua scribe 
+            <lb ed="#B1" n="12"/>batur hoc carmen. 
+            <lb ed="#B1" n="13"/>Luxuriam spernas, aliena pericula cernas.
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e926-Dd1e171">
+          <p xml:id="vnsSaS-d1e926-d1e173">
+            <lb ed="#B1" n="14"/>Vxuria habet quatuor conditiones malas. Prima est, quod destruit natu  
+            <lb ed="#B1" n="15"/>ralia: in cuius figura scriptus est iue uersus: Effemino fortem, robustam di 
+            <lb ed="#B1" n="16"/>rimo mentem. Exemplum illius habemus in Samsone, qui tantae fortitu 
+            <lb ed="#B1" n="17"/>dinis fuit, quod leonem lacerauit, &amp; in frusta comminuit, &amp; maxilla asini mil 
+            <lb ed="#B1" n="18"/>le homines interfecit, &amp; fores ciuitatis cum postibus suis ad * supercilium mon 
+            <lb ed="#B1" n="19"/>tis in humeris apportauit, ut habetur ludic. 16. Secunda conditio luxuriae est: 
+            <lb ed="#B1" n="20"/>quod destruit sanctimonialia: in cuius figuram scribebatur ille versus: Alte 
+            <lb ed="#B1" n="21"/>ro discretum, &amp;c. Exemplum illius habemus in Salomone, qui ita ex luxuria 
+            <lb ed="#B1" n="22"/>infatuatus est, quod habuit reginas septingentas, &amp; concubinas trecentas, &amp; 
+            <lb ed="#B1" n="23"/>adulescentulas, quorum non est numerus: &amp; auerterunt mulieres cor eius, ut  
+            <lb ed="#B1" n="24"/>habetur 3. Reg. 11. Tertia conditio luxuriae est, quod destruit spiritualia: in 
+            <lb ed="#B1" n="25"/>cuius figura scribebatur hic uersus: Infero torporem, &amp;c. Exemplum istius 
+            <lb ed="#B1" n="26"/>habemus de Holoferne, quem torpor in tantum inuasit, quod ludith cum gla 
+            <lb ed="#B1" n="27"/>dio caput eius amputauit, &amp; canopaeo asportauit, ut habetur in libro Iudith  
+            <lb ed="#B1" n="28"/>cap. 13. &amp; 14. Quarta conditio luxuriae est, quod destruit moralia: in cuius fi 
+            <lb ed="#B1" n="29"/>gura scriptum est hoc metrum: obstinat induratque viam, &amp;c. Exemplum il  
+            <lb ed="#B1" n="30"/>lius habemus in filio Lais nomine Phaltiel, qui tantum obstinatus &amp; indura 
+            <lb ed="#B1" n="31"/>tus fuit in amore, suae uxoris Michol, quod ea ab eo recedente, &amp; ad Dauidem  
+            <lb ed="#B1" n="32"/>redeunte quam sibi desponderat centum praeputijs Philisteim, sequebatur i 
+            <lb ed="#B1" n="33"/>psam plorans usque Bathurim, ut habetur 2. lib. Regum, cap. 3. Et quod luxuria 
+            <lb ed="#B1" n="34"/>sit contemnenda, &amp; fugienda propter istas quatuor conditiones patet ex scri 
+            <lb ed="#B1" n="35"/>ptura laminae aureae, in qua talis uersus ascriptus &amp; assignatus fuit:  
+            <lb ed="#B1" n="36"/>Luxuriam spernas, aliena pericula cernas. 
+            <lb ed="#B1" n="37"/>inde Admonitio:  
+            <lb ed="#B1" n="38"/>Felix quem faciunt aliena pericula cautum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

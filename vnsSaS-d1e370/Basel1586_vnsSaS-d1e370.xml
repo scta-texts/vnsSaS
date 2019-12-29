@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moralitates 14 [Basel Transcription]</title>
+        <author ref="#Holcot">Robert Holcot</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Moralitates 14 [Basel Transcription]</title>
+          <date when="2019-12-28">December 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B1" n="Basel1586">Basel 1586</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B1" n="722"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="vnsSaS-d1e370">
+        <head xml:id="vnsSaS-d1e370-Hd1e95">Moralitates 14</head>
+        <div xml:id="vnsSaS-d1e370-Dd1e98">
+          <p xml:id="vnsSaS-d1e370-d1e100">
+            <!--sap_Page_756.xml-->
+            <pb ed="#B1" n="722"/>
+            <lb ed="#B1" n="1"/>LEgitur, quod in castello Emaus fuit quidam puer natus, qui ab vmbili  
+            <lb ed="#B1" n="2"/>co sursum diuisus erat, ita quod haberet pectora duo &amp; capita duo, o 
+            <lb ed="#B1" n="3"/>per consequens duplicem sensum, ex quo sensus in capite viget: &amp; dum 
+            <lb ed="#B1" n="4"/>vnus comedebat, alter dormiebat, &amp; in omnibus sic dissimiles erant ille 
+            <lb ed="#B1" n="5"/>duae corporis partes in operatione quacunque: Post quam autem duobus simul annis  
+            <lb ed="#B1" n="6"/>vixerunt: unus mortuus est, altero in diem quartum superuiuente, &amp;c
+          </p>
+        </div>
+        <div xml:id="vnsSaS-d1e370-Dd1e121">
+          <p xml:id="vnsSaS-d1e370-d1e123">
+            <lb ed="#B1" n="7"/>PEr istum puerum sic diuisum intelligitur quilibet homo, in quantum qui  
+            <lb ed="#B1" n="8"/>libet homo constat ex duobus compositis, scil. corpore &amp; anima, &amp; quae 
+            <lb ed="#B1" n="9"/>libet pars operatur opera propria secundum Apostolum, Galat. 5. Mani  
+            <lb ed="#B1" n="10"/>festa autem sunt opera carnis, quae sunt fornicatio, immunditia, impudicitia, 
+            <lb ed="#B1" n="11"/>luxuria: idolorum seruitus, ueneficia, inimicitiae, contentiones, &amp;c. Opera ue 
+            <lb ed="#B1" n="12"/>ro Spiritus sunt, charitas, pax, gaudium, patientia, benignitas, bonitas, lon 
+            <lb ed="#B1" n="13"/>ganimitas, &amp;c. Et sic opera aduersantur ad inuicem, quod uno dormiente, al  
+            <lb ed="#B1" n="14"/>terum non dormit. Cum enim anima quiescit a bonis operibus, caro persequi  
+            <lb ed="#B1" n="15"/>tur eam operibus malis. Cum enim reficitur anima uerbo DEI tunc corpus 
+            <lb ed="#B1" n="16"/>quiescit. Cum igitur inter carnem &amp; spiritum sit tanta contrarietas, &amp; talis, quod  
+            <lb ed="#B1" n="17"/>finire simul non possunt: sic igitur uiuamus, quod sicut in illo puero una par 
+            <lb ed="#B1" n="18"/>te mortua, alia superuixit: Sic nos carne mortificati spiritu DEO uiuamus, &amp; 
+            <lb ed="#B1" n="19"/>cum ipso iugiter maneamus, Rom. 8. Si spiritu facta carnis mortificaueritis, 
+            <lb ed="#B1" n="20"/>uiuetis, scilicet uita gloriae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
